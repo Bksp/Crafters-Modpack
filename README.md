@@ -26,12 +26,12 @@
 
 ## Instalación
 
-Si no Tienes el Launcher Oficial te Recomiendo Instalar este [SKlauncher 3.0](https://skmedix.pl/sklauncher)
+Si no Tienes el Launcher Oficial te Recomiendo Instalar este [SKlauncher](https://skmedix.pl/sklauncher)
 ```
 - Descarga el .zip de este repositorio
 - Descomprime (Donde Quieras)
+- Ejecuta el Launcher (SKlauncher) y Configuralo con tu cuenta
 - Ejecuta "forge-1.19.2-43.2.3-installer.jar"
-- Ejecuta el Launcher (SKlauncher 3.0) y Configuralo con tu cuenta
 - Ejecuta el .bat (Eliminará La Carpeta de Mods)
 - Al iniciar el Juego Activa los Resource Packs (y el Shader si lo Quieres)
 - (Si tienes 2 GPU recomiendo verificar si estas ejecutando el juego con la GPU Dedicada)
