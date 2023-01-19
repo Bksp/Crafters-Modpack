@@ -1,6 +1,6 @@
 <div align="center">
 
-![Better Combat](./Crafters_Logo.png)
+![Crafters](./Crafters_Logo.png)
 
 # ![](https://gcdnb.pbrd.co/images/QfNRO9n58uQI.png)
 
@@ -26,12 +26,16 @@
 
 ## Instalación
 
-Si no Tienes el Launcher Oficial te Recomiendo Instalar este [SKlauncher](https://skmedix.pl/sklauncher)
+*Si no Tienes el Launcher Oficial te Recomiendo Instalar <a href="https://skmedix.pl/sklauncher/downloads">SKlauncher*</a>
+
+
+<a href="https://skmedix.pl/sklauncher/downloads">*SKlauncher*</a>
 ```
 - Descarga el .zip de este repositorio
 - Descomprime (Donde Quieras)
 - Ejecuta el Launcher (SKlauncher) y Configuralo con tu cuenta
 - Ejecuta "forge-1.19.2-43.2.3-installer.jar"
+- Reinicia el Launcher y Selecciona el Perfil (Puedes configurar la Ram que quieres que utilice)
 - Ejecuta el .bat (Eliminará La Carpeta de Mods)
 - Al iniciar el Juego Activa los Resource Packs (y el Shader si lo Quieres)
 - (Si tienes 2 GPU recomiendo verificar si estas ejecutando el juego con la GPU Dedicada)
