@@ -38,3 +38,9 @@
 - Al iniciar el Juego Activa los Resource Packs (y el Shader si lo Quieres)
 - (Si tienes 2 GPU recomiendo verificar si estas ejecutando el juego con la GPU Dedicada)
 ```
+
+<div align="center">
+
+![](https://gcdnb.pbrd.co/images/HzUYnNUvrXcK.png)
+
+</div>
