@@ -7,7 +7,7 @@
 </div>
 
 # Contiene
-## 100 Mods Para Una Nueva Experiencia Vanilla
+## 100 Mods Para Una Nueva Experiencia Vanilla Mejorada
 - Biomas ( Biomes O Plenty | Ecologies | Galosphere )
 - Animales y Enemigos ( Alex Mobs | Copper Golem | Aquamirae )
 - Armaduras y Herramientas ( Immersive Armors | Botania | Additional Additions )
