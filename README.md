@@ -26,7 +26,7 @@
 
 ## Instalación
 
-*Si no Tienes el Launcher Oficial te Recomiendo Instalar <a href="https://skmedix.pl/sklauncher/downloads">SKlauncher*</a>
+*Si no Tienes el Launcher Oficial te Recomiendo Instalar <a href="https://skmedix.pl/sklauncher/downloads" target="_blank">SKlauncher*</a>
 
 
 <a href="https://skmedix.pl/sklauncher/downloads">*SKlauncher*</a>
