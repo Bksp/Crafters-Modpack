@@ -27,8 +27,6 @@
 ## Instalación
 
 *Si no Tienes el Launcher Oficial te Recomiendo Instalar <a href="https://skmedix.pl/sklauncher/downloads" target="_blank">SKlauncher*</a>
-<a href="http://www.manual.net" title="Web de Manuales y Tutoriales de Programación">Ir a Manual Web</a>
-
 
 ```
 - Descarga el .zip de este repositorio
