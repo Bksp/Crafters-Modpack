@@ -1,7 +1,6 @@
-
 {
   "configVersion": 8,
-  "animationSmoothingSpeed": 0.900001,
+  "animationSmoothingSpeed": 9.900001,
   "holdingItems": [
     "minecraft:clock",
     "minecraft:recovery_compass",
@@ -11,7 +10,7 @@
     "minecraft:lantern",
     "minecraft:soul_torch"
   ],
-  "enableAnimationSmoothing": true,
+  "enableAnimationSmoothing": false,
   "enableInWorldMapRendering": true,
   "enableOffhandHiding": true,
   "enableRotationLocking": true,
@@ -40,10 +39,10 @@
   "itemSwapAnimation": true,
   "tweakElytraAnimation": true,
   "petAnimation": true,
-  "fallingAnimation": false,
+  "fallingAnimation": true,
   "freezingAnimation": true,
   "huggingAnimation": false,
   "narutoRunning": false,
-  "enableInWorldBookRendering": false,
-  "disableLegSmoothing": true
+  "enableInWorldBookRendering": true,
+  "disableLegSmoothing": false
 }
