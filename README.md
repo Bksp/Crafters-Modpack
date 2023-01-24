@@ -7,13 +7,14 @@
 </div>
 
 # Contiene
-## 100 Mods Para Una Nueva Experiencia Vanilla Mejorada
+## 120 Mods Para Una Nueva Experiencia Vanilla Mejorada
 - Biomas ( Biomes O Plenty | Ecologies | Galosphere )
 - Animales y Enemigos ( Alex Mobs | Copper Golem | Aquamirae )
 - Armaduras y Herramientas ( Immersive Armors | Botania | Additional Additions )
 - Estructuras ( Repurposed Structures | Dungeons Arise | Structory )
 - Mecanicas y Decoración ( Storage Drawers / Furnish / Create )
 - Rendimiento ( Better FPS | FPS Reducer )
+- Un Montón de Bloques e Items de Decoración
 
 ## Resource Packs para Aumentar la Inmersión
 - All Glowing +   (Menas y Mobs Brillantes) 
