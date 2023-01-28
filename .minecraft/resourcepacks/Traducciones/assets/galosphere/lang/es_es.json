@@ -88,8 +88,8 @@
   "item.galosphere.golden_lichen_cordyceps": "Liquen cordyceps dorado",
   "item.galosphere.glow_flare": "Destellos luminosos",
   "item.galosphere.spectre_bound_spyglass": "Gafaleo vinculado al espectro",
-  "item.galosphere.sparkle_spawn_egg": "Huevo Generador de Sparkle",
-  "item.galosphere.spectre_spawn_egg": "Huevo de Generador de Espectro",
+  "item.galosphere.sparkle_spawn_egg": "Generar Sparkle",
+  "item.galosphere.spectre_spawn_egg": "Generar Espectro",
   "item.galosphere.silver_bomb.duration": "Duración:",
   "item.galosphere.silver_bomb.explosion": "Explosión:",
   "item.galosphere.silver_bomb.bouncy": "Rebote:",
@@ -103,7 +103,7 @@
   "subtitles.block.lumiere.compost": "Compostador lleno de fragmentos de Lumiere",
   "subtitles.entity.spectre.ambient": "Espectro chirría",
   "subtitles.entity.spectre.death": "Espectro muere",
-  "subtitles.entity.spectre.hurt": "Espectro duele",
-  "subtitles.entity.spectre.lock_to_spyglass": "El catalejo se bloquea en Spectre",
+  "subtitles.entity.spectre.hurt": "Espectro lastimado",
+  "subtitles.entity.spectre.lock_to_spyglass": "El catalejo se bloquea con espectro",
   "subtitles.entity.spectre.receive_item": "Espectro recibe el elemento"
 }
