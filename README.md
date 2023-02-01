@@ -39,6 +39,12 @@
 - Al iniciar el Juego Activa los Resource Packs (y el Shader si lo Quieres)
 - (Si tienes 2 GPU recomiendo verificar si estas ejecutando el juego con la GPU Dedicada)
 ```
+## Apuntes y Memorias
+
+```
+Me he tomado el tiempo de integrar correctamente algunos mods, para respetar la dificultad y balance o incluso para hacerlos compatibles entre sí, para que todos los mods estén dentro de un mismo ecosistema, como por ejemplo Crafteos o texturas además de integrar las traducciones, animaciones, sprites (para Xaero´s), me encuentro en la búsqueda de una experiencia que tenga todo que dar, a costa de todo el esfuerzo que lo requiera. 
+
+```
 
 <div align="center">
 
