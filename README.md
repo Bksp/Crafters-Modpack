@@ -7,7 +7,7 @@
 </div>
 
 # Contiene
-## 120 Mods Para Una Nueva Experiencia Vanilla Mejorada
+## 130 Mods Para Una Nueva Experiencia Vanilla Mejorada
 - Biomas ( Biomes O Plenty | Ecologies | Galosphere )
 - Animales y Enemigos ( Alex Mobs | Copper Golem | Aquamirae )
 - Armaduras y Herramientas ( Immersive Armors | Botania | Additional Additions )
@@ -38,6 +38,18 @@
 - Ejecuta el .bat (Eliminará La Carpeta de Mods)
 - Al iniciar el Juego Activa los Resource Packs (y el Shader si lo Quieres)
 - (Si tienes 2 GPU recomiendo verificar si estas ejecutando el juego con la GPU Dedicada)
+```
+## Apuntes y Memorias
+
+```
+Me he tomado el tiempo de integrar correctamente algunos mods,
+para respetar la dificultad el balance del juego
+o incluso para hacerlos compatibles entre sí, para que todos los mods estén dentro de un mismo ¿"ecosistema"?, 
+como por ejemplo Crafteos o texturas además de integrar las traducciones, animaciones, sprites (para Xaero´s). 
+
+Me encuentro en la búsqueda de una experiencia que tenga todo que dar, 
+a costa de todo el esfuerzo que lo requiera. 
+
 ```
 
 <div align="center">
