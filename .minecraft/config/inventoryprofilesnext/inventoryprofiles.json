@@ -1,8 +1,18 @@
 {
     "ModSettings": {
+        "highlight_foused_items": {
+            "value": false
+        },
+        "highlight_foused_items_foreground": false,
+        "enable_profiles": {
+            "value": false
+        },
         "enable_auto_refill": {
             "value": false
         },
+        "enable_updates_check": false,
+        "highlight_clicking_slot": false,
+        "for_modpack_devs": true,
         "first_run": false
     },
     "GuiSettings": {
@@ -41,6 +51,13 @@
         },
         "audio_replace_failed_notification": {
             "value": false
+        }
+    },
+    "Hotkeys": {
+        "sort_inventory_in_rows": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
         }
     },
     "Tweaks": {
