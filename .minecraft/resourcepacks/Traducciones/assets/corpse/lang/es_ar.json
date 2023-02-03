@@ -16,7 +16,7 @@
   "tooltip.corpse.teleport": "Teletransportarse",
   "tooltip.corpse.death_date": "Murió el %s",
   "tooltip.corpse.item_count": "Contiene %s pila(s)",
-  "button.corpse.transfer_items": "Transferir Items",
+  "button.corpse.transfer_items": "Robar Items",
   "button.corpse.additional_items": "Items adicionales",
   "config.jade.plugin_corpse.corpse": "Cadáver"
 }
