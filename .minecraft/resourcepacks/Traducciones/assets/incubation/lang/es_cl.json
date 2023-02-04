@@ -1,0 +1,15 @@
+{
+  "block.incubation.chicken_egg_crate": "Cajón de Huevos de Gallina",
+  "block.incubation.hay_chicken_nest": "Nido de Pollo de heno",
+  "block.incubation.hay_duck_nest": "Nido de Pato de heno",
+  "block.incubation.hay_nest": "Nido de heno",
+  "block.incubation.hay_turkey_nest": "Nido de Pavo de heno",
+  "block.incubation.turtle_egg_crate": "Cajón de huevos de Tortuga",
+  "block.incubation.twig_chicken_nest": "Nido de ramitas de pollo",
+  "block.incubation.twig_duck_nest": "Nido de Pato Ramita",
+  "block.incubation.twig_nest": "Nido de ramitas",
+  "block.incubation.twig_turkey_nest": "Nido de ramita de pavo",
+  "item.incubation.chicken_egg": "Huevo de gallina",
+  "item.incubation.fried_egg": "Huevo Frito",
+  "item.incubation.scrambled_eggs": "Huevos revueltos"
+}
