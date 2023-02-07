@@ -1,0 +1,248 @@
+#PARSE_ESCAPES
+
+itemGroup.storagedrawers=Cajones de almacenamiento
+itemGroup.storagedrawersSorting=Cajones de almacenamiento - Clasificación
+
+storagedrawers.container.drawers=Cajones
+storagedrawers.container.compDrawers=Compactación de cajones
+storagedrawers.container.upgrades=Actualizaciones
+storagedrawers.container.drawer_controller=Controlador de cajón
+storagedrawers.container.unboundSlave=Extensión del Cajón Controlador no Vinculado
+storagedrawers.container.framingTable=Tabla de estructura
+
+storagedrawers.msg.maxUpgrades=Este cajón no puede aceptar más actualizaciones.
+storagedrawers.msg.cannotAddUpgrade=Esa actualización no se puede instalar en este cajón.
+
+# Elementos
+item.storagedrawers.upgradeTemplate.name=Plantilla de actualización
+item.storagedrawers.upgradeStorage.obsidian.name=Actualización de almacenamiento (I)
+item.storagedrawers.upgradeStorage.iron.name=Actualización de almacenamiento (II)
+item.storagedrawers.upgradeStorage.gold.name=Actualización de almacenamiento (III)
+item.storagedrawers.upgradeStorage.diamond.name=Actualización de almacenamiento (IV)
+item.storagedrawers.upgradeStorage.emerald.name=Actualización de almacenamiento (V)
+item.storagedrawers.upgradeOneStack.name=Reducción de almacenamiento
+item.storagedrawers.upgradeOneStack.description=Reduce el almacenamiento base a una sola pila
+item.storagedrawers.upgradeStatus.level1.name=Actualización de estado (I)
+item.storagedrawers.upgradeStatus.level1.description=Muestra almacenamiento completo
+item.storagedrawers.upgradeStatus.level2.name=Actualización de estado (II)
+item.storagedrawers.upgradeStatus.level2.description=Muestra el nivel de llenado
+item.storagedrawers.upgradeVoid.name=Actualización anulada
+item.storagedrawers.upgradeVoid.description=Destruye el exceso de elementos
+item.storagedrawers.upgradeConversion.name=Actualización de conversión
+item.storagedrawers.upgradeConversion.description=Convierte automáticamente elementos compatibles
+item.storagedrawers.upgradeCreative.store.name=Actualización de almacenamiento creativo
+item.storagedrawers.upgradeCreative.store.description=Almacenamiento casi infinito
+item.storagedrawers.upgradeCreative.vend.name=Actualización de venta creativa
+item.storagedrawers.upgradeCreative.vend.description=Retiro ilimitado de artículos
+item.storagedrawers.upgradeRedstone.combined.name=Actualización de Redstone
+item.storagedrawers.upgradeRedstone.combined.description=Emite una señal para el almacenamiento total.
+item.storagedrawers.upgradeRedstone.max.name=Actualización de Redstone Max
+item.storagedrawers.upgradeRedstone.max.description=Emite señal para la mayoría de las ranuras llenas.trim
+item.storagedrawers.upgradeRedstone.min.name=Actualización mínima de Redstone
+item.storagedrawers.upgradeRedstone.min.description=Emite una señal para el espacio menos lleno.
+item.storagedrawers.drawerKey.name=Llave del cajón
+item.storagedrawers.drawerKey.description=Bloquea y desbloquea los cajones\nManténgalo presionado para bloquear los cajones recién colocados
+item.storagedrawers.shroudKey.name=Llave de ocultación
+item.storagedrawers.shroudKey.description=Mostrar u ocultar etiquetas de elementos
+item.storagedrawers.quantifyKey.name=Cuantificar clave
+item.storagedrawers.quantifyKey.description=Mostrar u ocultar etiquetas de cantidad almacenada
+item.storagedrawers.personalKey.name=Clave personal
+item.storagedrawers.personalKey.description=Proteger el acceso de otros jugadores
+item.storagedrawers.tape.name=Cinta de embalaje
+item.storagedrawers.tape.description=Sella cajones para mover
+
+# Bloques
+block.storagedrawers.oak_full_drawers_1=Cajón de roble 1x1
+block.storagedrawers.oak_full_drawers_2=Cajón de roble 1x2
+block.storagedrawers.oak_full_drawers_4=Cajón de roble 2x2
+block.storagedrawers.oak_half_drawers_1=Medios Cajón de roble 1x1
+block.storagedrawers.oak_half_drawers_2=Medios Cajón de roble 1x2
+block.storagedrawers.oak_half_drawers_4=Medios Cajón de roble 2x2
+block.storagedrawers.spruce_full_drawers_1=Cajón de abeto 1x1
+block.storagedrawers.spruce_full_drawers_2=Cajón de abeto 1x2
+block.storagedrawers.spruce_full_drawers_4=Cajón de abeto 2x2
+block.storagedrawers.spruce_half_drawers_1=Medios Cajón de abeto 1x1
+block.storagedrawers.spruce_half_drawers_2=Medios Cajón de abeto 1x2
+block.storagedrawers.spruce_half_drawers_4=Medios Cajón de abeto 2x2
+block.storagedrawers.birch_full_drawers_1=Cajón de abedul 1x1
+block.storagedrawers.birch_full_drawers_2=Cajón de abedul 1x2
+block.storagedrawers.birch_full_drawers_4=Cajón de abedul 2x2
+block.storagedrawers.birch_half_drawers_1=Medios Cajón de abedul 1x1
+block.storagedrawers.birch_half_drawers_2=Medios Cajón de abedul 1x2
+block.storagedrawers.birch_half_drawers_4=Medios Cajón de abedul 2x2
+block.storagedrawers.jungle_full_drawers_1=Cajón de la jungla 1x1
+block.storagedrawers.jungle_full_drawers_2=Cajón de la jungla 1x2
+block.storagedrawers.jungle_full_drawers_4=Cajón de la jungla 2x2
+block.storagedrawers.jungle_half_drawers_1=Medios Cajón Jungle 1x1
+block.storagedrawers.jungle_half_drawers_2=Medios Cajón Jungle 1x2
+block.storagedrawers.jungle_half_drawers_4=Medios Cajón Jungle 2x2
+block.storagedrawers.acacia_full_drawers_1=Cajón de acacia 1x1
+block.storagedrawers.acacia_full_drawers_2=Cajón de acacia 1x2
+block.storagedrawers.acacia_full_drawers_4=Cajón de acacia 2x2
+block.storagedrawers.acacia_half_drawers_1=Medios Cajón de acacia 1x1
+block.storagedrawers.acacia_half_drawers_2=Medios Cajón de acacia 1x2
+block.storagedrawers.acacia_half_drawers_4=Medios Cajón de acacia 2x2
+block.storagedrawers.dark_oak_full_drawers_1=Cajón de roble oscuro 1x1
+block.storagedrawers.dark_oak_full_drawers_2=Cajón de roble oscuro 1x2
+block.storagedrawers.dark_oak_full_drawers_4=Cajón de roble oscuro 2x2
+block.storagedrawers.dark_oak_half_drawers_1=Medios Cajón de roble oscuro 1x1
+block.storagedrawers.dark_oak_half_drawers_2=Medios Cajón de roble oscuro 1x2
+block.storagedrawers.dark_oak_half_drawers_4=Medios Cajón de roble oscuro 2x2
+
+block.storagedrawers.customDrawers.fulldrawers1.name=Cajón enmarcado
+block.storagedrawers.customDrawers.fulldrawers2.name=Cajones enmarcados 1x2
+block.storagedrawers.customDrawers.fulldrawers4.name=Cajones enmarcados 2x2
+block.storagedrawers.customDrawers.halfdrawers2.name=Medios cajones enmarcados 1x2
+block.storagedrawers.customDrawers.halfdrawers4.name=Medios cajones enmarcados 2x2
+
+block.storagedrawers.fullCustom1.name=Cajón enmarcado
+block.storagedrawers.fullCustom2.name=Cajones enmarcados 1x2
+block.storagedrawers.fullCustom4.name=Cajones enmarcados 2x2
+block.storagedrawers.halfCustom2.name=Cajones enmarcados 1x2
+block.storagedrawers.halfCustom4.name=Cajones enmarcados 2x2
+block.storagedrawers.customTrim.name=Embellecedor enmarcado
+
+block.storagedrawers.compDrawers.name=Cajón de compactación
+block.storagedrawers.controller.name=Cajón Controlador
+block.storagedrawers.controllerSlave.name=Extensión del Cajón Controlador
+block.storagedrawers.framingTable.name=Tabla de estructura
+
+block.storagedrawers.trim.oak.name=Molduras de roble
+block.storagedrawers.trim.spruce.name=Molduras de abeto
+block.storagedrawers.trim.birch.name=Molduras de abedul
+block.storagedrawers.trim.jungle.name=Molduras de la jungla
+block.storagedrawers.trim.acacia.name=Molduras de acacia
+block.storagedrawers.trim.big_oak.name=Molduras de roble oscuro
+
+block.storagedrawers.keyButton.drawer.name=Botón de llave del cajón
+block.storagedrawers.keyButton.concealment.name=Botón de llave de ocultación
+block.storagedrawers.keyButton.personal.name=Botón de llave personal
+block.storagedrawers.keyButton.quantify.name=Cuantificar botón clave
+
+storagedrawers.drawers.description=Contiene %d pilas por cajón
+storagedrawers.drawers.sealed=Contenido sellado dentro
+storagedrawers.upgrade.description=Aumenta el almacenamiento a %d veces el valor base
+storagedrawers.controller.description=Interactuar con un banco de cajones conectados
+storagedrawers.controllerSlave.description=Puntos de conexión adicionales para los controladores
+
+# Material
+storagedrawers.material=Material: %s
+storagedrawers.material.oak=Roble
+storagedrawers.material.spruce=Picea
+storagedrawers.material.birch=Abedul
+storagedrawers.material.jungle=Jungla
+cajonesdealmacenamiento.material.acacia=Acacia
+storagedrawers.material.dark_oak=Roble oscuro
+
+# Integración
+storagedrawers.waila.empty=<Vacío>
+storagedrawers.waila.level=Nivel de actualización: %s
+storagedrawers.waila.cajón=# %s : %s
+storagedrawers.waila.limit=Límite de pila: %s (x %s )
+storagedrawers.waila.nolimit=Límite de pila: ∞
+storagedrawers.waila.locked=Bloqueado
+storagedrawers.waila.void=Vacío
+storagedrawers.waila.sorting=Ordenando
+storagedrawers.waila.protected=Protegido
+storagedrawers.waila.config.displayContents=Contenido de la ranura
+storagedrawers.waila.config.displayStackLimit=Límite de pila
+storagedrawers.waila.config.displayStatus=Estado de actualización
+
+# Configuración
+storagedrawers.config.title=Configuración de cajones de almacenamiento
+
+storagedrawers.config.general=Configuración general
+storagedrawers.config.general.tooltip=Esto y aquello.
+
+storagedrawers.config.blocks=Configuración de bloque
+storagedrawers.config.blocks.tooltip=Configure bloques de almacenamiento individuales.
+
+storagedrawers.config.blocks.fullDrawers1=Cajones 1x1
+storagedrawers.config.blocks.fullDrawers2=Cajones 1x2
+storagedrawers.config.blocks.fullDrawers4=Cajones 2x2
+storagedrawers.config.blocks.halfDrawers2=Cajones compactos 1x2
+storagedrawers.config.blocks.halfDrawers4=Cajones compactos 2x2
+storagedrawers.config.blocks.compDrawers=Cajón de compactación
+storagedrawers.config.blocks.controller=Controlador de cajones
+storagedrawers.config.blocks.trim=Moldura
+storagedrawers.config.blocks.controllerSlave=Controlador esclavo
+
+storagedrawers.config.upgrades=Configuración de actualización
+storagedrawers.config.upgrades.tooltip=Configure actualizaciones de almacenamiento individuales.
+
+storagedrawers.config.upgrades.level2Mult=Multiplicador de almacenamiento (II)
+storagedrawers.config.upgrades.level3Mult=Multiplicador de almacenamiento (III)
+storagedrawers.config.upgrades.level4Mult=Multiplicador de almacenamiento (IV)
+storagedrawers.config.upgrades.level5Mult=Multiplicador de almacenamiento (V)
+storagedrawers.config.upgrades.level6Mult=Multiplicador de almacenamiento (VI)
+
+storagedrawers.config.prop.enableIndicatorUpgrades=Habilitar actualizaciones de indicadores
+storagedrawers.config.prop.enableStorageUpgrades=Habilitar actualizaciones de almacenamiento
+storagedrawers.config.prop.enableLockUpgrades=Habilitar bloqueo de cajón
+storagedrawers.config.prop.enableShroudUpgrades=Habilitar ocultación de elementos
+storageDrawers.config.prop.enableQuantifiableUpgrades=Habilitar visualización de cantidad
+storagedrawers.config.prop.enablePersonalUpgrades=Habilitar protección de acceso
+storagedrawers.config.prop.enableVoidUpgrades=Habilitar actualización anulada
+storagedrawers.config.prop.enableCreativeUpgrades=Habilitar actualización creativa
+storagedrawers.config.prop.enableRedstoneUpgrades=Habilitar actualización de Redstone
+storagedrawers.config.prop.enableSortingUpgrades=Habilitar actualización de clasificación
+storagedrawers.config.prop.enableSortingUpgrades.tooltip=La reubicación refinada debe estar cargada.
+storagedrawers.config.prop.renderStorageUpgrades=Actualizaciones de procesamiento de almacenamiento
+storagedrawers.config.prop.creativeTabVanillaWoods=Pestaña creativa Vanilla Woods
+storagedrawers.config.prop.creativeTabVanillaWoods.tooltip=Habilite todos los estilos de madera vainilla en la pestaña creativa.
+storagedrawers.config.prop.enabled=Habilitado
+storagedrawers.config.prop.enabled.tooltip=Habilitar bloque en el juego.
+storagedrawers.config.prop.baseStorage=Almacenamiento base
+storagedrawers.config.prop.baseStorage.tooltip=Número de pilas retenidas por cajón.
+storagedrawers.config.prop.recipeOutput=Salida de receta
+storagedrawers.config.prop.recipeOutput.tooltip=Número de artículos de una sola elaboración.
+storagedrawers.config.prop.enableDrawerUI=Habilitar interfaz de usuario del cajón
+storagedrawers.config.prop.enableDrawerUI.tooltip=Muestra los recuentos de elementos y brinda administración de actualizaciones.
+storagedrawers.config.prop.enableSidedInput=Habilitar entrada lateral
+storagedrawers.config.prop.enableSidedInput.tooltip=Otros bloques pueden insertar elementos en los cajones.
+storagedrawers.config.prop.enableSidedOutput=Habilitar salida lateral
+storagedrawers.config.prop.enableSidedOutput.tooltip=Otros bloques pueden extraer elementos de los cajones.
+storagedrawers.config.prop.enableItemConversion=Habilitar conversión de elementos
+storagedrawers.config.prop.enableItemConversion.tooltip=Los cajones se convierten automáticamente en elementos compatibles con el diccionario de minerales.
+storagedrawers.config.prop.enableFallbackRecipes=Habilitar recetas alternativas
+storagedrawers.config.prop.enableFallbackRecipes.tooltip=Cualquier tablón de madera válido puede fabricar cajones de roble.
+storagedrawers.config.prop.invertShift=Invertir furtivo
+storagedrawers.config.prop.invertShift.tooltip=Invierte el comportamiento de clic y furtivo+clic.
+storagedrawers.config.prop.enableDebugLogging=Habilitar registro de depuración
+storagedrawers.config.prop.enableDebugLogging.tooltip=Imprime información adicional en los registros.
+storagedrawers.config.prop.enableTape=Habilitar cinta
+storagedrawers.config.prop.enableTape.tooltip=Para mover cajones con contenido.
+=Presentación de la cantidad de WAILA
+storagedrawers.config.prop.wailaStackRemainder.tooltip=Cómo WAILA muestra las cantidades de artículos.
+storagedrawers.config.prop.controllerRange=Rango del controlador
+storagedrawers.config.prop.controllerRange.tooltip=Rango para detectar bloques en red.
+storagedrawers.config.prop.enableFramedDrawers=Habilitar cajones enmarcados
+storagedrawers.config.prop.enableFramedDrawers.tooltip=Cajones con materiales personalizados.
+storagedrawers.config.prop.defaultQuantify=Cantidad visible por defecto
+storagedrawers.config.prop.defaultQuantify.tooltip=Los cajones muestran números de cantidad cuando se colocan.
+
+storagedrawers.config.addons=Complementos
+storagedrawers.config.addons.tooltip=Configure los ajustes globales del paquete de complementos.
+
+storagedrawers.config.addons.showNEI=Mostrar bloques en NEI
+storagedrawers.config.addons.showCreative=Mostrar bloques en pestañas creativas
+storagedrawers.config.addons.separateTabs=Pestañas creativas separadas
+storagedrawers.config.addons.tooltip=Cada paquete usa su propia pestaña en lugar de la pestaña storagedrawers.
+
+storagedrawers.config.integration=Integración
+storagedrawers.config.integration.tooltip=Configurar la integración con otros mods.
+
+storagedrawers.config.integration.enableAE2=Habilitar integración de Applied Energistics 2
+=Habilitar integración WAILA
+=Habilitar la integración de Thaumcraft
+=Habilitar la integración de MineTweaker
+
+storagedrawers.config.registries=Registros
+storagedrawers.config.registries.tooltip=Configure las reglas de compactación y la sustitución del diccionario de minerales.
+
+storagedrawers.config.registries.compRules=Reglas de compactación
+storagedrawers.config.registries.registerExtraCompRules=Registrar reglas de compactación adicionales
+storagedrawers.config.registries.oreWhitelist=Lista blanca del diccionario de mineral
+storagedrawers.config.registries.oreBlacklist=Lista negra del diccionario de mineral
+
+

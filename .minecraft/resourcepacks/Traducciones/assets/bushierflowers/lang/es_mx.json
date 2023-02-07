@@ -1,0 +1,31 @@
+{
+  "block.bushierflowers.grown_poppy": "Amapolas",
+  "block.bushierflowers.grown_red_tulip": "Tulipanes rojos",
+  "block.bushierflowers.grown_orange_tulip": "Tulipanes naranjas",
+  "block.bushierflowers.grown_pink_tulip": "Tulipanes rosas",
+  "block.bushierflowers.grown_white_tulip": "Tulipanes blancos",
+  "block.bushierflowers.grown_azure_bluet": "Azules azules",
+  "block.bushierflowers.grown_oxeye_daisy": "Margaritas ojo de buey",
+  "block.bushierflowers.grown_blue_orchid": "Orquídeas azules",
+  "block.bushierflowers.grown_cornflower": "Acianos",
+  "block.bushierflowers.grown_dandelion": "Dientes de león",
+  "block.bushierflowers.grown_allium": "Alliums",
+  "block.bushierflowers.grown_wither_rose": "Rosas marchitas",
+  "block.bushierflowers.grown_lily": "Lirios",
+
+  "block.bushierflowers.potted_grown_poppy": "Amapolas en Maceta",
+  "block.bushierflowers.potted_grown_red_tulip": "Tulipanes rojos en maceta",
+  "block.bushierflowers.potted_grown_orange_tulip": "Tulipanes naranjas en maceta",
+  "block.bushierflowers.potted_grown_pink_tulip": "Tulipanes rosas en maceta",
+  "block.bushierflowers.potted_grown_white_tulip": "Tulipanes blancos en maceta",
+  "block.bushierflowers.potted_grown_azure_bluet": "Azure azul en maceta",
+  "block.bushierflowers.potted_grown_oxeye_daisy": "Margaritas ojo de buey en maceta",
+  "block.bushierflowers.potted_grown_blue_orchid": "Orquídeas azules en maceta",
+  "block.bushierflowers.potted_grown_cornflower": "Acianos en Maceta",
+  "block.bushierflowers.potted_grown_dandelion": "Dientes de león en maceta",
+  "block.bushierflowers.potted_grown_allium": "Allium en maceta",
+  "block.bushierflowers.potted_grown_wither_rose": "Rosas marchitas en maceta",
+  "block.bushierflowers.potted_grown_lily": "Lirios en maceta",
+
+  "itemGroup.bushier_flowers": "Flores más tupidas"
+}

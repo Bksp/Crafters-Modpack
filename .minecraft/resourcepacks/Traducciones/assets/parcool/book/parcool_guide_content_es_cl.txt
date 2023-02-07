@@ -1,4 +1,4 @@
-{B}[Acerca de este mod]{reset}
+{B}[Acerca de esta modificación]{reset}
 
 {B}ParCool MOD{reset} es un mod de Minecraft,
 para obtener más acciones {I}Cool{reset} como {I}Parkour{reset}.
@@ -33,7 +33,7 @@ Traceurs absorben un impacto de aterrizaje con movimiento de piernas.
 2. Agáchate rápidamente
 3. Cancelar rápidamente el Salto
 ======
-{B}[Deslizar / Agachar]{restablecer}
+{B}[Deslizar / Agachar]{reset}
 
 Puedes gatear por todas partes.
 Es más fácil hacer algo que preocuparse por ello.
@@ -76,7 +76,7 @@ También puedes subir a los acantilados presionando la tecla de salto.
 {blue}<Cómo usar>{reset}
 1. Presione la tecla GrabCliff (Agarrarse de Bordes) (normalmente está asignada al clic derecho)
 ======
-{B}[Amortiguar la Caída o Roll]{restablecer}
+{B}[Amortiguar la Caída o Roll]{reset}
 
 Las caídas son habilidades para protegernos del impacto del aterrizaje.
 Uno de ellos es Roll, que cambia un impacto de aterrizaje en energía de balanceo.
@@ -168,6 +168,6 @@ No dura mucho pero es bastabte útil.
 {B}・Federación de Parkour de Japón{reset}
 {I}https://jpf-parkourfederation.jp/{reset}
 
-{B}・Wiki Fandom Parkour{restablecer}
-{I}https://parkour.fandom.com/wiki/Parkour{restablecer}
+{B}・Wiki Fandom Parkour{reset}
+{I}https://parkour.fandom.com/wiki/Parkour{reset}
 ======

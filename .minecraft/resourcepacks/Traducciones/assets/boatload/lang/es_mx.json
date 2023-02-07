@@ -1,0 +1,18 @@
+{
+  "entity.boatload.furnace_boat": "Barco con Horno",
+  "entity.boatload.large_boat": "Barco grande",
+  "item.boatload.acacia_furnace_boat": "Barco de acacia con horno",
+  "item.boatload.birch_furnace_boat": "Barco de abedul con horno",
+  "item.boatload.dark_oak_furnace_boat": "Barco de roble oscuro con horno",
+  "item.boatload.jungle_furnace_boat": "Barco de la jungla con horno",
+  "item.boatload.large_acacia_boat": "Barco Grande de Acacia",
+  "item.boatload.large_birch_boat": "Barco de abedul grande",
+  "item.boatload.large_dark_oak_boat": "Barco grande de roble oscuro",
+  "item.boatload.large_jungle_boat": "Barco de la jungla grande",
+  "item.boatload.large_mangrove_boat": "Barco grande de manglares",
+  "item.boatload.large_oak_boat": "Barco de roble grande",
+  "item.boatload.large_spruce_boat": "Barco de abeto grande",
+  "item.boatload.mangrove_furnace_boat": "Barco de manglares con horno",
+  "item.boatload.oak_furnace_boat": "Barco de roble con horno",
+  "item.boatload.spruce_furnace_boat": "Bote de abeto con horno"
+}

@@ -6,13 +6,13 @@ Algunas acciones añadidas están inspiradas en técnicas de parkour.
 Este autor {B}NO{reset} está familiarizado con lo que se llama "Parkour" {-}y el inglés{reset}.
 así que me encantan tus consejos para mejorar esto!
 ======
-{B}[Parkour]{restablecer}
+{B}[Parkour]{reset}
 
 Un {I}{B}Parkour{reset} es un tipo de deporte, organizado por {I}Devid Belle{reset}.
 El nombre proviene de 'parcours' del francés. Y los jugadores llamaron 'Traceur'.
 Hay otra palabra similar, {I}'Free Running'{reset}. Se dice que esta es una palabra de 'Parkour' traducida al inglés.
 ======
-{B}[Resistencia]{restablecer}
+{B}[Resistencia]{reset}
 
 Este mod agrega un concepto de Stamina.
 La energía se consume cuando usas acciones ParCool.
@@ -21,7 +21,7 @@ Si consumiste toda la energía,
 2. No puedes correr.
 Ten cuidado.
 ======
-{B}[Salto de gato]{restablecer}
+{B}[Salto de gato]{reset}
 
 CatLeap es una habilidad utilizada para aterrizar en paredes, cercas, etc.
 Se dice que esta es una de las habilidades básicas del parkour.
@@ -33,7 +33,7 @@ Traceurs absorben un impacto de aterrizaje con movimiento de piernas.
 2. Agáchate rápidamente
 3. Cancelar rápidamente el Salto
 ======
-{B}[Deslizar / Agachar]{restablecer}
+{B}[Deslizar / Agachar]{reset}
 
 Puedes gatear por todas partes.
 Es más fácil hacer algo que preocuparse por ello.
@@ -43,7 +43,7 @@ Es más fácil hacer algo que preocuparse por ello.
 {blue}<Cómo usar>{reset}
 1.Presione la tecla de Deslizar / Agachar (normalmente está asignada a C)
 ======
-{B}[Esquivar]{restablecer}
+{B}[Esquivar]{reset}
 
 Puede moverse una distancia corta rápidamente.
 (Esta no es una habilidad del parkour)
@@ -55,7 +55,7 @@ Existe un buen momento si los jugadores lo hacen tres veces en poco tiempo.
 
 1. Mantenga presionada la tecla Esquivar y presione la tecla de movimiento
 ======
-{B}[Correr rápido]{restablecer}
+{B}[Correr rápido]{reset}
 
 No hace falta decir nada.
 Por cierto, ¿sabes? Steve puede correr tan rápido como 5,6 metros por segundo.
@@ -76,7 +76,7 @@ También puedes subir a los acantilados presionando la tecla de salto.
 {blue}<Cómo usar>{reset}
 1. Presione la tecla GrabCliff (Agarrarse de Bordes) (normalmente está asignada al clic derecho)
 ======
-{B}[Amortiguar la Caída o Roll]{restablecer}
+{B}[Amortiguar la Caída o Roll]{reset}
 
 Las caídas son habilidades para protegernos del impacto del aterrizaje.
 Uno de ellos es Roll, que cambia un impacto de aterrizaje en energía de balanceo.
@@ -89,7 +89,7 @@ Por defecto, el jugador usa Safety Tap, pero también usa Roll presionando la te
 {blue}<Cómo usar>{reset}
 1. Aterriza mientras presionas la tecla Amortiguar la Caída - BreakFall (normalmente está asignada a R)
 ======
-{B}[Saltar Objetos]{restablecer}
+{B}[Saltar Objetos]{reset}
 
 Habilidad utilizada para superar obstáculos como vallas.
 Hay numerosas variaciones. ¿Por qué no buscas en Google 'Cómo esquivar con parkour'?
@@ -102,7 +102,7 @@ El que agrega este mod se llama 'Speed Vault'.
 2. Colisionar con obstáculos
  (Puede configurar la configuración para deshabilitar esto a menos que esté presionando la tecla Vault (normalmente está asignada al clic derecho)
 ======
-{B}[Salto de pared o WallJump]{restablecer}
+{B}[Salto de pared o WallJump]{reset}
 
 con Wall Jump. puedes patear paredes para saltar.
 {-}¡Se parece a Mari○!{reset}
@@ -153,7 +153,7 @@ No dura mucho pero es bastabte útil.
 
 
 
-{B}<Cómo usar>{restablecer}
+{B}<Cómo usar>{reset}
 1. Haz una carrera rápida en el aire a lo largo de la pared
 2. Continúe presionando la tecla Wall-Run (normalmente está asignada a R)
 ======
@@ -163,11 +163,11 @@ No dura mucho pero es bastabte útil.
 ・Los jugadores no dejan de correr cuando chocan con bloques.
 ・Animación mientras los jugadores caen a larga distancia.
 ======
-{B}[Crédito]{restablecer}
+{B}[Crédito]{reset}
 
 {B}・Federación de Parkour de Japón{reset}
 {I}https://jpf-parkourfederation.jp/{reset}
 
-{B}・Wiki Fandom Parkour{restablecer}
-{I}https://parkour.fandom.com/wiki/Parkour{restablecer}
+{B}・Wiki Fandom Parkour{reset}
+{I}https://parkour.fandom.com/wiki/Parkour{reset}
 ======
