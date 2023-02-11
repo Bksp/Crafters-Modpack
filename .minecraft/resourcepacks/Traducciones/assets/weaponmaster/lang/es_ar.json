@@ -19,7 +19,7 @@
 	"weaponmaster.screen.banner":"Banner",
 	
 	"gui.weaponmaster.attach.head":"Cabeza",
-	"gui.weaponmaster.attach.body":"Cuerpo",
+	"gui.weaponmaster.attach.body":"Pechera",
 	"gui.weaponmaster.attach.larm":"Brazo izquierdo",
 	"gui.weaponmaster.attach.rarm":"Brazo Derecho",
 	"gui.weaponmaster.attach.lleg":"Pierna Izquierda",
@@ -29,6 +29,6 @@
 	"gui.weaponmaster.slot.banner":"Banner",
 	"gui.weaponmaster.mover":"Modificar posición desde:",
 	"gui.weaponmaster.arrowright":"->",
-	"gui.weaponmaster.attach":"Adjuntar a parte del cuerpo:"
+	"gui.weaponmaster.attach":"Adjuntar a parte del Pechera:"
 	
 	}

@@ -62,7 +62,7 @@
     "botaniamisc.armorset": "\u00a7bConjunto de armadura\u00a7r:",
     "botaniamisc.craftToAddWill": "Mejora de casco Terrasteel:",
     "botaniamisc.requestMsg": "%dx solicitado \"%s\" de %d. %d tomados.",
-    "botaniamisc.nearIndex0": "¡Índice de cuerpos cercanos!",
+    "botaniamisc.nearIndex0": "¡Índice de Pecheras cercanos!",
     "botaniamisc.nearIndex1": "Cualquier cosa que digas será",
     "botaniamisc.nearIndex2": "interceptado como solicitud",
     "botaniamisc.cosmeticBauble": "Cosmético",
@@ -923,7 +923,7 @@
     "block.botania.red_double_flower": "Flor roja alta y mística",
     "block.botania.black_double_flower": "Flor negra alta y mística",
     "block.botania.blaze_block": "Malla Blaze",
-    "block.botania.corporea_interceptor": "Interceptor de cuerpos",
+    "block.botania.corporea_interceptor": "Interceptor de Pecheras",
     "block.botania.corporea_crystal_cube": "Cubo de Cristal Corporea",
     "block.botania.incense_plate": "Plato de Incienso",
     "block.botania.hourglass": "Reloj de arena flotante",
@@ -2211,7 +2211,7 @@
     
     "botania.entry.hyacidus": "Hyacidus",
     "botania.tagline.hyacidus": "Mobs venenosos",
-    "botania.page.hyacidus0": "Por alguna razón, el veneno no mata. El $(item)Hyacidus$(0) lo conjura dentro de los cuerpos de las turbas cercanas, haciéndolos arrodillarse (después de esperar) por uno -golpear a matar.",
+    "botania.page.hyacidus0": "Por alguna razón, el veneno no mata. El $(item)Hyacidus$(0) lo conjura dentro de los Pecheras de las turbas cercanas, haciéndolos arrodillarse (después de esperar) por uno -golpear a matar.",
     "botania.page.hyacidus1": "$(o)El acero es inmune$().",
     
     "botania.entry.pollidisiac": "Pollidisíaco",
@@ -2523,7 +2523,7 @@
     
     "botania.entry.platform": "Plataforma Abstrusa",
     "botania.tagline.platform": "Plataforma disfrazada por la que puedes caer",
-    "botania.page.platform0": "Cuando se le da forma a patrones extremadamente específicos, $(l:basics/pure_daisy)$(item)Livingwood$(0)$(/l) se puede convertir en un bloque selectivamente permeable. El $(item)Abstruse Platform$(0) tiene un cuerpo físico solo para las entidades que no se escabullen por encima de él; las entidades que se escabullen o las que vienen de abajo pasarán directamente. $(item)Mana Bursts$(0) también viajará a través de una plataforma sin ningún problema.",
+    "botania.page.platform0": "Cuando se le da forma a patrones extremadamente específicos, $(l:basics/pure_daisy)$(item)Livingwood$(0)$(/l) se puede convertir en un bloque selectivamente permeable. El $(item)Abstruse Platform$(0) tiene un Pechera físico solo para las entidades que no se escabullen por encima de él; las entidades que se escabullen o las que vienen de abajo pasarán directamente. $(item)Mana Bursts$(0) también viajará a través de una plataforma sin ningún problema.",
     "botania.page.platform2": "Este bloque se puede disfrazar como cualquier otro bloque simple simplemente haciendo clic derecho en el primero con el segundo. Haciendo clic derecho en una plataforma disfrazada con $(l:basics/wand)$(item)Varita del bosque$(0)$(/l) extiende el disfraz a todos los bloques adyacentes que no estén disfrazados. Hacer clic con el botón derecho del ratón elimina todos los disfraces.",
     "botania.page.platform1": "Sería Ethereal pero se tomó el nombre",
     
@@ -2544,8 +2544,8 @@
     "botania.page.manaConjuration11": "Conjurando $(item)Hierba$(0)",
     
     "botania.entry.spectralPlatform": "Plataforma espectral",
-    "botania.tagline.spectralPlatform": "Plataforma disfrazable sin cuerpo sólido",
-    "botania.page.spectralPlatform0": "La $(item)Spectral Platform$(0) es una $(l:devices/platform)$(item)Abstruse Platform$(0)$(/l) con incluso menos presencia- - de hecho, ningún cuerpo físico en absoluto. La $(l:dispositivos/plataforma)$(item)Abstruse Platform$(0)$(/l) es tangible en ciertos casos; la $(item)Spectral Platform$(0) es permeable a cualquier cosa, independientemente de su posición.",
+    "botania.tagline.spectralPlatform": "Plataforma disfrazable sin Pechera sólido",
+    "botania.page.spectralPlatform0": "La $(item)Spectral Platform$(0) es una $(l:devices/platform)$(item)Abstruse Platform$(0)$(/l) con incluso menos presencia- - de hecho, ningún Pechera físico en absoluto. La $(l:dispositivos/plataforma)$(item)Abstruse Platform$(0)$(/l) es tangible en ciertos casos; la $(item)Spectral Platform$(0) es permeable a cualquier cosa, independientemente de su posición.",
     "botania.page.spectralPlatform1": "Esto me recuerda a un rompecabezas",
     
     "botania.entry.gatherDrum": "Tambor de la Reunión",
@@ -2682,7 +2682,7 @@
     
     "botania.entry.terraSword": "Espada Terra",
     "botania.tagline.terraSword": "Una espada que dispara un rayo que daña a los mobs",
-    "botania.page.terraSword0": "La $(item)Terra Blade$(0), fabricada con $(l:basics/terrasteel)$(item)Terrasteel Ingots$(0)$(/l), es una espada infundido con la fuerza de la naturaleza. Está a la par con una $(item)Diamond Sword$(0) en términos de potencia bruta, y cuando se blande, a veces puede disparar un rayo que infligirá tanto como lo haría un golpe cuerpo a cuerpo. Además, puede usar $(thing)Mana$(0) para la durabilidad, al igual que $(l:tools/mana_gear)$(item)Manasteel Tools$(0)$(/l) can.",
+    "botania.page.terraSword0": "La $(item)Terra Blade$(0), fabricada con $(l:basics/terrasteel)$(item)Terrasteel Ingots$(0)$(/l), es una espada infundido con la fuerza de la naturaleza. Está a la par con una $(item)Diamond Sword$(0) en términos de potencia bruta, y cuando se blande, a veces puede disparar un rayo que infligirá tanto como lo haría un golpe Pechera a Pechera. Además, puede usar $(thing)Mana$(0) para la durabilidad, al igual que $(l:tools/mana_gear)$(item)Manasteel Tools$(0)$(/l) can.",
     "botania.page.terraSword1": "Sin espada de héroe rota",
     
     "botania.entry.terraPick": "Terraterra",
@@ -2738,7 +2738,7 @@
     "botania.entry.tornadoRod": "Vara de los Cielos",
     "botania.tagline.tornadoRod": "Una caña para saltar alto en el cielo",
     "botania.page.tornadoRod0": "La $(item)Vara de los Cielos$(0) usa $(item)Maná$(0) para lanzar a su usuario por los aires.$(p)Para usarla, simplemente haz clic con el botón derecho y observa cómo te elevas.$(p)La vara, después de su uso, entrará brevemente en un modo en el que niega el daño por caída, manteniendo a su usuario a salvo.",
-    "botania.page.tornadoRod2": "Este bastón se puede dar a un $(l:dispositivos/avatar)$(item)Livingwood Avatar$(0)$(/l). Cuando se le dé, un avatar usará su $(item)Mana$(0) para lanzar a cualquier jugador que salte cerca del avatar como si ellos mismos hubieran usado la vara.",
+    "botania.page.tornadoRod2": "Este Bastón se puede dar a un $(l:dispositivos/avatar)$(item)Livingwood Avatar$(0)$(/l). Cuando se le dé, un avatar usará su $(item)Mana$(0) para lanzar a cualquier jugador que salte cerca del avatar como si ellos mismos hubieran usado la vara.",
     "botania.page.tornadoRod1": "Un tesoro de Lorule",
     
     "botania.entry.fireRod": "Vara de los Infiernos",
@@ -2780,7 +2780,7 @@
     "botania.entry.diviningRod": "Vara del Manto Abundante",
     "botania.tagline.diviningRod": "Una vara para encontrar minerales",
     "botania.page.diviningRod0": "La $(item)Vara del Manto Abundante$(0) tiene la habilidad (por un costo moderado de $(item)Mana$(0)) de adivinar en un radio modesto alrededor de su usuario para los minerales. Estos emitirán un breve brillo a través de las paredes, lo que permitirá que se vean fácilmente.$(p)Los minerales idénticos brillarán con colores idénticos, aunque es posible que los colores no sean los mismos en usos separados",
-    "botania.page.diviningRod2": "Este bastón se puede dar a un $(l:dispositivos/avatar)$(item)Livingwood Avatar$(0)$(/l). Cuando se le dé, el avatar usará su $(item)Mana$(0) para mostrar todos los minerales cercanos continuamente, como si el bastón estuviera siendo usado por un jugador. Los colores brillantes, en este caso, permanecerán igual mientras el avatar no se mueva.",
+    "botania.page.diviningRod2": "Este Bastón se puede dar a un $(l:dispositivos/avatar)$(item)Livingwood Avatar$(0)$(/l). Cuando se le dé, el avatar usará su $(item)Mana$(0) para mostrar todos los minerales cercanos continuamente, como si el Bastón estuviera siendo usado por un jugador. Los colores brillantes, en este caso, permanecerán igual mientras el avatar no se mueva.",
     "botania.page.diviningRod1": "Un día Pahimar entregará",
     
     "botania.entry.gravityRod": "Vara de la Mesa Sombreada",
@@ -2792,7 +2792,7 @@
     "botania.entry.missileRod": "Vara del depósito inestable",
     "botania.tagline.missileRod": "Una vara para banquillo",
     "botania.page.missileRod0": "La $(item)vara del depósito inestable$(0) es un arma en su máxima expresión contra una gran multitud de enemigos. Cuando se usa, se materializa a partir de $(item)maná$.(0) innumerables misiles arcanos que apuntan a objetivos al azar",
-    "botania.page.missileRod2": "Este bastón se puede dar a un $(l:devices/avatar)$(item)Livingwood Avatar$(0)$(/l). Un avatar con uno atacará a las criaturas cercanas con misiles, usando su propio $(item)Mana$(0) para hacerlo.",
+    "botania.page.missileRod2": "Este Bastón se puede dar a un $(l:devices/avatar)$(item)Livingwood Avatar$(0)$(/l). Un avatar con uno atacará a las criaturas cercanas con misiles, usando su propio $(item)Mana$(0) para hacerlo.",
     "botania.page.missileRod1": "Zapzapzapzap",
     
     "botania.entry.craftingHalo": "Montaje Halo",
@@ -3207,7 +3207,7 @@
     
     "botania.entry.judgementCloaks": "Capas del Juicio",
     "botania.tagline.judgementCloaks": "Capas para juzgar a los oponentes",
-    "botania.page.judgementCloaks0": "Las $(item)capas del juicio$(0) son un conjunto de capas que se pueden usar en el $(item)cuerpo$(0) $(item)baratija$(0) Una capa activará su poder cuando su portador reciba daño, pero luego entrará en un período de recarga de diez segundos.",
+    "botania.page.judgementCloaks0": "Las $(item)capas del juicio$(0) son un conjunto de capas que se pueden usar en el $(item)Pechera$(0) $(item)baratija$(0) Una capa activará su poder cuando su portador reciba daño, pero luego entrará en un período de recarga de diez segundos.",
     "botania.page.judgementCloaks1": "La $(item)Capa de la Virtud$(0) bloqueará todo el daño de un solo golpe.$(p)La $(item)Capa del Pecado$(0) dañará todo turbas hostiles cercanas por la misma cantidad de daño que recibió su portador.$(p)La $(item)Capa de Equilibrio$(0) dividirá equitativamente el daño entre el atacante y el objetivo, evitando que su portador muera en el proceso. ",
     "botania.page.judgementCloaks2": "Un manto sagrado",
     "botania.page.judgementCloaks3": "¡Prueba la venganza!",
@@ -3241,7 +3241,7 @@
     
     "botania.entry.invisibilityCloak": "Capa de Invisibilidad",
     "botania.tagline.invisibilityCloak": "Exactamente lo que dice en la lata",
-    "botania.page.invisibilityCloak0": "No es necesario que expliques la $(item)capa de invisibilidad$(0).$(p)La usas en tu ranura de $(item)cuerpo$(0). Se necesita $(cosa )Mana$(0) de tu inventario. Te hace a ti y a tus $(cosas)Baratijas$(0) invisibles.$(p)Magia.",
+    "botania.page.invisibilityCloak0": "No es necesario que expliques la $(item)capa de invisibilidad$(0).$(p)La usas en tu ranura de $(item)Pechera$(0). Se necesita $(cosa )Mana$(0) de tu inventario. Te hace a ti y a tus $(cosas)Baratijas$(0) invisibles.$(p)Magia.",
     "botania.page.invisibilityCloak1": "Eres un mago, Steve",
     
     "botania.entry.cloudPendant": "Amuleto Cirro",

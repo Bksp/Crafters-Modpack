@@ -1,0 +1,54 @@
+
+
+
+
+profile Saved activate HOT7
+	HOT1
+		"minecraft:bow" -> "Enchantments" : [{id:"minecraft:power",lvl:4},{id:"minecraft:punch",lvl:1},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:infinity",lvl:1}]
+	HOT2
+		"minecraft:diamond_sword" -> "Enchantments" : [{id:"minecraft:looting",lvl:3},{id:"minecraft:sharpness",lvl:3},{id:"minecraft:unbreaking",lvl:3}]
+	HOT3
+		"savage_and_ravage:conch_of_conjuring"
+	HOT4
+		"additionaladditions:rose_gold_axe"
+	HOT5
+		"minecraft:diamond_pickaxe" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:2},{id:"minecraft:unbreaking",lvl:2}]
+	HOT6
+		"minecraft:diamond_pickaxe" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:4},{id:"minecraft:fortune",lvl:3}]
+	HOT9
+		"minecraft:bread"
+	HEAD
+		"minecraft:diamond_helmet" -> "Enchantments" : [{id:"minecraft:protection",lvl:2},{id:"minecraft:unbreaking",lvl:2},{id:"minecraft:aqua_affinity",lvl:1}]
+	CHEST
+		"minecraft:diamond_chestplate"
+	LEGS
+		"minecraft:diamond_leggings"
+	FEET
+		"minecraft:diamond_boots" -> "Enchantments" : [{id:"minecraft:protection",lvl:4},{id:"additionaladditions:speed",lvl:3}]
+
+profile Saved activate HOT2
+	HOT1
+		"minecraft:bow" -> "Enchantments" : [{id:"minecraft:power",lvl:4},{id:"minecraft:punch",lvl:1},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:infinity",lvl:1}]
+	HOT2
+		"minecraft:diamond_sword" -> "Enchantments" : [{id:"minecraft:looting",lvl:3},{id:"minecraft:sharpness",lvl:3},{id:"minecraft:unbreaking",lvl:3}]
+	HOT3
+		"savage_and_ravage:conch_of_conjuring"
+	HOT4
+		"additionaladditions:rose_gold_axe"
+	HOT5
+		"minecraft:diamond_pickaxe" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:2},{id:"minecraft:unbreaking",lvl:2}]
+	HOT6
+		"minecraft:diamond_shovel"
+	HOT7
+		"minecraft:torch"
+	HOT8
+		"alexsmobs:squid_grapple"
+	HEAD
+		"minecraft:diamond_helmet" -> "Enchantments" : [{id:"minecraft:protection",lvl:2},{id:"minecraft:unbreaking",lvl:2},{id:"minecraft:aqua_affinity",lvl:1}]
+	CHEST
+		"minecraft:diamond_chestplate"
+	LEGS
+		"minecraft:diamond_leggings"
+	FEET
+		"minecraft:diamond_boots" -> "Enchantments" : [{id:"minecraft:protection",lvl:4},{id:"additionaladditions:speed",lvl:3}]
+

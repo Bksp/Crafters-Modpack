@@ -1,0 +1,29 @@
+{
+ "itemGroup.culturalTab":"Delicias Culturales",
+
+ "item.alexsdelight.cooked_bison":"Carne de Bisonte cocida",
+ "item.alexsdelight.raw_bison":"Carne de Bisonte cruda",
+ "item.alexsdelight.cooked_bunfungus":"Hongo cocinado",
+ "item.alexsdelight.raw_bunfungus":"Hongo crudo crudo",
+ "item.alexsdelight.cooked_centipede_leg":"Pata de Ciempiés Cocida",
+
+ "item.alexsdelight.kangaroo_shank":"Filetillo de Canguro",
+ "item.alexsdelight.cooked_kangaroo_shank":"Filetillo de Canguro cocido",
+ "item.alexsdelight.loose_moose_rib":"Costilla de Alce suelta",
+ "item.alexsdelight.cooked_loose_moose_rib":"Costilla de Alce suelta cocida",
+ "item.alexsdelight.bison_mince":"Picadillo de bisonte",
+ "item.alexsdelight.bison_patty":"Empanada de bisonte",
+ "item.alexsdelight.raw_bunfungus_drumstick":"Palillo Bunfungus crudo",
+ "item.alexsdelight.cooked_bunfungus_drumstick":"Palillo Bunfungus cocido",
+ "item.alexsdelight.raw_catfish_slice":"Filete de Bagre crudo",
+ "item.alexsdelight.cooked_catfish_slice":"Filete de Bagre cocido",
+
+ "item.alexsdelight.gongylidia_bruschetta":"Gongylidia Bruschetta",
+ "item.alexsdelight.maggot_salad":"Ensalada de gusanos",
+ "item.alexsdelight.kangaroo_stew":"Guiso de canguro",
+ "item.alexsdelight.acacia_blossom_soup":"Sopa de Flor de Acacia",
+ "item.alexsdelight.lobster_pasta":"Pasta con Langosta",
+ "item.alexsdelight.bison_burger":"Hamburguesa de Bisonte",
+ "item.alexsdelight.bunfungus_sandwich":"Sándwich Bunfungus",
+ "item.alexsdelight.kangaroo_pasta":"Pasta de canguro"
+}

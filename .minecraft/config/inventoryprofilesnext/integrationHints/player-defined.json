@@ -2,23 +2,23 @@
     "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
         "buttonHints": {
             "MOVE_TO_CONTAINER": {
-                "horizontalOffset": -23,
+                "horizontalOffset": -18,
                 "bottom": -24
             },
             "SORT": {
-                "horizontalOffset": -47,
+                "horizontalOffset": -42,
                 "bottom": -25
             },
             "SORT_COLUMNS": {
-                "horizontalOffset": -35,
+                "horizontalOffset": -30,
                 "bottom": -38
             },
             "SORT_ROWS": {
-                "horizontalOffset": -23,
+                "horizontalOffset": -18,
                 "bottom": -51
             },
             "CONTINUOUS_CRAFTING": {
-                "horizontalOffset": -45,
+                "horizontalOffset": -42,
                 "bottom": 12
             },
             "SHOW_EDITOR": {
@@ -84,6 +84,10 @@
             },
             "SETTINGS": {
                 "top": 271
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 1,
+                "bottom": 1
             }
         }
     },
@@ -232,5 +236,21 @@
     },
     "de.maxhenkel.corpse.gui.DeathHistoryScreen": {
         "ignore": true
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "top": 277
+            },
+            "SORT": {
+                "horizontalOffset": -61
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -63
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -64
+            }
+        }
     }
 }
