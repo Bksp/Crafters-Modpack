@@ -1,0 +1,15 @@
+
+[General]
+	#Conditions for displaying new message notification:
+	# 1 - Once per session when entering the world
+	# 2 - Once per session with Obscure Book in inventory
+	# 3 - Never
+	#Range: 1 ~ 3
+	"Message Notification" = 2
+
+[Tooltips]
+	#Display food properties in tooltips
+	"Food Icons" = true
+	#Display equipment attributes in tooltips
+	"Equipment Icons" = true
+

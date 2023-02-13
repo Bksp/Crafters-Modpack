@@ -7,11 +7,11 @@
 
 	[Mobs.GhostOfCaptainCornelia]
 		#Range: 0.0 ~ 10.0
-		movementSpeed = 0.2
+		movementSpeed = 0.5
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 160.0
+		maxHealth = 200.0
 		#Range: 0.0 ~ 1000.0
-		armor = 16.0
+		armor = 20.0
 		#Range: 1.0 ~ 1000.0
 		attackDamage = 1.0
 		#Range: 0.0 ~ 10.0
@@ -19,7 +19,7 @@
 		#Range: 0.0 ~ 10.0
 		attackKnockback = 2.0
 		#Range: 1.0 ~ 256.0
-		followRange = 128.0
+		followRange = 256.0
 		#Range: 0 ~ 1000
 		regenerationSkillUses = 2
 		pullAndSpinTargets = true
