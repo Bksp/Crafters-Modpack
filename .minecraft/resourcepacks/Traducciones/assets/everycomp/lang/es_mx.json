@@ -4,7 +4,7 @@
 
   "block_type.twigs.table" : "Tabla %s" ,
 
-  "block_type.missingwilds.fallen_log" : "Registro de %s caído" ,
+  "block_type.missingwilds.fallen_log" : "Tronco de %s caído" ,
 
   "block_type.campchair.camp_chair" : "%s silla de campamento" ,
 
@@ -75,10 +75,10 @@
   "block_type.pokecube_legends.distortic_stairs" : "%s escaleras distorsionadas" ,
   "block_type.pokecube_legends.distortic_slab" : "Distortic %s Slab" ,
 
-  "block_type.twilightforest.hollow_log" : "Registro de %s vacío" ,
-  "block_type.twilightforest.hollow_log_vertical" : "Registro de %s vacío" ,
-  "block_type.twilightforest.hollow_log_horizontal" : "Registro de %s hueco" ,
-  "block_type.twilightforest.hollow_log_climbable" : "Registro de %s hueco" ,
+  "block_type.twilightforest.hollow_log" : "Tronco de %s vacío" ,
+  "block_type.twilightforest.hollow_log_vertical" : "Tronco de %s vacío" ,
+  "block_type.twilightforest.hollow_log_horizontal" : "Tronco de %s hueco" ,
+  "block_type.twilightforest.hollow_log_climbable" : "Tronco de %s hueco" ,
   "block_type.twilightforest.banister" : "%s Barandilla" ,
 
   "block_type.quark.stripped_post" : "Publicación eliminada %s" ,
@@ -258,7 +258,7 @@
   "block_type.cfm.desk_cabinet" : "%s Gabinete de escritorio" ,
   "block_type.cfm.hedge" : "%s Cobertura" ,
   "block_type.cfm.highley_gate" : "%s Puerta Highley" ,
-  "block_type.cfm.hollow_log" : "Registro de %s vacío" ,
+  "block_type.cfm.hollow_log" : "Tronco de %s vacío" ,
   "block_type.cfm.horse_fence" : "%s Valla para caballos" ,
   "block_type.cfm.kitchen_counter" : "Mostrador de cocina %s" ,
   "block_type.cfm.kitchen_drawer" : "Cajón de cocina %s" ,
@@ -313,7 +313,7 @@
   "block_type.projectbrazier.flower_barrel" : "%s Barril de flores" ,
   "block_type.projectbrazier.flower_bucket" : "Cubo de flores %s" ,
   "block_type.projectbrazier.grid_lattice" : "%s Cuadrícula Celosía" ,
-  "block_type.projectbrazier.hollow_log" : "Registro de %s vacío" ,
+  "block_type.projectbrazier.hollow_log" : "Tronco de %s vacío" ,
   "block_type.projectbrazier.log_bench" : "%s banco de registro" ,
   "block_type.projectbrazier.log_chair" : "%s silla de troncos" ,
   "block_type.projectbrazier.open_barrel" : "Abrir %s Barril" ,
@@ -324,7 +324,7 @@
   "block_type.projectbrazier.solid_chair" : "%s silla sólida" ,
   "block_type.projectbrazier.solid_table" : "Tabla sólida %s" ,
   "block_type.projectbrazier.stool" : "%s Taburete" ,
-  "block_type.projectbrazier.stripped_hollow_log" : "Registro de %s hueco despojado" ,
+  "block_type.projectbrazier.stripped_hollow_log" : "Tronco de %s hueco despojado" ,
   "block_type.projectbrazier.stripped_log_bench" : "Banco de troncos %s despojado" ,
   "block_type.projectbrazier.stripped_log_chair" : "Silla de troncos %s despojada" ,
   "block_type.projectbrazier.top_platform" : "Plataforma %s" ,

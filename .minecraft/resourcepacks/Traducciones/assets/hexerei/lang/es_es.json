@@ -124,7 +124,7 @@
  "block.hexerei.flowering_lily_pad": "Nenúfar en flor",
  "block.hexerei.budding_selenite": "Selenita en ciernes",
  "block.hexerei.selenita_block": "Bloque de Selenita",
- "block.hexerei.selenite_cluster": "Cúmulo de selenita",
+ "block.hexerei.selenite_cluster": "Clúster de selenita",
  "block.hexerei.large_selenite_bud": "Gran Brote de Selenita",
  "block.hexerei.medium_selenite_bud": "Brote de selenita mediano",
  "block.hexerei.small_selenite_bud": "Pequeño Brote de Selenita",
@@ -252,7 +252,7 @@
  "tooltip.hexerei.dowsing_rod_3": "Si las hojas están sanas, vas por el camino correcto.",
  "tooltip.hexerei.dowsing_rod_4": "Agáchate y haz clic derecho para cambiar la búsqueda de pantanos/junglas.",
  "tooltip.hexerei.dowsing_rod_5": "Haz clic derecho para restablecer la posición seleccionada a una nueva posición del tipo de bioma.",
- "tooltip.hexerei.selenite_shard": "Obtenido al romper un cúmulo de selenita en geodas de selenita que se encuentran bajo selvas y pantanos.",
+ "tooltip.hexerei.selenite_shard": "Obtenido al romper un Clúster de selenita en geodas de selenita que se encuentran bajo selvas y pantanos.",
  "tooltip.hexerei.broom_waterproof_tip": "Permite que las escobas viajen por el agua sin sacar al jugador por tiempo limitado.",
  "tooltip.hexerei.broom_netherite_tip": "Permite que las escobas viajen a través de la lava sin quemarse durante un tiempo limitado.", 
  "tooltip.hexerei.small_satchel": "Amplía el inventario de escobas en 9 espacios.",
@@ -648,7 +648,7 @@
  "book.hexerei.items_yellow_dock_flowers_1.passage_1": "Flores del muelle amarillo",
  "book.hexerei.items_yellow_dock_flowers_1.passage_2": "Las flores Yellow Dock se usan en la receta para hacer el cepillo de escoba mejorado con hierbas, también se pueden secar y luego se usarán en diferentes infusiones y rituales.\n Obtenido al hacer clic derecho un Yellow Dock Bush completamente desarrollado.",
   
- "book.hexerei.items_willow_log_1.passage_1": "Registro de Sauce Oscuro",
+ "book.hexerei.items_willow_log_1.passage_1": "Tronco de Sauce Oscuro",
  "book.hexerei.items_willow_log_1.passage_2": "Los troncos de Sauce Oscuro se usan para hacer una escoba de Sauce Oscuro dentro del caldero mezclador. También son un hermoso bloque de decoración para construcciones más sombrías o parecidas a la naturaleza.",
   
  "book.hexerei.items_mahogany_log_1.passage_1": "Tronco de Caoba Oscura",
