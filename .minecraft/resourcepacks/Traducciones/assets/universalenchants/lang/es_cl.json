@@ -1,0 +1,4 @@
+{
+  "commands.enchant.remove.success.single": "Se eliminó el encantamiento %s del objeto de %s",
+  "commands.enchant.remove.success.multiple": "Se eliminó el encantamiento %s de %s entidades"
+}
