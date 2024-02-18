@@ -5,9 +5,9 @@
 	#Range: > 0
 	modpackProjectID = 0
 	#The name of the modpack
-	modpackName = "Crafters Modpack"
+	modpackName = "Crafters"
 	#The version of the modpack
-	modpackVersion = "2.6.1"
+	modpackVersion = "3.1"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
