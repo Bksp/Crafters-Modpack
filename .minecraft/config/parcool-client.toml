@@ -65,14 +65,14 @@
 	substituteSprint = true
 	#Infinite Stamina(this needs a permission from server, even if it is on single player's game)
 	#Please check 'parcool-server.toml' in 'serverconfig' directory
-	infiniteStamina = true
+	infiniteStamina = false
 
 #Stamina Section may be affected by Server config
 [Stamina]
 	#ParCool consume hanger value instead of stamina
 	useHangerInstead = false
 	#Range: 300 ~ 10000
-	MaxValueOfStamina = 2000
+	MaxValueOfStamina = 3000
 
 	[Stamina.Consumption]
 		#Range: 0 ~ 10000
@@ -97,5 +97,5 @@
 	#About ParCool
 	[Stamina.ParCool]
 		#ParCool is Active
-		ParCool_Activation = true
+		ParCool_Activation = false
 

@@ -22,12 +22,12 @@
                 "bottom": 12
             },
             "SHOW_EDITOR": {
-                "horizontalOffset": -4,
-                "top": 269
+                "horizontalOffset": 17,
+                "top": 324
             },
             "SETTINGS": {
-                "horizontalOffset": -4,
-                "top": 268
+                "horizontalOffset": 17,
+                "top": 319
             }
         }
     },

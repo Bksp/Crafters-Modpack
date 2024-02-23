@@ -10,6 +10,9 @@
         "enable_auto_refill": {
             "value": false
         },
+        "villager_trading_enable": {
+            "value": false
+        },
         "enable_updates_check": false,
         "highlight_clicking_slot": false,
         "for_modpack_devs": true,
@@ -23,9 +26,8 @@
         "continuous_crafting_saved_value": false
     },
     "LockedSlotsSettings": {
-        "locked_slots_empty_hotbar_as_semi_locked": {
-            "value": false
-        }
+        "show_locked_slots_bg_color": "#FF000000",
+        "show_locked_slots_hotbar_color": "#FF5E4100"
     },
     "AutoRefillSettings": {
         "refill_armor": {
@@ -54,9 +56,94 @@
         }
     },
     "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "reload_custom_configs": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "sort_inventory": {
+            "main": {
+                "keys": ""
+            }
+        },
         "sort_inventory_in_rows": {
             "main": {
                 "keys": "BUTTON_3"
+            }
+        },
+        "move_all_items": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "throw_all_items": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "apply_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "next_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "prev_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_1": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_2": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_3": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "save_as_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "global_bookmark_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "local_bookmark_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "do_global_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "do_local_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "copy_nbt": {
+            "main": {
+                "keys": "CAPS_LOCK,C"
             }
         }
     },
