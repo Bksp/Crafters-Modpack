@@ -1,0 +1,43 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.ReceivingLevelScreen": true,
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "net.minecraftforge.client.gui.ModListScreen": true,
+    "dev.tr7zw.firstperson.FirstPersonModelCore$2": true,
+    "xaero.map.gui.GuiMap": true,
+    "xaero.map.gui.GuiWorldMapSettings": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": false,
+    "me.shedaniel.clothconfig2.gui.ClothConfigScreen": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreen": true,
+    "vazkii.quark.content.management.client.screen.HeldShulkerBoxScreen": true,
+    "com.minecraftserverzone.weaponmaster.gui.WeaponMasterScreen": true,
+    "com.minecraftserverzone.weaponmaster.gui.DetailedSettingsScreen": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.SackScreen": true,
+    "com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen": true,
+    "com.mrcrayfish.configured.client.screen.ConfigScreen": true,
+    "com.mrcrayfish.configured.client.screen.ChangeEnumScreen": true,
+    "vazkii.quark.base.client.config.screen.QuarkConfigHomeScreen": true,
+    "vazkii.quark.base.client.config.screen.CategoryScreen": true,
+    "vazkii.quark.base.client.config.screen.ListInputScreen": true,
+    "net.minecraft.client.gui.screens.VideoSettingsScreen": true,
+    "dlovin.inventoryhud.gui.config.InventoryConfigScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "net.blay09.mods.waystones.client.gui.screen.WarpPlateScreen": true,
+    "xaero.common.gui.GuiAddWaypoint": true,
+    "de.maxhenkel.corpse.gui.CorpseInventoryScreen": true,
+    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": true,
+    "me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI": true,
+    "net.coderbot.iris.gui.screen.ShaderPackScreen": true,
+    "net.minecraft.client.gui.screens.packs.PackSelectionScreen": true,
+    "betteradvancements.gui.BetterAdvancementsScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.SharestoneSelectionScreen": true,
+    "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSettingsScreen": true,
+    "io.github.wouink.furnish.client.gui.ConditionalSlotContainerScreen": true,
+    "net.minecraft.client.gui.screens.ConfirmScreen": true,
+    "forge.net.mca.client.gui.InteractScreen": true
+  },
+  "hideBackground": {
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": false
+  }
+}

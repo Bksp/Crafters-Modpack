@@ -1,11 +1,12 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:358
+ignoreUpdate:372
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
 debugEntityIcons:false
 debugEntityVariantIds:false
 radarHideInvisibleEntities:true
+allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:true
 minimap:true
@@ -18,7 +19,7 @@ deathpoints:true
 oldDeathpoints:true
 distance:1
 lockNorth:false
-zoom:2
+zoom:4
 minimapSize:137
 chunkGrid:-1
 slimeChunks:false
@@ -40,7 +41,7 @@ waypointsDistanceExp:7
 waypointsDistanceMin:0.0
 defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
 defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~
-arrowScale:1.0
+arrowScale:1.0000000149011612
 arrowColour:5
 smoothDots:true
 worldMap:true
@@ -62,18 +63,18 @@ zoomOnEnlarged:0
 minimapTextAlign:2
 waypointsMutualEdit:true
 compassLocation:1
-compassScale:2
+compassDirectionScale:2
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
-playerArrowOpacity:94
+playerArrowOpacity:100
 waypointsBottom:false
 minimapShape:0
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
-uiScale:0
+uiScale:1
 bossHealthPushBox:1
 potionEffectPushBox:1
 minimapFrame:2
@@ -99,10 +100,12 @@ enlargedMinimapAToggle:true
 displayStainedGlass:true
 waypointOnMapScale:0
 switchToAutoOnDeath:true
-infoDisplayBackgroundOpacity:40
+infoDisplayBackgroundOpacity:1
 caveModeToggleTimer:1000
 legibleCaveMaps:false
-displayPacPlayers:true
+biomeBlending:true
+displayTrackedPlayers:true
+dimensionScaledMaxWaypointDistance:true
 displayClaims:true
 displayCurrentClaim:false
 claimsFillOpacity:46

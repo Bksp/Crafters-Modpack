@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest"
+  ],
+  "incompatible": [
+    "ensorcellation:frost_rebuke",
+    "minecraft:thorns",
+    "ensorcellation:fire_rebuke"
+  ]
+}

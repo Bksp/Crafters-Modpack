@@ -56,10 +56,12 @@
                 "top": 82
             },
             "SHOW_EDITOR": {
-                "top": 295
+                "horizontalOffset": 17,
+                "top": 324
             },
             "SETTINGS": {
-                "top": 269
+                "horizontalOffset": 17,
+                "top": 319
             }
         },
         "force": true
@@ -74,16 +76,26 @@
         "buttonHints": {
             "PROFILE_SELECTOR": {
                 "hide": true
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 17,
+                "top": 324
+            },
+            "SETTINGS": {
+                "horizontalOffset": 17,
+                "top": 319
             }
         }
     },
     "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
         "buttonHints": {
             "SHOW_EDITOR": {
-                "top": 270
+                "horizontalOffset": 17,
+                "top": 324
             },
             "SETTINGS": {
-                "top": 271
+                "horizontalOffset": 17,
+                "top": 319
             },
             "MOVE_TO_CONTAINER": {
                 "horizontalOffset": 1,
@@ -114,14 +126,20 @@
     "net.minecraft.client.gui.screens.inventory.CraftingScreen": {
         "buttonHints": {
             "CONTINUOUS_CRAFTING": {
-                "horizontalOffset": -74,
-                "bottom": 21
+                "horizontalOffset": -70,
+                "bottom": 22
             },
             "SETTINGS": {
-                "top": 279
+                "horizontalOffset": 17,
+                "top": 319
             },
             "SHOW_EDITOR": {
-                "top": 281
+                "horizontalOffset": 17,
+                "top": 324
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -22,
+                "bottom": -12
             }
         }
     },
@@ -187,10 +205,12 @@
         "ignore": true,
         "buttonHints": {
             "SHOW_EDITOR": {
-                "top": 282
+                "horizontalOffset": 17,
+                "top": 324
             },
             "SETTINGS": {
-                "top": 279
+                "horizontalOffset": 17,
+                "top": 319
             }
         }
     },
@@ -250,6 +270,74 @@
             },
             "SORT_ROWS": {
                 "horizontalOffset": -64
+            }
+        }
+    },
+    "fuzs.easymagic.client.gui.screens.inventory.ModEnchantmentScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 17,
+                "top": 324
+            },
+            "SETTINGS": {
+                "horizontalOffset": 17,
+                "top": 319
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.FurnaceScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 17,
+                "top": 324
+            },
+            "SETTINGS": {
+                "horizontalOffset": 17,
+                "top": 319
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.SmithingScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 17,
+                "top": 324
+            },
+            "SETTINGS": {
+                "horizontalOffset": 17,
+                "top": 319
+            }
+        }
+    },
+    "se.mickelus.tetra.blocks.workbench.WorkbenchContainer": {
+        "ignore": true
+    },
+    "io.github.mortuusars.exposure.gui.screen.camera.CameraAttachmentsScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 17,
+                "top": 324
+            },
+            "SETTINGS": {
+                "horizontalOffset": 17,
+                "top": 319
+            }
+        }
+    },
+    "io.github.mortuusars.exposure.menu.CameraAttachmentsMenu": {
+        "ignore": true
+    },
+    "io.github.mortuusars.exposure.gui.screen.LightroomScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 17,
+                "top": 324
+            },
+            "SETTINGS": {
+                "horizontalOffset": 17,
+                "top": 319
             }
         }
     }

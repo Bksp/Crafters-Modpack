@@ -1,6 +1,6 @@
 {
-  "configVersion": 8,
-  "animationSmoothingSpeed": 9.900001,
+  "configVersion": 11,
+  "animationSmoothingSpeed": 0.2,
   "holdingItems": [
     "minecraft:clock",
     "minecraft:recovery_compass",
@@ -35,7 +35,8 @@
     "minecraft:netherite_sword"
   ],
   "enableCrawlingAnimation": true,
-  "holdUpAllItems": false,
+  "holdUpItemsMode": "CONFIG",
+  "holdUpItemOffset": 0.0,
   "itemSwapAnimation": true,
   "tweakElytraAnimation": true,
   "petAnimation": true,
@@ -44,5 +45,6 @@
   "huggingAnimation": false,
   "narutoRunning": false,
   "enableInWorldBookRendering": true,
-  "disableLegSmoothing": false
+  "disableLegSmoothing": false,
+  "bowAnimation": "VANILLA"
 }

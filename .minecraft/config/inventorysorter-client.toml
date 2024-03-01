@@ -1,0 +1,8 @@
+
+#Inventory sorter modules
+[modules]
+	#Sorting module
+	sortingmodule = false
+	#Wheel move module
+	wheelmovemodule = false
+

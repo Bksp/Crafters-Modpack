@@ -1,7 +1,6 @@
 
 [General]
-	stylizedBossbar = true
-	chatNotifications = true
+	chatNotifications = false
 
 [Mobs]
 

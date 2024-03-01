@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "farmersdelight:skillet",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:the_incinerator",
+    "cataclysm:infernal_forge",
+    "savage_and_ravage:cleaver_of_beheading"
+  ],
+  "incompatible": []
+}

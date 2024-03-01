@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet"
+  ],
+  "incompatible": [
+    "domesticationinnovation:frost_fang",
+    "domesticationinnovation:poison_resistance",
+    "domesticationinnovation:amphibious"
+  ]
+}

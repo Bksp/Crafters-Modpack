@@ -1,0 +1,14 @@
+[
+  {
+    "key": "gui.xaero_toggle_map.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "gui.xaero_toggle_manual_cave_mode.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "quark.emote.point.custom",
+    "color": "WHITE"
+  }
+]
