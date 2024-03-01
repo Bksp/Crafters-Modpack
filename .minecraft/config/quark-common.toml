@@ -285,10 +285,10 @@
 [management]
 	"Quick Armor Swapping" = true
 	"Item Sharing" = true
-	"Inventory Sorting" = true
-	"Hotbar Changer" = true
+	"Inventory Sorting" = false
+	"Hotbar Changer" = false
 	"Expanded Item Interactions" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 	"Automatic Tool Restock" = true
 
 	[management.quick_armor_swapping]
@@ -298,11 +298,11 @@
 		"Render Items In Chat" = true
 
 	[management.inventory_sorting]
-		"Enable Player Inventory" = true
-		"Enable Player Inventory In Chests" = true
-		"Enable Chests" = true
+		"Enable Player Inventory" = false
+		"Enable Player Inventory In Chests" = false
+		"Enable Chests" = false
 		#Play a click when sorting inventories using keybindings
-		"Satisfying Click" = true
+		"Satisfying Click" = false
 
 	[management.expanded_item_interactions]
 		"Enable Armor Interaction" = true
@@ -312,7 +312,7 @@
 		"Allow Rotating Bundles" = true
 
 	[management.easy_transfering]
-		"Enable Shift Lock" = true
+		"Enable Shift Lock" = false
 
 	[management.automatic_tool_restock]
 		#This feature disables itself if any of the following mods are loaded: 
@@ -1536,8 +1536,8 @@
 	"Improved Tooltips" = true
 	"Greener Grass" = true
 	"Elytra Indicator" = true
-	"Chest Searching" = true
-	Camera = true
+	"Chest Searching" = false
+	Camera = false
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
 	"Buckets Show Inhabitants" = true
