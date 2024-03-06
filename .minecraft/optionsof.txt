@@ -27,7 +27,7 @@ ofAnimatedTerrain:true
 ofAnimatedTextures:true
 ofRainSplash:true
 ofLagometer:true
-ofShowFps:true
+ofShowFps:false
 ofAutoSaveTicks:3600
 ofBetterGrass:2
 ofConnectedTextures:2
@@ -63,7 +63,7 @@ ofCustomEntityModels:true
 ofCustomGuis:true
 ofShowGlErrors:false
 ofFastMath:true
-ofFastRender:true
+ofFastRender:false
 ofChatBackground:0
 ofChatShadow:true
 ofTelemetry:2
