@@ -37,7 +37,7 @@
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
 	"Enable Onboarding" = true
 	#Set to false to disable the behavior where quark will automatically hide any disabled items
-	"Hide Disabled Content" = true
+	"Hide Disabled Content" = false
 	#Set to false to disable Quark's item info when viewing recipe/uses for an item in JEI
 	"Enable Jei Item Info" = true
 	#For JEI info purposes, add any items here to specifically disable their JEI info from Quark. Note that Quark already only shows info that's relevant to which features are enabled
@@ -165,7 +165,7 @@
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 		"Replace Worldgen Chests" = true
 		"Enable Reverting Wooden Chests" = true
 		#Chests to put in structures. It's preferred to use worldgen tags for this. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
@@ -300,7 +300,7 @@
 	[management.inventory_sorting]
 		"Enable Player Inventory" = false
 		"Enable Player Inventory In Chests" = false
-		"Enable Chests" = false
+		"Enable Chests" = true
 		#Play a click when sorting inventories using keybindings
 		"Satisfying Click" = false
 
@@ -660,7 +660,7 @@
 
 	[tweaks.pig_litters]
 		#Allowed values: [1,)
-		"Min Pig Litter Size" = 2
+		"Min Pig Litter Size" = 1
 		#Allowed values: [1,)
 		"Max Pig Litter Size" = 3
 		"Pigs Eat Golden Carrots" = true
@@ -1553,7 +1553,7 @@
 		"Enable L G B T Bees" = true
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
-		"Shiny Animal Chance" = 2048
+		"Shiny Animal Chance" = 100
 		#If a shiny animal should emit occasional sparkles.
 		"Shiny Sparkles" = true
 
