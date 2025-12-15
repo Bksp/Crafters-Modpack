@@ -1,9 +1,0 @@
-{
-  "schemaVersion": 2,
-  "items": [
-    "$minecraft:enchantable"
-  ],
-  "incompatible": [
-    "minecraft:vanishing_curse"
-  ]
-}

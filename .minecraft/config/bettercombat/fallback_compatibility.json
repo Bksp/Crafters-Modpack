@@ -1,7 +1,0 @@
-{
-  "schema_version": 1,
-  "blacklist_item_id_regex": "pickaxe|farmersdelight|great_hammer|greathammer|war_hammer|warhammer|maul|claymore|great_sword|greatsword|double_axe|doubleaxe|war_axe|waraxe|great_axe|greataxe|scythe|halberd|glaive|spear|lance|anchor|battlestaff|battle_staff|claw|fist|gauntlet|trident|impaled|katana|rapier|dagger|knife|soul_knife|sickle|staff|wand|sceptre|stave|rod|mace|hammer|flail|axe|coral_blade|twin_blade|twinblade|cutlass|scimitar|machete|sword|blade",
-  "fallback_compatibility": [
-    {}
-  ]
-}
