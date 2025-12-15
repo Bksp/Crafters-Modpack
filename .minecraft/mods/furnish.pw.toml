@@ -1,0 +1,13 @@
+name = "Furnish"
+filename = "furnish-26-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ffa6ff9034971d0363cb8363affc35bbe0ba4b2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5020368
+project-id = 547069

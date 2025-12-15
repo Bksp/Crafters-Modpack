@@ -1,0 +1,13 @@
+name = "Additional Structures"
+filename = "AdditionalStructures-1.20.x-(v.4.2.2).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b0a03635fe02ecafdbf60782a5c6459149bf7f2a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5690527
+project-id = 297680
