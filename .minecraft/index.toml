@@ -2,7 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "Actualizar.bat"
-hash = "8e22e769306d3eabf219f9b26c20c2149e7071848827a8473be963a3e94b8d39"
+hash = "b4598240cbc7fdb123a068224d8396126718b420c955ee443d89c2f15384ee32"
+
+[[files]]
+file = "Alessy-Despliegue.bat"
+hash = "a9ce9690a48f21b625c74eaa375cf7c90ad21232ddd817bd97988d576c943e29"
 
 [[files]]
 file = "config/DistantHorizons.toml"
@@ -406,11 +410,6 @@ metafile = true
 [[files]]
 file = "mods/farmers-respite.pw.toml"
 hash = "49431cb48a66b264c2cb7702c7bb80155d1a59a42d384348e30700ce0ebc1e4c"
-metafile = true
-
-[[files]]
-file = "mods/feathers.pw.toml"
-hash = "d24fcd8d033befe918b425d82f14fbde8496dfd1feef3f4855707141e8480de6"
 metafile = true
 
 [[files]]
@@ -8011,11 +8010,7 @@ hash = "8caae790368ee50bd33e20bd416ea43feae376f5c0f530b757b58e97926fd2f5"
 
 [[files]]
 file = "shaderpacks/BSL_v8.4/shaders/block.properties"
-hash = "3bc9594d401da4d401cf6fea4f07716d03e50c0d78b5f0d1be39dd6842dc1742"
-
-[[files]]
-file = "shaderpacks/BSL_v8.4/shaders/blockold.properties"
-hash = "8c5670a0a6315d2f6d69894e24f296f98dad631128789e7f7486a1bb313614cb"
+hash = "38773f77bc2e121386bb67bb9b74fce1e4a259502e335d8947aeb9c5c3fda5b3"
 
 [[files]]
 file = "shaderpacks/BSL_v8.4/shaders/dimension.properties"
