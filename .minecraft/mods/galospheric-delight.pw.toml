@@ -1,0 +1,13 @@
+name = "Galospheric Delight"
+filename = "galospheric_delight-1.20.1-6.42.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "59fbd9a156ba6668a6422d4111efdc1af9e1246e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6506068
+project-id = 1220884

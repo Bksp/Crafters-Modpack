@@ -26,6 +26,11 @@ hash = "7dd9dc01340eb4fbd334ac9d4277b403dfd1e406e0230111aed4b9210465b116"
 metafile = true
 
 [[files]]
+file = "mods/additional-additions-forge.pw.toml"
+hash = "624a45bd6287e67799f3c2c21f2abbce85cb9f082df3fb5be714574d15788b2e"
+metafile = true
+
+[[files]]
 file = "mods/additional-structures.pw.toml"
 hash = "e701ccbeaed53c7724a88ff832f02e197356146ae2b7506f037b08b341d8314e"
 metafile = true
@@ -80,6 +85,11 @@ hash = "af81664fa766bb0cb2f4a383f2464e38300c28ebefcb0b87a53c9bf22873eaca"
 metafile = true
 
 [[files]]
+file = "mods/ash-api.pw.toml"
+hash = "6e055d9a52c0c2eece73425b68d59c89b23b0aa091d93269863e5869b0298d6f"
+metafile = true
+
+[[files]]
 file = "mods/atmospheric.pw.toml"
 hash = "f0bff16ef9b04e0bec1c925be8bdfe3373bd44a53e2406d58ecb2003fa647bfa"
 metafile = true
@@ -110,6 +120,11 @@ hash = "c854a52b577b4471a59e02354948b55fef26b2b7b98530fe67eb77cfca1986bb"
 metafile = true
 
 [[files]]
+file = "mods/better-village-forge.pw.toml"
+hash = "ec58995b4ee6e5610447daa2996e46fafd87b25888f072e7593bb3103a26dabc"
+metafile = true
+
+[[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "83ba38ab1e5b583227e9d37b8fea91ac1fcb4e2f67ba86800c5d7aa4024d2993"
 metafile = true
@@ -122,6 +137,11 @@ metafile = true
 [[files]]
 file = "mods/blueprint.pw.toml"
 hash = "790de162313fcbe950496580db107eb8da2ae29060cbf611764d1bb352461d03"
+metafile = true
+
+[[files]]
+file = "mods/boatload.pw.toml"
+hash = "192b4e3d282f8fb2b64de240e470a1f53c8b0b7a5b2a2a2f3d04c9fcfabb6334"
 metafile = true
 
 [[files]]
@@ -310,6 +330,11 @@ hash = "d5e99d10b77820007cd65c78de9a572814dab691435726cf611707f81c55bb36"
 metafile = true
 
 [[files]]
+file = "mods/dungeon-crawl.pw.toml"
+hash = "3a4845166040ce2be2967b33371140b809b8d49889ba99f91da78e0228cd6f8e"
+metafile = true
+
+[[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "546a2e07dfe2ef19c83779b3a4123d49fa83d803a2873cb1d0d946bbb25b88ea"
 metafile = true
@@ -411,6 +436,11 @@ metafile = true
 [[files]]
 file = "mods/galosphere.pw.toml"
 hash = "1be92368ec20f1f493c46ad2afdccd1caf3bf605f54862d8badd3f25c9729df0"
+metafile = true
+
+[[files]]
+file = "mods/galospheric-delight.pw.toml"
+hash = "453e68ebc78110a06d7992514c7b44129901da9dc8448035a8c153fc93d0903b"
 metafile = true
 
 [[files]]
@@ -536,6 +566,11 @@ metafile = true
 [[files]]
 file = "mods/libipn.pw.toml"
 hash = "ee79f551b7aede4b923fc6df137c4ebbb1dd21eb80a3aaba6da8be93ac5010e7"
+metafile = true
+
+[[files]]
+file = "mods/library-ferret-forge.pw.toml"
+hash = "207ea5c3ad00aee495de4d614c504d443c141068a2ddf0554f5a7829923cfeec"
 metafile = true
 
 [[files]]
@@ -723,6 +758,11 @@ hash = "87caea00305cfee9c1062f10f61a1cb8897ca884361744151d9bc02845c84037"
 metafile = true
 
 [[files]]
+file = "mods/smooth-swapping.pw.toml"
+hash = "d9681dda5a47b93a1b18da042a0685b701f15159febf7e064da67ac03cb3140d"
+metafile = true
+
+[[files]]
 file = "mods/snowy-spirit.pw.toml"
 hash = "fe8c20f384ce7bf9cd50a8ab5642ff3fe6753edd2f84c5dc1e988b155d4e41ad"
 metafile = true
@@ -773,6 +813,11 @@ hash = "7600c7a6f0d1cda6e8bc80f75ce4a1326f4c392edd99350136776d90210d7865"
 metafile = true
 
 [[files]]
+file = "mods/transparent.pw.toml"
+hash = "d8e6a115c32a6878ef9ab83e1947402fe94a77ea0161c70efdb516a68437366a"
+metafile = true
+
+[[files]]
 file = "mods/upgrade-aquatic.pw.toml"
 hash = "62ca870c6d8ce9ac3721d25e4f283d0916f0fd673260c497e109b03ad7b304fe"
 metafile = true
@@ -798,6 +843,16 @@ hash = "0cb70caa22009a495a64a4332480b5ae80cb7fc7ba34c0a48ab8aff7df20b4f7"
 metafile = true
 
 [[files]]
+file = "mods/wildberries.pw.toml"
+hash = "99ab47602111b86ec135087087f9dc65ba38b26de9bdb72379d6bcf4142fc60e"
+metafile = true
+
+[[files]]
+file = "mods/windsweptmod.pw.toml"
+hash = "4318e5b78e0f42be018977f57338822b017a952acf5caa3a106abb3a9edb6bf9"
+metafile = true
+
+[[files]]
 file = "mods/woodworks.pw.toml"
 hash = "bd3e31f8c53d1e7ed9c1c513d1749c0e28b5c25b5fa07000b69242e9f322a786"
 metafile = true
@@ -810,6 +865,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
+metafile = true
+
+[[files]]
+file = "mods/ydms-coppergolem.pw.toml"
+hash = "e7d6c765d43f3b7742ecee569d21126dc300ad7767afa47983673d06f4c55e8a"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "YDM's CopperGolem"
+filename = "coppergolem-forge-1.20.1-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "42a2f00b71d55793d47e4a8f515bafde1a0fb075"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4597042
+project-id = 537561
