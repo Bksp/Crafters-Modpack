@@ -1,0 +1,6 @@
+Exports/
+packwiz.exe
+*.bat
+*.ps1
+.git/
+.github/

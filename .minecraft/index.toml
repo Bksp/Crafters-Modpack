@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "Actualizar.bat"
-hash = "b4598240cbc7fdb123a068224d8396126718b420c955ee443d89c2f15384ee32"
-
-[[files]]
-file = "Alessy-Despliegue.bat"
-hash = "a9ce9690a48f21b625c74eaa375cf7c90ad21232ddd817bd97988d576c943e29"
-
-[[files]]
 file = "config/DistantHorizons.toml"
 hash = "7839d07e77260a11f2141baf727ae685fccff82f043ed4b3e30a22bac0ec4376"
 

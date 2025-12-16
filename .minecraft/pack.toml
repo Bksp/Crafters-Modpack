@@ -1,12 +1,12 @@
 name = "Crafters Modpack"
 author = "Logan"
-version = "1.0.1"
+version = "1.0.7"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "9b52b3ffe492cc2987040891fbb7b0362492d52e25ac0182257230c654caaba7"
+hash = "af0080ce61e7f5e815e784a08c747098bca3f4f77d8224fc647ec07e797abfa2"
 
 [versions]
 forge = "47.4.10"
