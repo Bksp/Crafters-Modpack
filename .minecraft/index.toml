@@ -5,6 +5,10 @@ file = "config/DistantHorizons.toml"
 hash = "7839d07e77260a11f2141baf727ae685fccff82f043ed4b3e30a22bac0ec4376"
 
 [[files]]
+file = "config/InventoryHUD/curios.json"
+hash = "7838c09ab05890baf7d952d8149bf27ac78b36578498d31a3fc6512248002a90"
+
+[[files]]
 file = "config/chunky/config.json"
 hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
@@ -15,6 +19,10 @@ hash = "47e2b558540bff180707cc5e5d31f53fd5bd3d61a253f5df5497cea27a0f2786"
 [[files]]
 file = "mods/CarbonConfig-1.20-1.2.8.1.jar"
 hash = "c88356752bb81f5722f7ad82b45895488ba7295395d889a76273a1172abe71b5"
+
+[[files]]
+file = "mods/Structory_1.20.x_v1.3.5.jar"
+hash = "43f4b4b88bb9caa1114928a93e787335e56171b5233a545bf2f4da1ce9fe943b"
 
 [[files]]
 file = "mods/abnormals-delight.pw.toml"
@@ -176,9 +184,8 @@ hash = "e5df83a3dd1686106741d1d61da5869aed0537c2931a40234e1b3bd2d09e1971"
 metafile = true
 
 [[files]]
-file = "mods/capybara-forge.pw.toml"
-hash = "b7e0c62832cf5e8810a8682fbfc0451b7c114322ecca05c0d0f6e60aef6ff99e"
-metafile = true
+file = "mods/capybaramod-1.0.0.jar"
+hash = "6fc1c28bfac7238a7a11a3320d5ef927aaf22ab3d9df09600e26340ef61987e6"
 
 [[files]]
 file = "mods/carry-on.pw.toml"
@@ -370,9 +377,8 @@ hash = "9780912a21d843e262d6f137ae4e7f95ae21e059e82c8a449b5930c767b06dc4"
 metafile = true
 
 [[files]]
-file = "mods/entityculling.pw.toml"
-hash = "405c6f9447f29e70146c7c75bd968c91091afb692513473b7454aedaeea12f20"
-metafile = true
+file = "mods/entityculling-forge-1.9.4-mc1.20.1.jar"
+hash = "0a95e730ccc81ba60e65af6b76dacf96f9e00fd391c50e9695d5fd5ace275ab7"
 
 [[files]]
 file = "mods/every-compat.pw.toml"
@@ -465,9 +471,8 @@ hash = "3ed57a44b27d8de90bc53971a135610476f1b09779e9e5a31a9bc27339da6ae9"
 metafile = true
 
 [[files]]
-file = "mods/hexerei.pw.toml"
-hash = "79bfdf5bd4e7cc009b4ae84ab27b1f358bf2da1aa8f30102e77e1aae66aed688"
-metafile = true
+file = "mods/hexerei-0.4.2.3.jar"
+hash = "419db9f15af0ac694dc53a9cc99fa97c3a0ef787ae3d43d9aff87d2030e3f556"
 
 [[files]]
 file = "mods/hourglass.pw.toml"
@@ -629,14 +634,13 @@ hash = "1d602996f39fb6103a5b968f50ec06800db7125b145570474c9c10e6dcd0c68e"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "e1b49409243ca8ccf9d1ef4d458dc1a887a19f9b18dcd5088d56c19073d57b43"
-metafile = true
-
-[[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "232f73206d09fb0c8cac662fb82bbb53367795818ef05f70c290e391a5e4fa03"
 metafile = true
+
+[[files]]
+file = "mods/notenoughanimations-forge-1.11.1-mc1.20.1.jar"
+hash = "2cab06df5ef2a945bf65dd7e64b6a0dcb74e89acb4e8ac5dc9b7abee354e2e00"
 
 [[files]]
 file = "mods/obscure-api.pw.toml"
@@ -734,9 +738,8 @@ hash = "762eced5d260cdbc94f0acc033efd8fe70fdfe5a28bd8d180e0b052de509893f"
 metafile = true
 
 [[files]]
-file = "mods/skin-layers-3d.pw.toml"
-hash = "96faed6998f9d3d7240f35111b9793370b83e6c4f984545fa228f799398595eb"
-metafile = true
+file = "mods/skinlayers3d-forge-1.10.1-mc1.20.1.jar"
+hash = "a5a4cb6bbb31b14254b2957b99e537817abbf145b579e78351c21e4cfab041a6"
 
 [[files]]
 file = "mods/small-ships.pw.toml"
@@ -776,11 +779,6 @@ metafile = true
 [[files]]
 file = "mods/storage-drawers.pw.toml"
 hash = "371b68e257eaca322ca4e95f4aa8d95441d84110b69243dda818f743a0111ba5"
-metafile = true
-
-[[files]]
-file = "mods/structory.pw.toml"
-hash = "17f162241760e4a26023aff789daa5455a8657e8e68d3bafe6aa19a7b46dd4f3"
 metafile = true
 
 [[files]]
@@ -834,9 +832,8 @@ hash = "0cb70caa22009a495a64a4332480b5ae80cb7fc7ba34c0a48ab8aff7df20b4f7"
 metafile = true
 
 [[files]]
-file = "mods/wildberries.pw.toml"
-hash = "99ab47602111b86ec135087087f9dc65ba38b26de9bdb72379d6bcf4142fc60e"
-metafile = true
+file = "mods/wildberries-1.3.0[forge-1.20.1].jar"
+hash = "d3cff3acb92bcfda81522d5cbf9cff528bb590fe8b4f7eb83d52fac35e1143c6"
 
 [[files]]
 file = "mods/windsweptmod.pw.toml"
