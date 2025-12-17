@@ -180,11 +180,6 @@ hash = "e5df83a3dd1686106741d1d61da5869aed0537c2931a40234e1b3bd2d09e1971"
 metafile = true
 
 [[files]]
-file = "mods/capybara-forge.pw.toml"
-hash = "b7e0c62832cf5e8810a8682fbfc0451b7c114322ecca05c0d0f6e60aef6ff99e"
-metafile = true
-
-[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "ba1bdad41e3c9ec131330f048fc6f9bcb753ca3e9bfa1e41d60d6ca11afbc2e6"
 metafile = true
@@ -623,11 +618,6 @@ hash = "1d602996f39fb6103a5b968f50ec06800db7125b145570474c9c10e6dcd0c68e"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "e1b49409243ca8ccf9d1ef4d458dc1a887a19f9b18dcd5088d56c19073d57b43"
-metafile = true
-
-[[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "232f73206d09fb0c8cac662fb82bbb53367795818ef05f70c290e391a5e4fa03"
 metafile = true
@@ -728,11 +718,6 @@ hash = "762eced5d260cdbc94f0acc033efd8fe70fdfe5a28bd8d180e0b052de509893f"
 metafile = true
 
 [[files]]
-file = "mods/skin-layers-3d.pw.toml"
-hash = "96faed6998f9d3d7240f35111b9793370b83e6c4f984545fa228f799398595eb"
-metafile = true
-
-[[files]]
 file = "mods/small-ships.pw.toml"
 hash = "a2641c9187ec8485df45b2fb25c901f835da50ffe4d9601e4ecc81fc9036eb55"
 metafile = true
@@ -830,11 +815,6 @@ metafile = true
 [[files]]
 file = "mods/woodworks.pw.toml"
 hash = "bd3e31f8c53d1e7ed9c1c513d1749c0e28b5c25b5fa07000b69242e9f322a786"
-metafile = true
-
-[[files]]
-file = "mods/world-host.pw.toml"
-hash = "597057ec7e4e354d3b172f596d287db996d7e2fe0f0f4b70f11585cb261949e1"
 metafile = true
 
 [[files]]
