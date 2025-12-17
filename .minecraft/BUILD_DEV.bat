@@ -38,17 +38,20 @@ if %errorlevel% neq 0 (
 :: --- 3. EXPORTAR ZIP ---
 echo [3/4] Generando ZIP de exportacion...
 
-:: Leer version desde pack.toml (Robusto)
+:: Leer version desde pack.toml
 set "VERSION=UNKNOWN"
-for /f "tokens=2 delims==" %%a in ('findstr /b "version" pack.toml') do (
+:: Buscamos la linea que contiene "version ="
+for /f "tokens=2 delims==" %%a in ('findstr /c:"version =" pack.toml') do (
     set "RAW_VER=%%a"
     goto :FoundVersion
 )
 
 :FoundVersion
 if defined RAW_VER (
+    :: Limpiar comillas y espacios
     set "VERSION=%RAW_VER:"=%"
     set "VERSION=%VERSION: =%"
+    echo      - Version detectada: [%VERSION%]
 )
 
 if not exist "Exports" mkdir "Exports"

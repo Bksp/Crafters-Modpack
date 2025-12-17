@@ -1,5 +1,5 @@
 @echo off
-setlocal
+setlocal enabledelayedexpansion
 title CRAFTERS MODPACK - CLIENTE
 color 0b
 cls
@@ -9,162 +9,96 @@ REM   CRAFTERS MODPACK - CLIENTE
 REM   [Ruta: .minecraft-1.20.1-crafters]
 REM ========================================================
 
-REM Definir directorios y archivos
+REM Directorios clave
 set "SCRIPT_DIR=%~dp0"
-REM Eliminar backslash final de SCRIPT_DIR si existe para consistencia
+REM Quitar slash final si existe
 if "%SCRIPT_DIR:~-1%"=="\" set "SCRIPT_DIR=%SCRIPT_DIR:~0,-1%"
 
-set "INSTALL_DIR=%APPDATA%\.minecraft-1.20.1-crafters"
-set "TEMP_DIR=%TEMP%\CraftersTemp"
+set "MODPACK_NAME=.minecraft-1.20.1-crafters"
+set "TARGET_DIR=%APPDATA%\%MODPACK_NAME%"
 
-REM URLs de Fallback (Solo se usan si no se encuentran archivos locales)
+REM URLs
 set "PACK_URL=https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/pack.toml"
 set "URL_PACKWIZ=https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
-REM Ajustar URL si es necesario, pero priorizaremos local
 set "URL_SKLAUNCHER=https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/Launcher/SKlauncher.jar"
 
+REM Nombres de archivo
 set "BOOTSTRAP_FILE=packwiz-installer-bootstrap.jar"
 set "LAUNCHER_FILE=SKlauncher.jar"
 
-echo.
-echo [1/6] Preparando directorios...
-echo      - Directorio de Instalacion: %INSTALL_DIR%
+echo [1/5] Preparando entorno...
+echo      - Directorio: %TARGET_DIR%
 
-REM Crear carpeta temporal y limpiar
-if not exist "%TEMP_DIR%" mkdir "%TEMP_DIR%"
-del /q "%TEMP_DIR%\*.*" 2>nul
-
-REM Crear carpeta de instalacion si no existe
-if not exist "%INSTALL_DIR%" mkdir "%INSTALL_DIR%"
-
-echo [2/6] Verificando herramientas...
+if not exist "%TARGET_DIR%" mkdir "%TARGET_DIR%"
 
 REM ---------------------------------------------------------
-REM 1. OBTENCION DE BOOTSTRAP (Local > Descarga)
+REM 1. OBTENER SKLAUNCHER (Debe estar junto al BAT o descargarse)
 REM ---------------------------------------------------------
-set "BOOTSTRAP_PATH="
-REM Buscar localmente
-if exist "%SCRIPT_DIR%\%BOOTSTRAP_FILE%" set "BOOTSTRAP_PATH=%SCRIPT_DIR%\%BOOTSTRAP_FILE%"
-if exist "%SCRIPT_DIR%\..\%BOOTSTRAP_FILE%" set "BOOTSTRAP_PATH=%SCRIPT_DIR%\..\%BOOTSTRAP_FILE%"
-if exist "%INSTALL_DIR%\%BOOTSTRAP_FILE%" set "BOOTSTRAP_PATH=%INSTALL_DIR%\%BOOTSTRAP_FILE%"
+set "LAUNCHER_EXE=%SCRIPT_DIR%\%LAUNCHER_FILE%"
 
-if defined BOOTSTRAP_PATH (
-    echo      - Usando Bootstrap local: %BOOTSTRAP_PATH%
-    copy /Y "%BOOTSTRAP_PATH%" "%INSTALL_DIR%\%BOOTSTRAP_FILE%" >nul
-) else (
-    echo      - Descargando Bootstrap desde Internet...
-    curl -L -o "%INSTALL_DIR%\%BOOTSTRAP_FILE%" "%URL_PACKWIZ%"
+if not exist "%LAUNCHER_EXE%" (
+    echo [AVISO] No se encontro %LAUNCHER_FILE% local. Descargando...
+    curl -L -o "%LAUNCHER_EXE%" "%URL_SKLAUNCHER%"
 )
 
-REM Validar Bootstrap
-if not exist "%INSTALL_DIR%\%BOOTSTRAP_FILE%" goto ErrorBootstrap
-for %%I in ("%INSTALL_DIR%\%BOOTSTRAP_FILE%") do if %%~zI LSS 1000 goto ErrorBootstrap
-goto CheckLauncher
-
-:ErrorBootstrap
-echo [ERROR] No se pudo obtener el Bootstrap (packwiz).
-pause
-exit /b 1
-
-REM ---------------------------------------------------------
-REM 2. OBTENCION DE SKLAUNCHER (Local > Descarga)
-REM ---------------------------------------------------------
-:CheckLauncher
-set "LAUNCHER_PATH="
-REM Buscar localmente en orden de prioridad
-if exist "%SCRIPT_DIR%\%LAUNCHER_FILE%" set "LAUNCHER_PATH=%SCRIPT_DIR%\%LAUNCHER_FILE%"
-if exist "%SCRIPT_DIR%\..\%LAUNCHER_FILE%" set "LAUNCHER_PATH=%SCRIPT_DIR%\..\%LAUNCHER_FILE%"
-if exist "%INSTALL_DIR%\%LAUNCHER_FILE%" set "LAUNCHER_PATH=%INSTALL_DIR%\%LAUNCHER_FILE%"
-
-if defined LAUNCHER_PATH (
-    echo      - Usando SKLauncher local: %LAUNCHER_PATH%
-    copy /Y "%LAUNCHER_PATH%" "%INSTALL_DIR%\%LAUNCHER_FILE%" >nul
-) else (
-    echo      - Descargando SKLauncher desde Internet...
-    curl -L -o "%INSTALL_DIR%\%LAUNCHER_FILE%" "%URL_SKLAUNCHER%"
+if not exist "%LAUNCHER_EXE%" (
+    echo [ERROR CRITICO] No se encuentra ni se pudo descargar SKLauncher.
+    pause
+    exit /b 1
 )
 
-REM Validar Launcher
-if not exist "%INSTALL_DIR%\%LAUNCHER_FILE%" goto ErrorLauncher
-for %%I in ("%INSTALL_DIR%\%LAUNCHER_FILE%") do if %%~zI LSS 1000000 goto ErrorLauncher
-goto UpdateModpack
-
-:ErrorLauncher
-echo [ERROR] No se pudo obtener SKLauncher.
-echo Intenta colocar 'SKlauncher.jar' en la misma carpeta que este script.
-pause
-exit /b 1
-
 REM ---------------------------------------------------------
-REM 3. ACTUALIZACION DEL MODPACK
+REM 2. ACTUALIZAR PACK (Packwiz)
 REM ---------------------------------------------------------
-:UpdateModpack
 echo.
-echo [3/6] Iniciando actualizacion (Packwiz)...
-cd /d "%INSTALL_DIR%"
+echo [2/5] Verificando actualizador...
+if not exist "%TARGET_DIR%\%BOOTSTRAP_FILE%" (
+    echo      - Descargando Bootstrap...
+    curl -L -o "%TARGET_DIR%\%BOOTSTRAP_FILE%" "%URL_PACKWIZ%"
+)
 
+echo.
+echo [3/5] Actualizando Mods...
+cd /d "%TARGET_DIR%"
 java -jar "%BOOTSTRAP_FILE%" -g -s client "%PACK_URL%"
-if %errorlevel% neq 0 goto ErrorUpdate
-goto CopyLocalMods
 
-:ErrorUpdate
-echo.
-echo [ERROR] Fallo la actualizacion.
-echo POSIBLES CAUSAS:
-echo 1. 'Hash invalid': El desarrollador modifico archivos sin actualizar el indice (pack.toml).
-echo 2. Sin internet: Verifica tu conexion.
-echo.
-echo Quieres intentar iniciar de todas formas? (Puede crashear)
-set /p "CONTINUE=Escribe S para Si, N para No: "
-if /i "%CONTINUE%"=="S" goto CopyLocalMods
-exit /b 1
+if %errorlevel% neq 0 (
+    echo [ERROR] Fallo la actualizacion. Revisa tu conexion.
+    set /p "RETRY=Deseas continuar de todas formas? (S/N): "
+    if /i "!RETRY!" neq "S" exit /b 1
+)
 
 REM ---------------------------------------------------------
-REM 4. GESTION DE MODS PRIVADOS (mods_github -> mods)
+REM 3. GESTION DE MODS PRIVADOS (mods_github)
 REM ---------------------------------------------------------
-:CopyLocalMods
 echo.
-echo [4/6] Gestionando mods privados...
+echo [4/5] Gestionando mods privados...
+set "LOCAL_MODS=%SCRIPT_DIR%\mods_github"
 
-REM Definir origen de mods locales
-set "LOCAL_MODS_SOURCE="
-if exist "%SCRIPT_DIR%\mods_github" set "LOCAL_MODS_SOURCE=%SCRIPT_DIR%\mods_github"
-if exist "%SCRIPT_DIR%\..\.minecraft\mods_github" set "LOCAL_MODS_SOURCE=%SCRIPT_DIR%\..\.minecraft\mods_github"
+if exist "%LOCAL_MODS%" (
+    echo      - Instalando mods locales...
+    if not exist "mods" mkdir "mods"
+    xcopy /Y "%LOCAL_MODS%\*.jar" "mods\" >nul
+)
 
-if defined LOCAL_MODS_SOURCE (
-    echo      - Fuente de mods detectada: %LOCAL_MODS_SOURCE%
-    
-    REM Copiar a carpeta de instalacion temporalmente (mods_github) para luego mover
-    xcopy /E /I /Y "%LOCAL_MODS_SOURCE%" "%INSTALL_DIR%\mods_github" >nul
-    
-    REM Mover de mods_github a mods (aplanando estructura)
-    if not exist "%INSTALL_DIR%\mods" mkdir "%INSTALL_DIR%\mods"
-    
-    echo      - Moviendo archivos .jar a la carpeta mods...
-    move /Y "%INSTALL_DIR%\mods_github\*.jar" "%INSTALL_DIR%\mods\" >nul
-    
-    REM Limpiar carpeta auxiliar si quedo vacia o con basura
-    rd /s /q "%INSTALL_DIR%\mods_github" 2>nul
-    
-    echo      - Mods privados instalados exitosamente.
-) else (
-    echo      - No se encontraron mods locales (mods_github). Omitiendo.
+REM ---------------------------------------------------------
+REM 4. INYECCION DE PERFIL (launcher_profiles.json)
+REM ---------------------------------------------------------
+REM Packwiz ya deberia haber descargado launcher_profiles.json si esta en el index.
+REM Pero si falla o es la primera vez, nos aseguramos de que no este corrupto.
+if not exist "launcher_profiles.json" (
+    echo [ALERTA] No se encontro perfil. Se creara uno nuevo al abrir el launcher.
 )
 
 REM ---------------------------------------------------------
 REM 5. LANZAMIENTO
 REM ---------------------------------------------------------
-:Launch
 echo.
-echo [5/6] Limpiando temporales...
-rd /s /q "%TEMP_DIR%" 2>nul
+echo [5/5] Iniciando SKLauncher...
+echo      - Usando instancia: %TARGET_DIR%
 
-echo.
-echo [6/6] Abriendo Launcher...
-echo      - Instancia: %INSTALL_DIR%
-
-REM Iniciar SKLauncher apuntando al directorio de trabajo correcto
-start "" "%INSTALL_DIR%\%LAUNCHER_FILE%" --workDir "%INSTALL_DIR%"
+cd /d "%SCRIPT_DIR%"
+start "" javaw -jar "%LAUNCHER_FILE%" --workDir "%TARGET_DIR%"
 
 timeout /t 3 >nul
 exit
