@@ -1,0 +1,10 @@
+# --- 1. BASURA DEL IDE Y SISTEMA ---
+.history/
+.vscode/
+.idea/
+*.log
+
+# --- 2. ARCHIVOS TEMPORALES DE WINDOWS/MAC ---
+Thumbs.db
+Desktop.ini
+.DS_Store

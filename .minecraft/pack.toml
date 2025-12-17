@@ -1,12 +1,12 @@
 name = "Crafters Modpack"
-author = "Alessy - Bksp"
- $m = $args[0]; $v = [int]$m.Groups[2].Value + 1; 'version = "' + $m.Groups[1].Value + $v + '"' 
+author = "Bksp"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d792b5dca6ecc43cf9b920d80a746970d7a01deb13d1da47b9c1df82c3529cb6"
+hash = "db0aca29215d08a7bf1f1f94a216e238c9fcb2e163e1424f12d730d079641e97"
 
 [versions]
 forge = "47.4.10"
