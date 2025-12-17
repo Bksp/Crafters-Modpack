@@ -1,0 +1,12 @@
+# Forzar modo binario para evitar corrupcion de hashes
+*.jar binary
+*.zip binary
+*.ogg binary
+*.mp3 binary
+*.fsh binary
+*.vsh binary
+*.xcf binary
+*.png binary
+
+# Archivos de texto de packwiz
+*.toml text eol=lf

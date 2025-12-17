@@ -1,0 +1,39 @@
+{
+  "profiles": {
+    "c78a3f104fd34106a19f9a9e79787922": {
+      "name": "",
+      "type": "latest-release",
+      "created": "2025-12-17T00:42:39-03:00",
+      "lastUsed": "2025-12-17T00:42:39-03:00"
+    },
+    "a034c697f893437996c87d73b20edd40": {
+      "name": "Crafters Modpack",
+      "gameDir": "C:\\Users\\LOGAN\\AppData\\Roaming\\.minecraft-1.20.1-crafters\\modpacks\\f1525bd0-f60f-3b9f-bbe7-8eaaaab5b61b",
+      "lastVersionId": "1.20.1-forge-47.4.10",
+      "type": "custom",
+      "created": "2025-12-17T00:51:24-03:00",
+      "lastUsed": "2025-12-17T00:51:24-03:00"
+    },
+    "c5b200e712e4433b840d3e1ead591808": {
+      "name": "",
+      "type": "latest-snapshot",
+      "created": "2025-12-17T00:42:39-03:00",
+      "lastUsed": "2025-12-17T00:42:39-03:00"
+    }
+  },
+  "selectedProfile": "c78a3f104fd34106a19f9a9e79787922",
+  "settings": {
+    "crashAssistance": false,
+    "enableAdvanced": false,
+    "enableAnalytics": false,
+    "enableHistorical": false,
+    "enableReleases": false,
+    "enableSnapshots": false,
+    "keepLauncherOpen": false,
+    "profileSorting": "byName",
+    "showGameLog": false,
+    "showMenu": false,
+    "soundOn": false
+  },
+  "version": 4
+}

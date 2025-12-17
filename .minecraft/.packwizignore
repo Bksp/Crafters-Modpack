@@ -4,3 +4,4 @@ packwiz.exe
 *.ps1
 .git/
 .github/
+.gitattributes
