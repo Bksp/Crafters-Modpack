@@ -1,70 +1,78 @@
 @echo off
-title CRAFTERS BUILDER - ADMIN
+title CRAFTERS BUILDER - DEV
 cd /d "%~dp0"
 color 0b
 cls
 
 echo ========================================================
-echo   CRAFTERS MODPACK - BUILDER ^& EXPORT
-echo   [Logica: Refresh - Detect - Clean - Export]
+echo   CRAFTERS MODPACK - BUILDER TOOL
+echo   [Refresca indices y prepara para Commit]
 echo ========================================================
 echo.
 
-:: --- 1. REFRESH INICIAL (Detectar Cambios) ---
-echo [1/5] Registrando nuevos archivos (Refresh Inicial)...
-:: Esto mete los nuevos .jar al indice temporalmente
-packwiz.exe refresh
-
-:: --- 2. DETECCION CURSEFORGE (Asociaciones) ---
-echo [2/5] Buscando asociaciones en CurseForge...
-:: Packwiz escanea los archivos registrados para ver si existen en la nube
-packwiz.exe curseforge detect
-
-:: --- 3. LIMPIEZA DE SEGURIDAD (Sanitizacion) ---
-echo [3/5] Limpiando carpetas privadas (mods_github)...
-:: Borramos los .toml generados erroneamente en tus carpetas locales
+:: --- 1. LIMPIEZA DE METADATOS (Forzar Local) ---
+echo [1/4] Limpiando metadatos para forzar archivos locales...
+:: Eliminamos .toml en carpetas que suelen tener contenido custom
+:: para que packwiz los re-indexe como archivos del repo y no de Curseforge.
 if exist "mods_github\*.toml" del /q "mods_github\*.toml"
 if exist "shaderpacks\*.toml" del /q "shaderpacks\*.toml"
 if exist "resourcepacks\*.toml" del /q "resourcepacks\*.toml"
 
-:: --- 4. REFRESH FINAL (Aplicar Cambios) ---
-echo [4/5] Actualizando indices finales (Refresh Final)...
-:: OBLIGATORIO: Ahora que borramos .tomls y creamos otros, 
-:: debemos actualizar el indice para el export.
+:: --- 2. PACKWIZ REFRESH (Nucleo) ---
+echo [2/4] Actualizando indices de Packwiz...
+
+:: Detectar enlaces a CurseForge para mods normales (evita re-descargas)
+packwiz.exe curseforge detect
+
+:: REFRESH FINAL: Calcula hashes de TODOS los archivos actuales
+echo      - Calculando hashes...
 packwiz.exe refresh
 
 if %errorlevel% neq 0 (
     color 0c
-    echo.
-    echo [ERROR] El refresh final fallo. Revisa el pack.toml.
+    echo [ERROR] Packwiz fallo al refrescar. Revisa la consola.
     pause
     exit /b
 )
 
-:: --- 5. EXPORTAR ZIP ---
-echo [5/5] Exportando version final...
+:: --- 3. EXPORTAR ZIP ---
+echo [3/4] Generando ZIP de exportacion...
 
-:: Leer version
+:: Leer version desde pack.toml
+set "VERSION=UNKNOWN"
 for /f "tokens=2 delims==" %%a in ('findstr "version" pack.toml') do set "RAW_VER=%%a"
-set "VERSION=%RAW_VER:"=%"
-set "VERSION=%VERSION: =%"
+if defined RAW_VER (
+    set "VERSION=%RAW_VER:"=%"
+    set "VERSION=%VERSION: =%"
+)
 
 if not exist "Exports" mkdir "Exports"
 set "ZIP_NAME=Exports\Crafters-Modpack-v%VERSION%.zip"
 
 packwiz.exe curseforge export --output "%ZIP_NAME%"
 
-if %errorlevel% equ 0 (
-    color 0a
-    echo.
-    echo ========================================================
-    echo   BUILD EXITOSO
-    echo ========================================================
-    echo   Archivo: %ZIP_NAME%
-) else (
-    color 0c
-    echo [ERROR] Fallo la exportacion.
-)
-
+:: --- 4. VALIDACION GIT (CRITICO) ---
+color 0e
+echo.
+echo [4/4] VERIFICACION DE SINCRONIZACION
+echo ========================================================
+echo   ATENCION: Para arreglar el error "Hash invalid":
+echo   1. Revisa los archivos modificados abajo via GIT.
+echo   2. Debes hacer COMMIT y PUSH de TODO, especialmente:
+echo      - pack.toml
+echo      - index.toml
+echo      - Cualquier archivo de config/shader modificado.
+echo ========================================================
+echo.
+echo [ESTADO ACTUAL DE GIT]:
+git status -s
+echo.
+echo ========================================================
+echo SI VES ARCHIVOS ARRIBA, EJECUTA EN TU TERMINAL:
+echo    git add .
+echo    git commit -m "Update modpack v%VERSION%"
+echo    git push
+echo ========================================================
 echo.
 pause
+exit
