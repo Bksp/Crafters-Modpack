@@ -798,7 +798,6 @@ _version = 3
 			# 
 			# NAME_ONLY: Example: "Minecraft Server" 
 			# IP_ONLY: Example: "192.168.1.40" 
-			# NAME_IP: Example: "Minecraft Server IP 192.168.1.40" 
-			# NAME_IP_PORT: Example: "Minecraft Server IP 192.168.1.40:25565"NAME_IP_PORT_MC_VERSION: Example: "Minecraft Server IP 192.168.1.40:25565 GameVersion 1.16.5"
+			# IP_AND_NAME: Example: "192.168.1.40 Minecraft Server" 
+			# NAME_AND_IP: Example: "Minecraft Server 192.168.1.40"
 			serverFolderNameMode = "NAME_ONLY"
-

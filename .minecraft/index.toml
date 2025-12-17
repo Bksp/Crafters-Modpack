@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "7839d07e77260a11f2141baf727ae685fccff82f043ed4b3e30a22bac0ec4376"
+hash = "cde2fcae1e31543f68a70115d2055c769667ef7c531dc3effe718fcf5510580d"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
