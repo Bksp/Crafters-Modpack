@@ -1,12 +1,12 @@
 name = "Crafters Modpack"
 author = "Alessy - Bksp"
-version = "1.0.18"
+version = "1.0.19"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a85ce187aeba38d6703b8a3d3fbc913bb87d7384b7533b3c30f1abde5ee3bebd"
+hash = "13f38c865d88850bedc7e9af9083ef19a6cd82017380cb6643c31255a203766e"
 
 [versions]
 forge = "47.4.10"
