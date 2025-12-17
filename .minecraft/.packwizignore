@@ -6,3 +6,6 @@ packwiz.exe
 .github/
 .gitattributes
 .history/
+# Ignorar configuraciones de shaders que cambian solas (timestamps)
+.minecraft/shaderpacks/*.txt
+shaderpacks/*.txt
