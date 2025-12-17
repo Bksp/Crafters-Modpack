@@ -32,17 +32,23 @@ echo      - Directorio: %TARGET_DIR%
 if not exist "%TARGET_DIR%" mkdir "%TARGET_DIR%"
 
 REM ---------------------------------------------------------
-REM 1. OBTENER SKLAUNCHER (Debe estar junto al BAT o descargarse)
+REM 1. OBTENER SKLAUNCHER (EN CARPETA DE INSTALACION)
 REM ---------------------------------------------------------
-set "LAUNCHER_EXE=%SCRIPT_DIR%\%LAUNCHER_FILE%"
+set "LAUNCHER_EXE=%TARGET_DIR%\%LAUNCHER_FILE%"
+
+REM Si existe localmente junto al script, lo copiamos a AppData (Offline Support)
+if exist "%SCRIPT_DIR%\%LAUNCHER_FILE%" (
+    echo [INFO] Copiando SKLauncher local a AppData...
+    copy /Y "%SCRIPT_DIR%\%LAUNCHER_FILE%" "%LAUNCHER_EXE%" >nul
+)
 
 if not exist "%LAUNCHER_EXE%" (
-    echo [AVISO] No se encontro %LAUNCHER_FILE% local. Descargando...
+    echo [AVISO] Descargando SKLauncher en AppData...
     curl -L -o "%LAUNCHER_EXE%" "%URL_SKLAUNCHER%"
 )
 
 if not exist "%LAUNCHER_EXE%" (
-    echo [ERROR CRITICO] No se encuentra ni se pudo descargar SKLauncher.
+    echo [ERROR CRITICO] No se pudo descargar SKLauncher.
     pause
     exit /b 1
 )
@@ -84,10 +90,8 @@ if exist "%LOCAL_MODS%" (
 REM ---------------------------------------------------------
 REM 4. INYECCION DE PERFIL (launcher_profiles.json)
 REM ---------------------------------------------------------
-REM Packwiz ya deberia haber descargado launcher_profiles.json si esta en el index.
-REM Pero si falla o es la primera vez, nos aseguramos de que no este corrupto.
 if not exist "launcher_profiles.json" (
-    echo [ALERTA] No se encontro perfil. Se creara uno nuevo al abrir el launcher.
+    echo [ALERTA] No se encontro perfil. Se creara uno nuevo.
 )
 
 REM ---------------------------------------------------------
@@ -97,7 +101,8 @@ echo.
 echo [5/5] Iniciando SKLauncher...
 echo      - Usando instancia: %TARGET_DIR%
 
-cd /d "%SCRIPT_DIR%"
+REM Ejecutamos SKLauncher DESDE la carpeta de AppData
+cd /d "%TARGET_DIR%"
 start "" javaw -jar "%LAUNCHER_FILE%" --workDir "%TARGET_DIR%"
 
 timeout /t 3 >nul
