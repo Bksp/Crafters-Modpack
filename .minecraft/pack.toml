@@ -1,6 +1,6 @@
 name = "Crafters Modpack"
 author = "Alessy - Bksp"
-version = "1.0.19"
+ $m = $args[0]; $v = [int]$m.Groups[2].Value + 1; 'version = "' + $m.Groups[1].Value + $v + '"' 
 pack-format = "packwiz:1.1.0"
 
 [index]
