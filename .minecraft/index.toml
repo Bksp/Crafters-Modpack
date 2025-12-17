@@ -17,10 +17,6 @@ file = "config/chunky/tasks/minecraft/overworld.properties"
 hash = "47e2b558540bff180707cc5e5d31f53fd5bd3d61a253f5df5497cea27a0f2786"
 
 [[files]]
-file = "launcher_profiles.json"
-hash = "0dee1def3e28e9497e3243c652abb99c6bdc0d59bc77671bc63f0b67242959e7"
-
-[[files]]
 file = "mods/CarbonConfig-1.20-1.2.8.1.jar"
 hash = "c88356752bb81f5722f7ad82b45895488ba7295395d889a76273a1172abe71b5"
 
@@ -378,6 +374,11 @@ hash = "9780912a21d843e262d6f137ae4e7f95ae21e059e82c8a449b5930c767b06dc4"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "405c6f9447f29e70146c7c75bd968c91091afb692513473b7454aedaeea12f20"
+metafile = true
+
+[[files]]
 file = "mods/every-compat.pw.toml"
 hash = "7e2fb62f8f972ee92174e4e7e5d97dfbae675de068b31a7558aad7188a467851"
 metafile = true
@@ -465,6 +466,11 @@ metafile = true
 [[files]]
 file = "mods/haunted-harvest.pw.toml"
 hash = "3ed57a44b27d8de90bc53971a135610476f1b09779e9e5a31a9bc27339da6ae9"
+metafile = true
+
+[[files]]
+file = "mods/hexerei.pw.toml"
+hash = "79bfdf5bd4e7cc009b4ae84ab27b1f358bf2da1aa8f30102e77e1aae66aed688"
 metafile = true
 
 [[files]]
@@ -777,6 +783,11 @@ hash = "371b68e257eaca322ca4e95f4aa8d95441d84110b69243dda818f743a0111ba5"
 metafile = true
 
 [[files]]
+file = "mods/structory.pw.toml"
+hash = "17f162241760e4a26023aff789daa5455a8657e8e68d3bafe6aa19a7b46dd4f3"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "31883f2697767614c5b0671e9600c4e584c8e60be8062867667ddfc9d2624e23"
 metafile = true
@@ -827,6 +838,11 @@ hash = "0cb70caa22009a495a64a4332480b5ae80cb7fc7ba34c0a48ab8aff7df20b4f7"
 metafile = true
 
 [[files]]
+file = "mods/wildberries.pw.toml"
+hash = "99ab47602111b86ec135087087f9dc65ba38b26de9bdb72379d6bcf4142fc60e"
+metafile = true
+
+[[files]]
 file = "mods/windsweptmod.pw.toml"
 hash = "4318e5b78e0f42be018977f57338822b017a952acf5caa3a106abb3a9edb6bf9"
 metafile = true
@@ -834,6 +850,11 @@ metafile = true
 [[files]]
 file = "mods/woodworks.pw.toml"
 hash = "bd3e31f8c53d1e7ed9c1c513d1749c0e28b5c25b5fa07000b69242e9f322a786"
+metafile = true
+
+[[files]]
+file = "mods/world-host.pw.toml"
+hash = "597057ec7e4e354d3b172f596d287db996d7e2fe0f0f4b70f11585cb261949e1"
 metafile = true
 
 [[files]]

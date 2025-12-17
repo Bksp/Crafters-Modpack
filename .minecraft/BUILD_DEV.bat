@@ -1,52 +1,59 @@
 @echo off
 setlocal EnableDelayedExpansion
-title CRAFTERS DEV TOOL - ACTUALIZADO
+title CRAFTERS DEV TOOL - PROTECCION TOTAL
 color 0b
 cls
 
 echo ========================================================
 echo     HERRAMIENTA DE DESARROLLO - CRAFTERS MODPACK
 echo ========================================================
+
+:: 0. FASE DE RESCATE (SEGURIDAD CRITICA)
+:: Antes de que Packwiz toque nada, movemos los mods prohibidos a su bunker.
+echo [0/5] Asegurando mods protegidos (Evacuacion)...
+
+if not exist "mods_github" mkdir "mods_github"
+
+:: Lista de mods que JAMAS deben ser tocados por curseforge detect
+:: Si estan en 'mods', los movemos YA a 'mods_github'
+if exist "mods\wildberries*.jar" move /Y "mods\wildberries*.jar" "mods_github\" >nul
+if exist "mods\Structory*.jar" move /Y "mods\Structory*.jar" "mods_github\" >nul
+if exist "mods\skinlayers3d*.jar" move /Y "mods\skinlayers3d*.jar" "mods_github\" >nul
+if exist "mods\notenoughanimations*.jar" move /Y "mods\notenoughanimations*.jar" "mods_github\" >nul
+if exist "mods\capybaramod*.jar" move /Y "mods\capybaramod*.jar" "mods_github\" >nul
+if exist "mods\hexerei*.jar" move /Y "mods\hexerei*.jar" "mods_github\" >nul
+if exist "mods\entityculling*.jar" move /Y "mods\entityculling*.jar" "mods_github\" >nul
+
+:: Tambien borramos cualquier .toml basura que haya quedado en mods_github
+if exist "mods_github\*.toml" del /q "mods_github\*.toml"
+
+echo      - Mods asegurados en la carpeta segura.
 echo.
 
-:: 1. DETECTAR CAMBIOS EN MODS (AUTO-ASOCIAR LOS NUEVOS)
-echo [1/6] Escaneando carpeta de mods (CurseForge)...
+:: 1. DETECTAR CAMBIOS (Ahora es seguro)
+echo [1/5] Escaneando carpeta de mods (Solo mods normales)...
+:: Como ya sacamos los archivos, Packwiz NO los encontrara y NO creara tomls
 call .\packwiz.exe curseforge detect
 echo.
 
-:: 2. LIMPIEZA DE "FORZADOS A GITHUB" (EL TRUCO)
-:: Aqui borramos los .pw.toml de los mods que QUEREMOS que sean locales.
-:: Al no tener .toml, packwiz los subira al index como archivos directos.
-echo [2/6] Aplicando excepciones (Forzando carga desde GitHub)...
+:: 2. LIMPIEZA DE RESOURCES (Por si acaso)
+echo [2/5] Limpiando metadatos de recursos...
+if exist "resourcepacks\*.toml" del /q "resourcepacks\*.toml"
+if exist "shaderpacks\*.toml" del /q "shaderpacks\*.toml"
 
-:: --- LISTA NEGRA DE MODS (Solo borramos sus .toml) ---
-if exist "mods\wildberries*.toml" del "mods\wildberries*.toml"
-if exist "mods\Structory*.toml" del "mods\Structory*.toml"
-if exist "mods\skinlayers3d*.toml" del "mods\skinlayers3d*.toml"
-if exist "mods\notenoughanimations*.toml" del "mods\notenoughanimations*.toml"
-if exist "mods\capybaramod*.toml" del "mods\capybaramod*.toml"
-if exist "mods\hexerei*.toml" del "mods\hexerei*.toml"
-if exist "mods\entityculling*.toml" del "mods\entityculling*.toml"
-
-:: --- LIMPIEZA DE RESOURCES Y SHADERS ---
-:: Packwiz no suele generar tomls aqui solo, pero por seguridad borramos cualquier rastro
-if exist "resourcepacks\*.toml" del "resourcepacks\*.toml"
-if exist "shaderpacks\*.toml" del "shaderpacks\*.toml"
-
-echo        - Excepciones aplicadas.
-
-:: 3. REFRESCAR INDICES (HASHES REALES)
-echo [3/6] Recalculando hashes (Refresh)...
+:: 3. REFRESCAR INDICES
+echo [3/5] Calculando Hashes (Indexando)...
+:: Packwiz leera 'mods' (Curseforge) y 'mods_github' (Local)
 call .\packwiz.exe refresh
 if %errorlevel% neq 0 (
     color 0C
-    echo [ERROR] Fallo al refrescar. Revisa si hay errores de sintaxis.
+    echo [ERROR] Fallo el refresh.
     pause
     exit /b
 )
 
-:: 4. INCREMENTAR VERSION
-echo [4/6] Incrementando version en pack.toml...
+:: 4. AUTO-VERSIONADO
+echo [4/5] Incrementando version...
 set "psFile=%temp%\bump_ver_%random%.ps1"
 (
 echo $c = Get-Content pack.toml; $p = 'version = "(\d+)\.(\d+)\.(\d+)"'
@@ -59,34 +66,14 @@ echo } else { Write-Host "ERR" }
 for /f "usebackq delims=" %%v in (`powershell -Noprofile -ExecutionPolicy Bypass -File "%psFile%"`) do set "NEW_VER=%%v"
 del "%psFile%"
 
-:: 5. GENERAR IGNORADOS
-echo [5/6] Actualizando .packwizignore...
-(
-    echo Exports/
-    echo packwiz.exe
-    echo *.bat
-    echo *.ps1
-    echo .git/
-    echo .github/
-    echo .gitattributes
-) > .packwizignore
-:: Refresh rapido para aplicar el ignore
-call .\packwiz.exe refresh >nul
-
-:: 6. EXPORTAR (OPCIONAL SI USAS GITHUB DIRECO)
-echo [6/6] Generando ZIP de respaldo...
-if not exist "Exports" mkdir "Exports"
-call .\packwiz.exe curseforge export --output "Exports\Crafters_Modpack_v%NEW_VER%.zip" >nul
-
+:: 5. SUBIDA
 echo.
 echo ========================================================
-echo     LISTO PARA SUBIR A GITHUB
-echo     Version: %NEW_VER%
+echo     TODO LISTO. VERSION: %NEW_VER%
 echo ========================================================
 echo.
-echo     RECUERDA:
-echo     1. Haz: git add .
-echo     2. Haz: git commit -m "Update v%NEW_VER%"
-echo     3. Haz: git push
+echo     Haz: git add .
+echo     Haz: git commit -m "Update v%NEW_VER%"
+echo     Haz: git push
 echo.
 pause

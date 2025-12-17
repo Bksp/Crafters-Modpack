@@ -5,3 +5,4 @@ packwiz.exe
 .git/
 .github/
 .gitattributes
+launcher_profiles.json
