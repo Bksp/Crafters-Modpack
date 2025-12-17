@@ -81,10 +81,19 @@ echo.
 echo [4/5] Gestionando mods privados...
 set "LOCAL_MODS=%SCRIPT_DIR%\mods_github"
 
+REM 1. Si existen mods junto al script (USB/Local), copiarlos a la carpeta de la instancia
 if exist "%LOCAL_MODS%" (
-    echo      - Instalando mods locales...
+    echo      - Copiando mods locales a la instancia...
+    xcopy /E /I /Y "%LOCAL_MODS%" "mods_github\" >nul
+)
+
+REM 2. Mover TODO lo que este en 'mods_github' (sea descargado o copiado) a 'mods'
+if exist "mods_github" (
+    echo      - Integrando mods privados...
     if not exist "mods" mkdir "mods"
-    xcopy /Y "%LOCAL_MODS%\*.jar" "mods\" >nul
+    move /Y "mods_github\*.jar" "mods\" >nul
+    REM Limpiamos la carpeta temporal
+    rd /s /q "mods_github" 2>nul
 )
 
 REM ---------------------------------------------------------
@@ -99,11 +108,14 @@ REM 5. LANZAMIENTO
 REM ---------------------------------------------------------
 echo.
 echo [5/5] Iniciando SKLauncher...
-echo      - Usando instancia: %TARGET_DIR%
+echo      - Ejecutable: %LAUNCHER_EXE%
+echo      - Directorio: %TARGET_DIR%
 
-REM Ejecutamos SKLauncher DESDE la carpeta de AppData
+REM Asegurarnos de estar en el directorio correcto
 cd /d "%TARGET_DIR%"
-start "" javaw -jar "%LAUNCHER_FILE%" --workDir "%TARGET_DIR%"
+
+REM Ejecutar EL JAR QUE ESTA EN APPDATA, no el del script
+start "" javaw -jar "%LAUNCHER_EXE%" --workDir "%TARGET_DIR%"
 
 timeout /t 3 >nul
 exit
