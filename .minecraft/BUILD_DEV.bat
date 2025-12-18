@@ -28,6 +28,11 @@ packwiz.exe curseforge detect
 echo      - Calculando hashes...
 packwiz.exe refresh
 
+    :: --- 2.5. ZIP DE OVERRIDES (Configs manuales) ---
+    echo      - Creando config_overrides.zip (Ignorando hashes)...
+    powershell -Command "Compress-Archive -Path config, shaderpacks\*.txt -DestinationPath config_overrides.zip -Force"
+    if exist "config_overrides.zip" echo      - Zip generado correctamente.
+
 if %errorlevel% neq 0 (
     color 0c
     echo [ERROR] Packwiz fallo al refrescar. Revisa la consola.

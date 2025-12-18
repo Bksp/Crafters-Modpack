@@ -1,7 +1,6 @@
 @echo off
 setlocal enabledelayedexpansion
 title CRAFTERS MODPACK - CLIENTE
-color 0b
 cls
 
 REM ========================================================
@@ -79,17 +78,20 @@ REM ---------------------------------------------------------
 REM 2.5 ARREGLO MANUAL DE ARCHIVOS (Hash Fix)
 REM ---------------------------------------------------------
 echo.
-echo [INFO] Descargando configuraciones especiales...
+echo.
+echo [INFO] Descargando y aplicando configuraciones globales (Overrides)...
 
-if not exist "%TARGET_DIR%\config" mkdir "%TARGET_DIR%\config"
-if not exist "%TARGET_DIR%\shaderpacks" mkdir "%TARGET_DIR%\shaderpacks"
+REM Descargamos el ZIP generado por BUILD_DEV (contiene config/ y ajustes de shaders)
+curl -L -o "%TARGET_DIR%\config_overrides.zip" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/config_overrides.zip"
 
-echo      - Descargando DistantHorizons.toml...
-curl -L -o "%TARGET_DIR%\config\DistantHorizons.toml" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/config/DistantHorizons.toml"
+if exist "%TARGET_DIR%\config_overrides.zip" (
+    echo      - Extrayendo configuraciones...
+    powershell -Command "Expand-Archive -Path '%TARGET_DIR%\config_overrides.zip' -DestinationPath '%TARGET_DIR%' -Force"
+    del "%TARGET_DIR%\config_overrides.zip"
+) else (
+    echo [ALERTA] No se pudo descargar config_overrides.zip
+)
 
-echo      - Descargando shaderpacks config...
-REM Descargamos .txt de shaders que suelen dar conflicto de Hash
-curl -L -o "%TARGET_DIR%\shaderpacks\BSL_v8.4-Modded-by-Bksp.zip.txt" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/shaderpacks/BSL_v8.4-Modded-by-Bksp.zip.txt"
 
 REM ---------------------------------------------------------
 REM 3. GESTION DE MODS PRIVADOS (mods_github)
