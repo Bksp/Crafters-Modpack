@@ -29,8 +29,18 @@ echo      - Calculando hashes...
 packwiz.exe refresh
 
     :: --- 2.5. ZIP DE OVERRIDES (Configs manuales) ---
-    echo      - Creando config_overrides.zip (Ignorando hashes)...
-    powershell -Command "Compress-Archive -Path config, shaderpacks\*.txt -DestinationPath config_overrides.zip -Force"
+    echo      - Preparando archivos de override...
+    if exist "temp_overrides" rd /s /q "temp_overrides"
+    mkdir "temp_overrides\config"
+    mkdir "temp_overrides\shaderpacks"
+    
+    xcopy /E /I /Y "config" "temp_overrides\config" >nul
+    copy /Y "shaderpacks\*.txt" "temp_overrides\shaderpacks" >nul
+    
+    echo      - Comprimiendo overrides (config + shader txt)...
+    powershell -Command "Compress-Archive -Path 'temp_overrides\*' -DestinationPath config_overrides.zip -Force"
+    
+    rd /s /q "temp_overrides"
     if exist "config_overrides.zip" echo      - Zip generado correctamente.
 
 if %errorlevel% neq 0 (
