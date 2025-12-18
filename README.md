@@ -6,53 +6,50 @@
 
 </div>
 
-# Contiene
-## 160 Mods Para Una Nueva Experiencia Vanilla Mejorada
-- Biomas ( Biomes O Plenty | Ecologies | Galosphere )
-- Animales y Enemigos ( Alex Mobs | Copper Golem | Aquamirae )
-- Armaduras y Herramientas ( Immersive Armors | Botania | Additional Additions )
-- Estructuras ( Repurposed Structures | Dungeons Arise | Structory )
-- Mecanicas y Decoración ( Storage Drawers / Furnish / Create )
-- Rendimiento ( Better FPS | FPS Reducer )
-- Un Montón de Bloques e Items de Decoración
+# Crafters Modpack (1.20.1)
 
-## Resource Packs para Aumentar la Inmersión
-- All Glowing +   (Menas y Mobs Brillantes) 
-- Full Icons on Minimap   (Ver los Mobs Cercanos)
-- Dark Mode   (Una Interfaz Más Limpia)
+Una experiencia de Minecraft Vanilla mejorada con mods cuidadosamente seleccionados para equilibrar exploración, construcción, combate y rendimiento.
 
-## Shaders
-- Bsl Configurado para reconocer Todas los nuevos bloques e Items
-- All Mods Waves + (Bksp)
+## 🌟 Contenido Principal
 
-## Instalación
+*   **Biomas y Mundo**: Nuevos biomas impresionantes con *Biomes O' Plenty*, *Ecologies* y *Galosphere*.
+*   **Vida**: *Alex's Mobs*, *Aquamirae* y más criaturas para poblar tu mundo.
+*   **Equipamiento**: Armaduras inmersivas y herramientas expandidas.
+*   **Estructuras**: Mazmorras y estructuras re-imaginadas para recompensar la exploración.
+*   **Tecnología y Decoración**: *Create*, *Furniture* y almacenamiento mejorado.
+*   **Rendimiento**: Optimizado con mods de mejora de FPS y correcciones de lag.
+*   **Gráficos**: Incluye Shaders y Resource Packs pre-configurados para una inmersión total (Glowing Ores, Minimapas, Dark Mode).
 
-*Si no Tienes el Launcher Oficial te Recomiendo Instalar <a href="https://skmedix.pl/sklauncher/downloads" target="_blank">SKlauncher*</a>
+## 🚀 Instalación y Uso
 
-```
-- Descarga el .zip de este repositorio
-- Descomprime (Donde Quieras)
-- Ejecuta el Launcher (SKlauncher) y Configuralo con tu cuenta
-- Ejecuta "forge-1.19.2-43.3.0-installer.jar"
-- Reinicia el Launcher y Selecciona el Perfil (Puedes configurar la Ram que quieres que utilice)
-- Ejecuta el .bat (Eliminará La Carpeta de Mods)
-- Al iniciar el Juego Activa los Resource Packs (y el Shader si lo Quieres)
-- (Si tienes 2 GPU recomiendo verificar si estas ejecutando el juego con la GPU Dedicada)
-```
-## Apuntes y Memorias
+Este modpack cuenta con un instalador automático que gestiona todo por ti.
 
-```
-Me he tomado el tiempo de integrar correctamente algunos mods,
-para respetar la dificultad el balance del juego
-o incluso para hacerlos compatibles entre sí, 
-para que todos los mods estén dentro de un mismo ¿"ecosistema"?, 
-como por ejemplo Crafteos o texturas además de integrar las traducciones, 
-animaciones, sprites (para Xaero´s). 
+### Requisitos Previos
+*   Tener **Java** instalado (Java 17 o superior recomendado para MC 1.20.1).
 
-Me encuentro en la búsqueda de una experiencia que tenga todo que dar, 
-a costa de todo el esfuerzo que lo requiera. 
+### Pasos
+1.  **Descarga** este repositorio (o el archivo `.zip` de la última release).
+2.  Descomprime el archivo si lo descargaste como ZIP.
+3.  Entra en la carpeta `Launcher`.
+4.  Ejecuta el archivo `Crafters-Modpack.bat`.
 
-```
+> **¿Qué hace el script?**
+> *   Crea una instancia aislada en `%APPDATA%\.minecraft-1.20.1-crafters` (no toca tu `.minecraft` original).
+> *   Descarga e instala **SKlauncher** automáticamente.
+> *   Descarga y actualiza todos los mods a la última versión usando Packwiz.
+> *   Inicia el launcher con la configuración correcta.
+
+5.  Una vez abierto **SKlauncher**:
+    *   Inicia sesión (Cuenta Mojang/Microsoft o Modo Offline).
+    *   Verifica que el perfil o instancia seleccione la carpeta correcta (generalmente automático).
+    *   ¡Dale a Jugar!
+
+## ⚠️ Notas Importantes
+
+*   **Actualizaciones**: Cada vez que quieras jugar, se recomienda abrir el juego desde el `Crafters-Modpack.bat`. Esto verificará automáticamente si hay nuevas actualizaciones de mods y las descargará antes de abrir el juego.
+*   **Rendimiento**: Se recomienda asignar al menos **4GB - 6GB de RAM** en la configuración del launcher para una experiencia fluida.
+
+---
 
 <div align="center">
 
