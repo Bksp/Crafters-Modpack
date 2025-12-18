@@ -74,6 +74,23 @@ if %errorlevel% neq 0 (
     if /i "!RETRY!" neq "S" exit /b 1
 )
 
+
+REM ---------------------------------------------------------
+REM 2.5 ARREGLO MANUAL DE ARCHIVOS (Hash Fix)
+REM ---------------------------------------------------------
+echo.
+echo [INFO] Descargando configuraciones especiales...
+
+if not exist "%TARGET_DIR%\config" mkdir "%TARGET_DIR%\config"
+if not exist "%TARGET_DIR%\shaderpacks" mkdir "%TARGET_DIR%\shaderpacks"
+
+echo      - Descargando DistantHorizons.toml...
+curl -L -o "%TARGET_DIR%\config\DistantHorizons.toml" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/config/DistantHorizons.toml"
+
+echo      - Descargando shaderpacks config...
+REM Descargamos .txt de shaders que suelen dar conflicto de Hash
+curl -L -o "%TARGET_DIR%\shaderpacks\BSL_v8.4-Modded-by-Bksp.zip.txt" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/shaderpacks/BSL_v8.4-Modded-by-Bksp.zip.txt"
+
 REM ---------------------------------------------------------
 REM 3. GESTION DE MODS PRIVADOS (mods_github)
 REM ---------------------------------------------------------
