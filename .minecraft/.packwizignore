@@ -9,3 +9,4 @@ packwiz.exe
 # Ignorar configuraciones de shaders que cambian solas (timestamps)
 .minecraft/shaderpacks/*.txt
 shaderpacks/*.txt
+*.txt
