@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/InventoryHUD/curios.json"
-hash = "7838c09ab05890baf7d952d8149bf27ac78b36578498d31a3fc6512248002a90"
-
-[[files]]
-file = "launcher_profiles.json"
-hash = "2abf7357b30fc593fc30b531a1b85d169e419f0ca99cfa1277e151cca95544d5"
-
-[[files]]
 file = "mods/CarbonConfig-1.20-1.2.8.1.jar"
 hash = "c88356752bb81f5722f7ad82b45895488ba7295395d889a76273a1172abe71b5"
 
