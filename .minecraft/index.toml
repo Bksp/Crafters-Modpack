@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "7839d07e77260a11f2141baf727ae685fccff82f043ed4b3e30a22bac0ec4376"
+
+[[files]]
+file = "config/InventoryHUD/curios.json"
+hash = "7838c09ab05890baf7d952d8149bf27ac78b36578498d31a3fc6512248002a90"
+
+[[files]]
+file = "launcher_profiles.json"
+hash = "2abf7357b30fc593fc30b531a1b85d169e419f0ca99cfa1277e151cca95544d5"
+
+[[files]]
 file = "mods/CarbonConfig-1.20-1.2.8.1.jar"
 hash = "c88356752bb81f5722f7ad82b45895488ba7295395d889a76273a1172abe71b5"
 
@@ -837,3 +849,7 @@ hash = "d3cff3acb92bcfda81522d5cbf9cff528bb590fe8b4f7eb83d52fac35e1143c6"
 [[files]]
 file = "shaderpacks/BSL_v8.4-Modded-by-Bksp.zip"
 hash = "30f689a84accae435ccbaf17f8408188fec491ec32d258a4a09941e93be24c4e"
+
+[[files]]
+file = "shaderpacks/BSL_v8.4-Modded-by-Bksp.zip.txt"
+hash = "7d9faa15a4a303e5efe3244c2e978640ad9d108347730e9fc194aec3f91ea217"
