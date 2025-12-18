@@ -6,4 +6,6 @@ packwiz.exe
 .github/
 .gitattributes
 .history/
-
+config/
+shaderpacks/*.txt
+.minecraft/shaderpacks/*.txt
