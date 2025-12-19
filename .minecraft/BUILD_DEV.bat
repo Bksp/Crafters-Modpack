@@ -24,6 +24,15 @@ echo [2/4] Actualizando indices de Packwiz...
 :: Detectar enlaces a CurseForge para mods normales (evita re-descargas)
 packwiz.exe curseforge detect
 
+:: --- 2.1 MODS PRIVADOS (GitHub Raw) ---
+echo [2.1/4] Registrando mods privados (mods_github)...
+for %%f in ("mods_github\*.jar") do (
+    echo      - Procesando: %%~nxf
+    REM Agregamos (o actualizamos) el mod usando la URL Raw de GitHub
+    REM Esto crea/actualiza el archivo .toml en la carpeta "mods"
+    packwiz.exe url add "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/%%~nxf" --meta-folder mods --force
+)
+
 :: REFRESH FINAL: Calcula hashes de TODOS los archivos actuales
 echo      - Calculando hashes...
 packwiz.exe refresh

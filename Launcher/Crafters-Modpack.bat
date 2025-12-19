@@ -85,7 +85,11 @@ REM Descargamos el ZIP generado por BUILD_DEV (contiene config/ y ajustes de sha
 curl -L -o "%TARGET_DIR%\config_overrides.zip" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/config_overrides.zip"
 
 if exist "%TARGET_DIR%\config_overrides.zip" (
-    echo      - Extrayendo configuraciones...
+    echo      - Limpiando configuraciones antiguas...
+    if exist "%TARGET_DIR%\config" rmdir /s /q "%TARGET_DIR%\config"
+    if exist "%TARGET_DIR%\shaderpacks\*.txt" del /q "%TARGET_DIR%\shaderpacks\*.txt"
+
+    echo      - Extrayendo configuraciones nuevas...
     powershell -Command "Expand-Archive -Path '%TARGET_DIR%\config_overrides.zip' -DestinationPath '%TARGET_DIR%' -Force"
     del "%TARGET_DIR%\config_overrides.zip"
 ) else (
@@ -94,26 +98,10 @@ if exist "%TARGET_DIR%\config_overrides.zip" (
 
 
 REM ---------------------------------------------------------
-REM 3. GESTION DE MODS PRIVADOS (mods_github)
+REM 3. GESTION DE MODS PRIVADOS (Packwiz Managed)
 REM ---------------------------------------------------------
-echo.
-echo [4/5] Gestionando mods privados...
-set "LOCAL_MODS=%SCRIPT_DIR%\mods_github"
-
-REM 1. Si existen mods junto al script (USB/Local), copiarlos a la carpeta de la instancia
-if exist "%LOCAL_MODS%" (
-    echo      - Copiando mods locales a la instancia...
-    xcopy /E /I /Y "%LOCAL_MODS%" "mods_github\" >nul
-)
-
-REM 2. Mover TODO lo que este en 'mods_github' (sea descargado o copiado) a 'mods'
-if exist "mods_github" (
-    echo      - Integrando mods privados...
-    if not exist "mods" mkdir "mods"
-    move /Y "mods_github\*.jar" "mods\" >nul
-    REM Limpiamos la carpeta temporal
-    rd /s /q "mods_github" 2>nul
-)
+REM Antes se copiaban manualmente. Ahora estan integrados en Packwiz.
+REM Esta seccion queda vacia porque el paso 2 ya los descargo.
 
 REM ---------------------------------------------------------
 REM 4. INYECCION DE PERFIL (launcher_profiles.json)

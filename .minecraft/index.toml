@@ -54,7 +54,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
+hash = "a3de6a5e699516b85b751e49537afd99d5e8a3853065fcdb4cf6aa6beb4c4d8f"
 metafile = true
 
 [[files]]
@@ -94,7 +94,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-advancements.pw.toml"
-hash = "70d3ae93a9064f6885d57fc2adece2ea0f03dcc8f3077a08bb3aedf9c59630ce"
+hash = "2c1a45828f3abddf2b873955c39850d00c32f10d0022aca21b9ea88a1e7aca55"
 metafile = true
 
 [[files]]
@@ -229,7 +229,7 @@ metafile = true
 
 [[files]]
 file = "mods/controllable.pw.toml"
-hash = "2c7a28f8adb455c8ee9414627f1c347abc2c123bd94dd5daca5c3c140e927210"
+hash = "5a69c9f18eae984d1b652a56d7201226541df91bb850a37e88616e08eaa2b6b9"
 metafile = true
 
 [[files]]
@@ -338,7 +338,7 @@ hash = "b7604a8a6309c8151503b74b60668ac4df006726c7a35c5e6dee8e4af0c1625c"
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
+hash = "36f5e293779a0121ee13fbe82c209cf79f710addfa7554a6fe8859e27e53edfd"
 metafile = true
 
 [[files]]
@@ -488,7 +488,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "8f359d190506a6f824763b8e7c390d9e22204ef11e3ffa5ef980000d17e2c2b6"
+hash = "788bfe1f676c868e2c199bb09e4a0f2af58b73495cfb385345d514d597016740"
 metafile = true
 
 [[files]]
@@ -537,7 +537,7 @@ hash = "66a151ed397904135c0109ce390bee93961ef7dd329a2d66860ef5f27adff335"
 
 [[files]]
 file = "mods/light-overlay.pw.toml"
-hash = "ec1dbea2c473bfd08357e3a31745ba28046debee77242e9c401169ddbc88bcd3"
+hash = "16719f1f645ea66404ca34e8e0a5f8c6434fd62f7cc3caaaff1e911d32954d9d"
 metafile = true
 
 [[files]]
@@ -562,7 +562,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
+hash = "69fc803c776009b6f86c6df6b8c0ecc2b8b64c1c8aae7dc01847fddbcda10638"
 metafile = true
 
 [[files]]
@@ -602,7 +602,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "5ef885f9912ff6aa73db254b63a3cd22520f06261bc3c38e7c92f449806a9044"
+hash = "991bb230c4b664d64eec1a923d574275fc882880160be56828302c1e51bb881e"
 metafile = true
 
 [[files]]
@@ -717,7 +717,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "ee2d9154be68ef20293596a3f65810111fd35a802f1e8292e9ba8872de463a14"
+hash = "aeac33751e1fba1a874662caa53bd23c6553b3e37a09668b7ec5238401c6d1d1"
 metafile = true
 
 [[files]]
@@ -792,12 +792,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "eb48e8709268d9d4daeaba8d8844fa47e4e42fe2c6767ab39eca10e7852abf1e"
+hash = "998967c2541a48f8381d534a555579b1a9460b4d396eaf64c0f8b323e8bd2032"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
+hash = "78fd9f246ef150b34ca91c736258e25a7a158a01f95e48ae38fe8b6cfc3a3aa7"
 metafile = true
 
 [[files]]
@@ -827,6 +827,10 @@ file = "mods_github/Structory_1.20.x_v1.3.5.jar"
 hash = "43f4b4b88bb9caa1114928a93e787335e56171b5233a545bf2f4da1ce9fe943b"
 
 [[files]]
+file = "mods_github/caelus-forge-3.2.0+1.20.1.jar"
+hash = "37495445e79df8b30a3a038a0051f3c8aa8447f91a9d0aa0d20baef69dda9368"
+
+[[files]]
 file = "mods_github/capybaramod-1.0.0.jar"
 hash = "6fc1c28bfac7238a7a11a3320d5ef927aaf22ab3d9df09600e26340ef61987e6"
 
@@ -839,8 +843,20 @@ file = "mods_github/hexerei-0.4.2.3.jar"
 hash = "419db9f15af0ac694dc53a9cc99fa97c3a0ef787ae3d43d9aff87d2030e3f556"
 
 [[files]]
+file = "mods_github/irons_spellbooks-1.20.1-3.4.0.11.jar"
+hash = "254eff137eca438972ef5d52e10e9c1da33b157f5f25d223470ea4a4abf6f2b4"
+
+[[files]]
+file = "mods_github/lootr-forge-1.20-0.7.35.94.jar"
+hash = "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
+
+[[files]]
 file = "mods_github/notenoughanimations-forge-1.11.1-mc1.20.1.jar"
 hash = "2cab06df5ef2a945bf65dd7e64b6a0dcb74e89acb4e8ac5dc9b7abee354e2e00"
+
+[[files]]
+file = "mods_github/selfexpression-2.22a-forge-1.20.1.jar"
+hash = "b9b199d35860f3c5c468a1c99aa2401feb591d9d91aca521c35229502a5525e8"
 
 [[files]]
 file = "mods_github/skinlayers3d-forge-1.10.1-mc1.20.1.jar"
@@ -851,5 +867,5 @@ file = "mods_github/wildberries-1.3.0[forge-1.20.1].jar"
 hash = "d3cff3acb92bcfda81522d5cbf9cff528bb590fe8b4f7eb83d52fac35e1143c6"
 
 [[files]]
-file = "shaderpacks/BSL_v8.4-Modded-by-Bksp.zip"
+file = "shaderpacks/BSL_v8.4.zip"
 hash = "30f689a84accae435ccbaf17f8408188fec491ec32d258a4a09941e93be24c4e"
