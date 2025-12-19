@@ -819,6 +819,10 @@ file = "mods_github/GrimoireOfGaia4-1.20.1-4.0.0-alpha.12.jar"
 hash = "cb3e635dfa8779f32c1fe7810e6c38b983d733988b0298001ef6332eb167b56b"
 
 [[files]]
+file = "mods_github/Kambrik-6.1.1+1.20.1-forge.jar"
+hash = "37d0c2b03a1f3aacb30498d67c35adaca99dc9ecd30f66f383016f4cbc85be8e"
+
+[[files]]
 file = "mods_github/Structory_1.20.x_v1.3.5.jar"
 hash = "43f4b4b88bb9caa1114928a93e787335e56171b5233a545bf2f4da1ce9fe943b"
 
@@ -833,10 +837,6 @@ hash = "0a95e730ccc81ba60e65af6b76dacf96f9e00fd391c50e9695d5fd5ace275ab7"
 [[files]]
 file = "mods_github/hexerei-0.4.2.3.jar"
 hash = "419db9f15af0ac694dc53a9cc99fa97c3a0ef787ae3d43d9aff87d2030e3f556"
-
-[[files]]
-file = "mods_github/nffgirls-gaia-1.20.1-0.2.31.jar"
-hash = "df94607793f26ebe8b474778c31de1b6850912e6089b1c33369acb05aef7e52a"
 
 [[files]]
 file = "mods_github/notenoughanimations-forge-1.11.1-mc1.20.1.jar"
