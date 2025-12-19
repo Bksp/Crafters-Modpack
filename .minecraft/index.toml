@@ -299,7 +299,7 @@ metafile = true
 
 [[files]]
 file = "mods/distant-horizons.pw.toml"
-hash = "e0162942806a46efe0fd782f3920fca0de18dda771b3a10c57d87d800b0f4b4e"
+hash = "75bd5e143488ed6024301f0f8507f3ce140fc4fdcc97f746fb0fed8e3d7f8d2b"
 metafile = true
 
 [[files]]
@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/fps-reducer.pw.toml"
-hash = "8e4615ae5f9c5e2573545c74bbd6d540164ba4af804bafa417901b349a806680"
+hash = "6f23ef511a34d6729362ae4a92c2f0ca61915db5b70ef1adef2d9c7efd6fbb35"
 metafile = true
 
 [[files]]
@@ -468,7 +468,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-hud-forge.pw.toml"
-hash = "7cfc0e01f487f385b420af27e14dcdf1ce6f912c9ffecfa933fcdbb93c21e279"
+hash = "9928c8f1f67cdc3ccdddef9fe63831a328b44dca1f6be9ebc086fc7d25747826"
 metafile = true
 
 [[files]]
@@ -488,7 +488,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "788bfe1f676c868e2c199bb09e4a0f2af58b73495cfb385345d514d597016740"
+hash = "5992f639db0473bf942e6343f2442b0685784113d11a23431298f2056fb129c5"
 metafile = true
 
 [[files]]
