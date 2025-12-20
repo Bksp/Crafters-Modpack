@@ -17,7 +17,7 @@ set "MODPACK_NAME=.minecraft-1.20.1-crafters"
 set "TARGET_DIR=%APPDATA%\%MODPACK_NAME%"
 
 REM URLs
-set "PACK_URL=https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/pack.toml"
+set "PACK_URL=https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/pack.toml?v=%RANDOM%"
 set "URL_PACKWIZ=https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
 set "URL_SKLAUNCHER=https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/Launcher/SKlauncher.jar"
 
@@ -82,7 +82,7 @@ echo.
 echo [INFO] Descargando y aplicando configuraciones globales (Overrides)...
 
 REM Descargamos el ZIP generado por BUILD_DEV (contiene config/ y ajustes de shaders)
-curl -L -o "%TARGET_DIR%\config_overrides.zip" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/config_overrides.zip"
+curl -L -o "%TARGET_DIR%\config_overrides.zip" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/config_overrides.zip?v=%RANDOM%"
 
 if exist "%TARGET_DIR%\config_overrides.zip" (
     echo      - Limpiando configuraciones antiguas...

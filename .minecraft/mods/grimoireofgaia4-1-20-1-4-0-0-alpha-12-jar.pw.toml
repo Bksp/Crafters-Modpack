@@ -1,0 +1,8 @@
+name = "GrimoireOfGaia4-1.20.1-4.0.0-alpha.12.jar"
+filename = "GrimoireOfGaia4-1.20.1-4.0.0-alpha.12.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/GrimoireOfGaia4-1.20.1-4.0.0-alpha.12.jar?v=20251220000224"
+hash-format = "sha256"
+hash = "cb3e635dfa8779f32c1fe7810e6c38b983d733988b0298001ef6332eb167b56b"

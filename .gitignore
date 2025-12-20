@@ -8,3 +8,13 @@
 Thumbs.db
 Desktop.ini
 .DS_Store
+# --- 3. BINARIOS ---
+*.jar
+*.zip
+!Launcher/SKlauncher.jar
+!packwiz.exe
+!shaderpacks/*.zip
+
+# Ignorar jars en mods, pero mantener .pw.toml
+.minecraft/mods/*.jar
+mods/*.jar

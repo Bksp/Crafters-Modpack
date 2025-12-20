@@ -21,16 +21,35 @@ if exist "resourcepacks\*.toml" del /q "resourcepacks\*.toml"
 :: --- 2. PACKWIZ REFRESH (Nucleo) ---
 echo [2/4] Actualizando indices de Packwiz...
 
+:: LIMPIEZA TOTAL: Borramos metadatos antiguos de mods para regenerarlos desde cero
+:: Esto evita los duplicados (ej. bountiful.pw.toml vs bountiful-ver.pw.toml)
+if exist "mods\*.pw.toml" del /q "mods\*.pw.toml"
+
+:: LIMPIEZA PRIVADOS: Eliminar jars privados de mods/ para que "detect" los ignore
+for %%f in ("mods_github\*.jar") do (
+    if exist "mods\%%~nxf" del /q "mods\%%~nxf"
+)
+
 :: Detectar enlaces a CurseForge para mods normales (evita re-descargas)
+:: Solo detectara los jars que quedaron (los publicos) y creara sus .pw.toml
 packwiz.exe curseforge detect
 
 :: --- 2.1 MODS PRIVADOS (GitHub Raw) ---
 echo [2.1/4] Registrando mods privados (mods_github)...
+
+:: Generar Timestamp para evitar cache de GitHub Raw
+for /f "tokens=2 delims==" %%I in ('wmic os get localdatetime /value') do set datetime=%%I
+set "TIMESTAMP=%datetime:~0,14%"
+
 for %%f in ("mods_github\*.jar") do (
     echo      - Procesando: %%~nxf
-    REM Agregamos (o actualizamos) el mod usando la URL Raw de GitHub
-    REM Esto crea/actualiza el archivo .toml en la carpeta "mods"
-    packwiz.exe url add "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/%%~nxf" --meta-folder mods --force
+    
+    :: 1. Copiar a carpeta mods (CRITICO: Para que packwiz calcule el hash del archivo REAL)
+    copy /Y "%%f" "mods\%%~nxf" >nul
+
+    :: 2. Agregar a packwiz con parametro de version para romper cache
+    :: Sintaxis: packwiz url add [Nombre] [URL]
+    packwiz.exe url add "%%~nxf" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/%%~nxf?v=%TIMESTAMP%" --meta-folder mods --force
 )
 
 :: REFRESH FINAL: Calcula hashes de TODOS los archivos actuales
@@ -44,7 +63,7 @@ packwiz.exe refresh
     mkdir "temp_overrides\shaderpacks"
     
     xcopy /E /I /Y "config" "temp_overrides\config" >nul
-    copy /Y "shaderpacks\*.txt" "temp_overrides\shaderpacks" >nul
+    if exist "shaderpacks\*.txt" copy /Y "shaderpacks\*.txt" "temp_overrides\shaderpacks" >nul
     
     echo      - Comprimiendo overrides (config + shader txt)...
     powershell -Command "Compress-Archive -Path 'temp_overrides\*' -DestinationPath config_overrides.zip -Force"
@@ -59,34 +78,12 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-:: --- 3. EXPORTAR ZIP ---
-echo [3/4] Generando ZIP de exportacion...
 
-:: Leer version desde pack.toml
-set "VERSION=UNKNOWN"
-:: Buscamos la linea que contiene "version ="
-for /f "tokens=2 delims==" %%a in ('findstr /c:"version =" pack.toml') do (
-    set "RAW_VER=%%a"
-    goto :FoundVersion
-)
 
-:FoundVersion
-if defined RAW_VER (
-    :: Limpiar comillas y espacios
-    set "VERSION=%RAW_VER:"=%"
-    set "VERSION=%VERSION: =%"
-    echo      - Version detectada: [%VERSION%]
-)
-
-if not exist "Exports" mkdir "Exports"
-set "ZIP_NAME=Exports\Crafters-Modpack-v%VERSION%.zip"
-
-packwiz.exe curseforge export --output "%ZIP_NAME%"
-
-:: --- 4. VALIDACION GIT (CRITICO) ---
+:: --- 3. VALIDACION GIT (CRITICO) ---
 color 0e
 echo.
-echo [4/4] VERIFICACION DE SINCRONIZACION
+echo [3/3] VERIFICACION DE SINCRONIZACION
 echo ========================================================
 echo   ATENCION: Para arreglar el error "Hash invalid":
 echo   1. Revisa los archivos modificados abajo via GIT.
@@ -98,13 +95,6 @@ echo ========================================================
 echo.
 echo [ESTADO ACTUAL DE GIT]:
 git status -s
-echo.
-echo ========================================================
-echo SI VES ARCHIVOS ARRIBA, EJECUTA EN TU TERMINAL:
-echo    git add .
-echo    git commit -m "Update modpack v%VERSION%"
-echo    git push
-echo ========================================================
 echo.
 pause
 exit
