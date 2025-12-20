@@ -61,9 +61,16 @@ packwiz.exe refresh
     if exist "temp_overrides" rd /s /q "temp_overrides"
     mkdir "temp_overrides\config"
     mkdir "temp_overrides\shaderpacks"
+    mkdir "temp_overrides\resourcepacks"
     
+    echo      - Copiando archivos...
     xcopy /E /I /Y "config" "temp_overrides\config" >nul
-    if exist "shaderpacks\*.txt" copy /Y "shaderpacks\*.txt" "temp_overrides\shaderpacks" >nul
+    xcopy /E /I /Y "resourcepacks" "temp_overrides\resourcepacks" >nul
+    
+    :: Copiamos TODO lo de shaderpacks (ya que packwiz lo ignora ahora)
+    :: Pero borramos cualquier .toml residual si existiera antes de comprimir
+    xcopy /E /I /Y "shaderpacks" "temp_overrides\shaderpacks" >nul
+    if exist "temp_overrides\shaderpacks\*.toml" del /q "temp_overrides\shaderpacks\*.toml"
     
     echo      - Comprimiendo overrides (config + shader txt)...
     powershell -Command "Compress-Archive -Path 'temp_overrides\*' -DestinationPath config_overrides.zip -Force"

@@ -7,5 +7,5 @@ packwiz.exe
 .gitattributes
 .history/
 config/
-shaderpacks/*.txt
-.minecraft/shaderpacks/*.txt
+shaderpacks/
+resourcepacks/

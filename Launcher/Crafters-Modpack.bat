@@ -87,7 +87,10 @@ curl -L -o "%TARGET_DIR%\config_overrides.zip" "https://raw.githubusercontent.co
 if exist "%TARGET_DIR%\config_overrides.zip" (
     echo      - Limpiando configuraciones antiguas...
     if exist "%TARGET_DIR%\config" rmdir /s /q "%TARGET_DIR%\config"
-    if exist "%TARGET_DIR%\shaderpacks\*.txt" del /q "%TARGET_DIR%\shaderpacks\*.txt"
+    
+    REM NO borramos resourcepacks ni shaderpacks para no perder archivos del usuario.
+    REM El ZIP sobrescribira solo los archivos que coincidan.
+
 
     echo      - Extrayendo configuraciones nuevas...
     powershell -Command "Expand-Archive -Path '%TARGET_DIR%\config_overrides.zip' -DestinationPath '%TARGET_DIR%' -Force"
