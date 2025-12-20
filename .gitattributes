@@ -9,6 +9,7 @@
 *.png binary
 *.toml binary
 *.json binary
+*.txt binary
 
 # Archivos de texto de packwiz
 *.toml text eol=lf

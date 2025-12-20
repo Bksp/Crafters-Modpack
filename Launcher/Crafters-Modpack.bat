@@ -109,6 +109,33 @@ if exist "%TARGET_DIR%\config_overrides.zip" (
 
 
 REM ---------------------------------------------------------
+REM 2.6 ACTUALIZAR OPTIONS.TXT
+REM ---------------------------------------------------------
+echo.
+echo [INFO] Verificando options.txt...
+curl -L -o "%TARGET_DIR%\options_new.txt" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/options.txt"
+
+if exist "%TARGET_DIR%\options_new.txt" (
+    for %%I in ("%TARGET_DIR%\options_new.txt") do if %%~zI LSS 100 del "%TARGET_DIR%\options_new.txt"
+)
+
+if exist "%TARGET_DIR%\options_new.txt" (
+    echo.
+    echo [AVISO] Se ha descargado un archivo options.txt actualizado.
+    echo          (RECOMENDADO: SI, para aplicar configuracion optima)
+    set /p "OPT_CHOICE=Deseas reemplazar el options.txt existente? (S/N): "
+    
+    if /i "!OPT_CHOICE!"=="S" (
+        move /Y "%TARGET_DIR%\options_new.txt" "%TARGET_DIR%\options.txt" >nul
+        echo [INFO] Options.txt actualizado.
+    ) else (
+        del "%TARGET_DIR%\options_new.txt"
+        echo [INFO] Conservando archivo actual.
+    )
+)
+
+
+REM ---------------------------------------------------------
 REM 3. GESTION DE MODS PRIVADOS (Packwiz Managed)
 REM ---------------------------------------------------------
 REM Antes se copiaban manualmente. Ahora estan integrados en Packwiz.
