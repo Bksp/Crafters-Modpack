@@ -68,9 +68,8 @@ cd /d "%TARGET_DIR%"
 java -jar "%BOOTSTRAP_FILE%" -g -s client "%PACK_URL%"
 
 if %errorlevel% neq 0 (
-    echo [ERROR] Fallo la actualizacion. Revisa tu conexion.
-    set /p "RETRY=Deseas continuar de todas formas? (S/N): "
-    if /i "!RETRY!" neq "S" exit /b 1
+    echo [ERROR] Fallo la actualizacion. Iniciando de todas formas...
+    timeout /t 1 >nul
 )
 
 
@@ -82,7 +81,14 @@ echo.
 echo [INFO] Descargando y aplicando configuraciones globales (Overrides)...
 
 REM Descargamos el ZIP generado por BUILD_DEV (contiene config/ y ajustes de shaders)
-curl -L -o "%TARGET_DIR%\config_overrides.zip" "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/config_overrides.zip?v=%RANDOM%"
+REM Usamos PowerShell en lugar de curl para mejor manejo de errores y redirecciones
+powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/config_overrides.zip?v=%RANDOM%' -OutFile '%TARGET_DIR%\config_overrides.zip'"
+
+REM Verificar si se descargo algo valido (mayor a 1KB)
+for %%I in ("%TARGET_DIR%\config_overrides.zip") do if %%~zI LSS 1000 (
+    echo [ERROR] El archivo descargado parece corrupto o vacio.
+    del "%TARGET_DIR%\config_overrides.zip"
+)
 
 if exist "%TARGET_DIR%\config_overrides.zip" (
     echo      - Limpiando configuraciones antiguas...
@@ -93,7 +99,9 @@ if exist "%TARGET_DIR%\config_overrides.zip" (
 
 
     echo      - Extrayendo configuraciones nuevas...
-    powershell -Command "Expand-Archive -Path '%TARGET_DIR%\config_overrides.zip' -DestinationPath '%TARGET_DIR%' -Force"
+    REM Usamos tar porque PowerShell a veces falla con permisos o rutas
+    tar -xf "%TARGET_DIR%\config_overrides.zip" -C "%TARGET_DIR%"
+    
     del "%TARGET_DIR%\config_overrides.zip"
 ) else (
     echo [ALERTA] No se pudo descargar config_overrides.zip
@@ -126,6 +134,5 @@ cd /d "%TARGET_DIR%"
 
 REM Ejecutar EL JAR QUE ESTA EN APPDATA, no el del script
 start "" javaw -jar "%LAUNCHER_EXE%" --workDir "%TARGET_DIR%"
-
-timeout /t 3 >nul
+timeout /t 10 >nul
 exit
