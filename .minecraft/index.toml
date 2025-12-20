@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "launcher_profiles.json"
-hash = "fce1fe2c096d17e1c3f36102573938bd60d1c481ea0388c1963c4d2c3e858d33"
+hash = "f70eb0b4339561d220b13034cf32819c5918d773be0be5bf432c8d5399c3f84f"
 
 [[files]]
 file = "mods/Bountiful-6.0.4+1.20.1-forge.jar"
@@ -160,7 +160,7 @@ metafile = true
 
 [[files]]
 file = "mods/bountiful-6-0-4-1-20-1-forge-jar.pw.toml"
-hash = "56483444585399b71869468f8be2cfd201d1309de086eb2502c05771c3451734"
+hash = "69d139c0d6babfbfa4cfe1b85c8d77753ad675cce1a5ef04a62d471103f46181"
 metafile = true
 
 [[files]]
@@ -180,7 +180,7 @@ metafile = true
 
 [[files]]
 file = "mods/caelus-forge-3-2-0-1-20-1-jar.pw.toml"
-hash = "7790613658ffad48619ce9461d203c8b1583edff66b48894d2bc09f010c6121c"
+hash = "933b5332d87d9e542bbce7247f6db563e8a57c8a04ff54e0ab58416ae16fcba8"
 metafile = true
 
 [[files]]
@@ -199,7 +199,7 @@ metafile = true
 
 [[files]]
 file = "mods/capybaramod-1-0-0-jar.pw.toml"
-hash = "a63a8e7a753bcdb78c2acaee93bef6ac6c68a793a6800d9eec8e03bca976a16c"
+hash = "8084b128bb397b2de0efde5f3f1e2a20553e164e1dde6525d4850883e0415705"
 metafile = true
 
 [[files]]
@@ -397,7 +397,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling-forge-1-9-4-mc1-20-1-jar.pw.toml"
-hash = "92fb6f2bd74f728fd642f6eaa80e22c6e01a56af6e3ccd59b38869722a4f53cb"
+hash = "e1fe6ed0e2e3db2a4dae13414d296bea8edc26a1ff713331a36b74a9fea77a96"
 metafile = true
 
 [[files]]
@@ -486,7 +486,7 @@ metafile = true
 
 [[files]]
 file = "mods/grimoireofgaia4-1-20-1-4-0-0-alpha-12-jar.pw.toml"
-hash = "e283144cfe36e01d58b27d917257aaa5d83f4311e9ed2d821ff3b3e934593191"
+hash = "f945719e5f0b39ed7534101f65d1039b7239111d1f721e83c3ee5f12da4aded1"
 metafile = true
 
 [[files]]
@@ -501,7 +501,7 @@ metafile = true
 
 [[files]]
 file = "mods/hexerei-0-4-2-3-jar.pw.toml"
-hash = "b68042fd923ca68da570cb131f19405d35113f55646d3074b0d2f2244121aa94"
+hash = "8e7138df72c1920353efd16c4bf0de7b3bc2c97284e7c64e6d802c24594daefb"
 metafile = true
 
 [[files]]
@@ -540,7 +540,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-spellbooks-1-20-1-3-4-0-11-jar.pw.toml"
-hash = "f5d4e19a83e236371d164c416cb12356bd9e87dad4ad06143b2008df823c256e"
+hash = "45d8fc8c6d72210c767a1a5dd32e870df163eef9174bbdd3f27afafe6c479975"
 metafile = true
 
 [[files]]
@@ -574,7 +574,7 @@ metafile = true
 
 [[files]]
 file = "mods/kambrik-6-1-1-1-20-1-forge-jar.pw.toml"
-hash = "5bf582e5696f9df8429035196084bdaee03cb8829203fe0cce9b23532c84bea4"
+hash = "5f62d9fa20680f5a7d9ff3e3be837d15a426b47bcfc7f07e742a27f0ec8a5810"
 metafile = true
 
 [[files]]
@@ -628,7 +628,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr-forge-1-20-0-7-35-94-jar.pw.toml"
-hash = "ecc25a36f44db9b46f0b59098b7700d1fd9ebe1b37309dbe7eb23300561a3a99"
+hash = "b0f986e439da2e9dc154774bb452b30194e56162952bfa877343366912d920c8"
 metafile = true
 
 [[files]]
@@ -687,7 +687,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughanimations-forge-1-11-1-mc1-20-1-jar.pw.toml"
-hash = "90fc11ecc391b2a3c611a41403b0fae1878cb0781998a354b29e96ceeba04c09"
+hash = "7bd93df14276ecd83c676c8d836e576c049d3b600525980dc05df33e44799d6e"
 metafile = true
 
 [[files]]
@@ -781,7 +781,7 @@ metafile = true
 
 [[files]]
 file = "mods/selfexpression-2-22a-forge-1-20-1-jar.pw.toml"
-hash = "c792ec3bbdc8d365047dd22e9a734e786ad0fa1e8f17ad8b5ede81f86279990c"
+hash = "571d44d221c5a2cb17b34cffc0b1b059ba41ca22e66957514ebff831910334f7"
 metafile = true
 
 [[files]]
@@ -805,7 +805,7 @@ metafile = true
 
 [[files]]
 file = "mods/skinlayers3d-forge-1-10-1-mc1-20-1-jar.pw.toml"
-hash = "ad00310694c313f2e7ef08b33b1d07aa2a12681897aa981f6bf6a55b5e40129e"
+hash = "861c20abda116f0b77f7d7835a3b33072eff25f652ff9d05baa6bae3572404aa"
 metafile = true
 
 [[files]]
@@ -854,7 +854,7 @@ metafile = true
 
 [[files]]
 file = "mods/structory-1-20-x-v1-3-5-jar.pw.toml"
-hash = "9503b056293480954c594606f324b734198d0b0ff44a4a7259d93f7362a2c237"
+hash = "4abf9e0df4071be7a95f0c46b05b6d8f34299a50449da711a3edb7d193cbc751"
 metafile = true
 
 [[files]]
@@ -909,7 +909,7 @@ metafile = true
 
 [[files]]
 file = "mods/wildberries-1-3-0-forge-1-20-1-jar.pw.toml"
-hash = "7f6b6e59c40d7283d917f2d3c7fc1b0f3d5be527c53346019657bb0708a1fe93"
+hash = "b287e326273afe69bbdb1fdb65f85edd45b41a3fc3ab278c8d2de58759767e9e"
 metafile = true
 
 [[files]]
@@ -1005,7 +1005,3 @@ hash = "d3cff3acb92bcfda81522d5cbf9cff528bb590fe8b4f7eb83d52fac35e1143c6"
 [[files]]
 file = "servers.dat"
 hash = "c6d522e2cb0e3b642a6d38722402473ba1e1874736298f4c8329bf5041b78760"
-
-[[files]]
-file = "shaderpacks/BSL_v8.4.zip"
-hash = "30f689a84accae435ccbaf17f8408188fec491ec32d258a4a09941e93be24c4e"
