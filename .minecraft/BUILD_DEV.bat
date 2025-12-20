@@ -65,7 +65,11 @@ packwiz.exe refresh
     xcopy /E /I /Y "config" "temp_overrides\config" >nul
     if exist "shaderpacks\*.txt" copy /Y "shaderpacks\*.txt" "temp_overrides\shaderpacks" >nul
     
-    echo      - Comprimiendo overrides (config + shader txt)...
+    echo      - Copiando archivos raiz (servers.dat, profiles)...
+    if exist "servers.dat" copy /Y "servers.dat" "temp_overrides" >nul
+    if exist "launcher_profiles.json" copy /Y "launcher_profiles.json" "temp_overrides" >nul
+
+    echo      - Comprimiendo overrides (config + shader txt + raiz)...
     powershell -Command "Compress-Archive -Path 'temp_overrides\*' -DestinationPath config_overrides.zip -Force"
     
     rd /s /q "temp_overrides"

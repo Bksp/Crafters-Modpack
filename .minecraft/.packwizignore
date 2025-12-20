@@ -9,3 +9,5 @@ packwiz.exe
 config/
 shaderpacks/*.txt
 .minecraft/shaderpacks/*.txt
+servers.dat
+launcher_profiles.json

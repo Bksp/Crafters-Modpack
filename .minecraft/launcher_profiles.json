@@ -1,29 +1,35 @@
 {
   "profiles": {
-    "crafters-modpack-profile": {
+    "a3e21b0ac5ad4258a3185af1c5693425": {
       "name": "Crafters Modpack",
       "gameDir": ".",
       "lastVersionId": "1.20.1-forge-47.4.10",
-      "javaArgs": "-Xmx8G -Xms4G",
+      "javaArgs": "-Xmx8G -Xms6G",
+      "resolution": {
+        "width": 854,
+        "height": 480,
+        "fullscreen": false
+      },
+      "memoryMax": 8192,
       "type": "custom",
       "created": "2024-01-01T00:00:00.000Z",
       "lastUsed": "2024-01-01T00:00:00.000Z",
-      "icon": "Crafting_Table"
+      "icon": "Glass"
     }
   },
-  "selectedProfile": "crafters-modpack-profile",
+  "selectedProfile": "a3e21b0ac5ad4258a3185af1c5693425",
   "settings": {
-    "crashAssistance": true,
-    "enableAdvanced": true,
+    "crashAssistance": false,
+    "enableAdvanced": false,
     "enableAnalytics": false,
     "enableHistorical": false,
-    "enableReleases": true,
+    "enableReleases": false,
     "enableSnapshots": false,
-    "keepLauncherOpen": true,
+    "keepLauncherOpen": false,
     "profileSorting": "byName",
-    "showGameLog": true,
-    "showMenu": true,
-    "soundOn": true
+    "showGameLog": false,
+    "showMenu": false,
+    "soundOn": false
   },
-  "version": 3
+  "version": 4
 }
