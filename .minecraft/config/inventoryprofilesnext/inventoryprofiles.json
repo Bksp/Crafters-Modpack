@@ -1,0 +1,64 @@
+{
+    "ModSettings": {
+        "include_hotbar_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_all_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_focus_mach_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_just_refill_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "highlight_foused_items": {
+            "value": false
+        },
+        "highlight_foused_items_foreground": false,
+        "enable_profiles": {
+            "value": false
+        },
+        "enable_lock_slots": {
+            "value": false
+        },
+        "villager_trading_enable": {
+            "value": false
+        },
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_inventory_editor_button": {
+            "value": false
+        },
+        "enable_inventory_settings_button": {
+            "value": false
+        },
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "enable_profiles_announcement": false,
+        "enable_inventory_buttons": {
+            "value": false
+        },
+        "show_fast_rename_checkbox": {
+            "value": false
+        },
+        "continuous_crafting_saved_value": false
+    },
+    "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": "LEFT_CONTROL,KP_MULTIPLY"
+            }
+        }
+    }
+}
