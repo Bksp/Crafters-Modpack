@@ -19,11 +19,11 @@ set "TARGET_DIR=%APPDATA%\%MODPACK_NAME%"
 REM URLs
 set "PACK_URL=https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/pack.toml?v=%RANDOM%"
 set "URL_PACKWIZ=https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
-set "URL_SKLAUNCHER=https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/Launcher/SKlauncher.jar"
+set "URL_SKLAUNCHER=https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/Launcher/SKlauncherv1.2.jar"
 
 REM Nombres de archivo
 set "BOOTSTRAP_FILE=packwiz-installer-bootstrap.jar"
-set "LAUNCHER_FILE=SKlauncher.jar"
+set "LAUNCHER_FILE=SKlauncherv1.2.jar"
 
 echo [1/5] Preparando entorno...
 echo      - Directorio: %TARGET_DIR%
