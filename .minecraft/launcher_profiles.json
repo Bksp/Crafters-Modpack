@@ -4,7 +4,7 @@
       "name": "Crafters Modpack",
       "gameDir": ".",
       "lastVersionId": "1.20.1-forge-47.4.10",
-      "javaArgs": "-Xmx8G -Xms6G",
+      "javaArgs": "-Xmx10G -Xms8G",
       "type": "custom",
       "created": "2024-01-01T00:00:00.000Z",
       "lastUsed": "2024-01-01T00:00:00.000Z",

@@ -42,10 +42,10 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:3
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/Obscuria\u0027s-Stylized-Potions-1.19.zip","file/Traducciones","file/Minimalist-GUI GITHUB EDITION"]
-incompatibleResourcePacks:["file/Obscuria\u0027s-Stylized-Potions-1.19.zip","file/Traducciones","file/Minimalist-GUI GITHUB EDITION"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/Obscuria\u0027s-Stylized-Potions-1.19.zip","file/Traducciones.zip","file/Minimalist-GUI GITHUB EDITION"]
+incompatibleResourcePacks:["file/Obscuria\u0027s-Stylized-Potions-1.19.zip","file/Traducciones.zip","file/Minimalist-GUI GITHUB EDITION"]
 lastServer:
-lang:es_cl
+lang:es_mx
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0

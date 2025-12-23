@@ -19,7 +19,7 @@ deathpoints:true
 oldDeathpoints:true
 distance:1
 lockNorth:false
-zoom:2
+zoom:0
 minimapSize:95
 chunkGrid:-1
 slimeChunks:false
@@ -32,7 +32,7 @@ waypointsIngameCloseScale:1.0
 antiAliasing:true
 blockColours:0
 lighting:true
-dotsStyle:1
+dotsStyle:0
 dotNameScale:1.0
 compassOverEverything:true
 showFlowers:true
@@ -83,7 +83,7 @@ minimapFrameColor:15
 compassColor:0
 northCompassColor:-1
 displayMultipleWaypointInfo:1
-entityRadar:false
+entityRadar:true
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1
