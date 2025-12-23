@@ -16,6 +16,7 @@ Desktop.ini
 !shaderpacks/*.zip
 !.minecraft/config_overrides.zip
 !config_overrides.zip
+!.minecraft\index.toml
 
 # Ignorar jars en mods, pero mantener .pw.toml
 .minecraft/mods/*.jar
