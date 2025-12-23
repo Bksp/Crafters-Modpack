@@ -11,7 +11,7 @@ Desktop.ini
 # --- 3. BINARIOS ---
 *.jar
 *.zip
-!Launcher/SKlauncher.jar
+!Launcher/SKlauncherv1.2.jar
 !packwiz.exe
 !shaderpacks/*.zip
 !.minecraft/config_overrides.zip
