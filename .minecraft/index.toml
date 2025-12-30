@@ -165,7 +165,7 @@ metafile = true
 
 [[files]]
 file = "mods/bountiful-6-0-4-1-20-1-forge-jar.pw.toml"
-hash = "d3c21dc00723f4d08308e3ca904010f54521c687eb4d1b8061a094fd4e1e7158"
+hash = "b8cd01ac2de2c2c601947c0c03e4239d1105e2431473e751ece0a51ec4b1fa25"
 metafile = true
 
 [[files]]
@@ -185,7 +185,7 @@ metafile = true
 
 [[files]]
 file = "mods/caelus-forge-3-2-0-1-20-1-jar.pw.toml"
-hash = "d8c7a7461c30c7418c3bdfea0ed3dd3dacc225efc5579ee6a605c36d2d6d516e"
+hash = "50d1dd1571e5a5a983085fe177402f0e806764392ac8e79d1a7144b89a732b59"
 metafile = true
 
 [[files]]
@@ -204,7 +204,7 @@ metafile = true
 
 [[files]]
 file = "mods/capybaramod-1-0-0-jar.pw.toml"
-hash = "fb3f5e1ba1d4b9621b353c2bc9996b53afd33b3b13bfe7fcc5511e17de6156c5"
+hash = "c34b7368ef1d048bb65bab4bbfb708bab06f067c519f35eff737ea87a33b1927"
 metafile = true
 
 [[files]]
@@ -398,7 +398,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling-forge-1-9-4-mc1-20-1-jar.pw.toml"
-hash = "b0240eb1dcb451c4d6e135dc6381ebac517708ce2d95047f4c1f140b9cf5e01b"
+hash = "57369b218a2f35731efd60a7d02a399bd84e047daaeef4c0455ed3d613b9bff4"
 metafile = true
 
 [[files]]
@@ -487,7 +487,7 @@ metafile = true
 
 [[files]]
 file = "mods/grimoireofgaia4-1-20-1-4-0-0-alpha-12-jar.pw.toml"
-hash = "ab241aa120525831a905bbe8e294482b620496c38ade454811635b134e6d3064"
+hash = "800ce0962b882a1aafc2d271cdcc14e5bf6e961bbce96f0ce594fe48921dff32"
 metafile = true
 
 [[files]]
@@ -502,7 +502,7 @@ metafile = true
 
 [[files]]
 file = "mods/hexerei-0-4-2-3-jar.pw.toml"
-hash = "713d74186ed60f66a67f37038690bb2d737aaa70e714c58c078f1dfe38cfe8ea"
+hash = "fb5d9b8aadbfac67b9559dfaa11e59798ec5b77b0a91b010d297afc7c9deeaab"
 metafile = true
 
 [[files]]
@@ -541,7 +541,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-spellbooks-1-20-1-3-4-0-11-jar.pw.toml"
-hash = "1c4db51f3d3fb4ac85227b5a623ed10eb6b14c924c8da58e5e8baefec495d12e"
+hash = "6607644bdebfc4c9d4621726796630f0e5eaa0670f46c6f4c3bb5ac733d307d7"
 metafile = true
 
 [[files]]
@@ -575,7 +575,7 @@ metafile = true
 
 [[files]]
 file = "mods/kambrik-6-1-1-1-20-1-forge-jar.pw.toml"
-hash = "ef0be4b8302e49c41aa23eb6b076d25c6f6365b9ee787a76097c54f72e6e45f5"
+hash = "46e137e932321457cbf2859942a14615c9bc440cf4a69af4eeadb52d64aa301a"
 metafile = true
 
 [[files]]
@@ -629,7 +629,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr-forge-1-20-0-7-35-94-jar.pw.toml"
-hash = "18a5c66db9b790f92466235a317e04c79baba7943a09f1a4f8db5c62b87f11fe"
+hash = "3ba32881c88a6569458038910944eac8104e1fafbfab685d6643db5407f6d5af"
 metafile = true
 
 [[files]]
@@ -688,7 +688,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughanimations-forge-1-11-1-mc1-20-1-jar.pw.toml"
-hash = "b1e605d8b7c3dc63e1adde275932a46f07d56e773db001c1e08c47a888d90eb4"
+hash = "80a2d72607897f631309236ea2f63562a521b3f0092e142b14fd122a9854a139"
 metafile = true
 
 [[files]]
@@ -786,7 +786,7 @@ metafile = true
 
 [[files]]
 file = "mods/selfexpression-2-22a-forge-1-20-1-jar.pw.toml"
-hash = "6c1fdecd32d1471571cf088e02fd7dd9925f0925e84215ea46a8472113974fec"
+hash = "14d784856c8703d5c714e7a8cd124fc9cc7d1c21656eb8d101c405ee8cf1ca8c"
 metafile = true
 
 [[files]]
@@ -815,7 +815,7 @@ metafile = true
 
 [[files]]
 file = "mods/skinlayers3d-forge-1-10-1-mc1-20-1-jar.pw.toml"
-hash = "ea463366c969393038ddef7d1ce8e2692801c41dadb8df4db4126f120620dfbc"
+hash = "9373eaa478c51b317359614e73ae3d2157530debf5ddacf55e76040cd89f077e"
 metafile = true
 
 [[files]]
@@ -864,7 +864,7 @@ metafile = true
 
 [[files]]
 file = "mods/structory-1-20-x-v1-3-5-jar.pw.toml"
-hash = "4ff03478cf96d9d6b30df0ff43c22439b463eb8e4488d21d01f1a7ee027a29ed"
+hash = "a63eae028a010b6f6d4c3a931701aa58edee53231c1f4e7237cb50bbec1efd79"
 metafile = true
 
 [[files]]
@@ -919,7 +919,7 @@ metafile = true
 
 [[files]]
 file = "mods/wildberries-1-3-0-forge-1-20-1-jar.pw.toml"
-hash = "afb2522a7fdd886d7055c857fc243a6fdec2a5af5ce1590b3303aff8ee3e6989"
+hash = "c24d75e75c6d45fa3d74021271fab9b4dd508416f8398183f0460c51ef852edb"
 metafile = true
 
 [[files]]

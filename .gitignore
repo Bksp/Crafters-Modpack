@@ -21,3 +21,4 @@ Desktop.ini
 # Ignorar jars en mods, pero mantener .pw.toml
 .minecraft/mods/*.jar
 mods/*.jar
+!.minecraft/mods_github/*.jar
