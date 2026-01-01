@@ -367,11 +367,6 @@ hash = "3a4845166040ce2be2967b33371140b809b8d49889ba99f91da78e0228cd6f8e"
 metafile = true
 
 [[files]]
-file = "mods/dynamiclights-reforged.pw.toml"
-hash = "8f2270a50a633db681826cbfb691e6efdb25e1e0c4702125c13d525b52fe229f"
-metafile = true
-
-[[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "546a2e07dfe2ef19c83779b3a4123d49fa83d803a2873cb1d0d946bbb25b88ea"
 metafile = true
@@ -632,78 +627,113 @@ hash = "11cd7da81a933aab04f091e2c25447b6d11ebe98bfeed244426a86dd31f3df04"
 metafile = true
 
 [[files]]
+file = "mods/mods-apothicattributes-1-20-1-1-3-7-jar.pw.toml"
+hash = "d1c2c033da63dc0281f2cc0f1631d2fbb3d7849dafc11ef4c1ae2618aa356813"
+metafile = true
+
+[[files]]
+file = "mods/mods-azurelib-neo-1-20-1-3-1-3-jar.pw.toml"
+hash = "b1dd5f00ebf169cd328ba2c407e949a87e8de8e86b92b6e842165840f8b6a8be"
+metafile = true
+
+[[files]]
 file = "mods/mods-bountiful-6-0-4-1-20-1-forge-jar.pw.toml"
-hash = "517f5ad8c6e6e25e71db4c2db3e421a1bd40fd9004129f4530eaa94ddc6e0481"
+hash = "d5e06910bbe5113912c4f5416cb2ed977b6b9f12e36bc50da7560845b865032a"
 metafile = true
 
 [[files]]
 file = "mods/mods-caelus-forge-3-2-0-1-20-1-jar.pw.toml"
-hash = "0c802432b07bf781bc1bb50ccfd61b1b5ff06ba2b9d3c8c76e1657a417cb01c7"
+hash = "7094b4ebbfe77da86b0c9fe8f6a48546608dd31bac1d93484b959fcdba54777b"
 metafile = true
 
 [[files]]
 file = "mods/mods-capybaramod-1-0-0-jar.pw.toml"
-hash = "b9d951cf19458da00b82fbe726c9d387e7d2df792101a8635830fce0390af375"
+hash = "10482f90a08b6c9310830e1f020cc87ad8df785998c8cb26b664a0bea4600cad"
+metafile = true
+
+[[files]]
+file = "mods/mods-cataclysm-spellbooks-1-2-7-1-20-1-all-jar.pw.toml"
+hash = "7d17244d310e142fc0656ccca7eb2a5f3d8c45948f46f59a858659c8cf50cc78"
 metafile = true
 
 [[files]]
 file = "mods/mods-entityculling-forge-1-9-4-mc1-20-1-jar.pw.toml"
-hash = "e462ec4f5cce91fb9be3ee641e2cbbc02841955d859289528ffbbd85b8464a7e"
+hash = "c7ec3dc27a425bb6e2e5e80b322f3a04b41acda1d2886af59665f3d94425508f"
 metafile = true
 
 [[files]]
 file = "mods/mods-grimoireofgaia4-1-20-1-4-0-0-alpha-12-jar.pw.toml"
-hash = "2e1e696bf2965af76dc144970d0c6243441dcda7d694504bdbeceb02eec17174"
+hash = "be89b7ac69e1366dd785ba4fce642ba02a2b7fb7475d9ecf495aa2598b6f128f"
 metafile = true
 
 [[files]]
 file = "mods/mods-hexerei-0-4-2-3-jar.pw.toml"
-hash = "411b680a0544ff5f8b27fb47b7632b68030d364f6453156622f6dca49f1f6253"
+hash = "8b9025806168f733e96a92ba0e0e64738e928eba555dcde5cd9b807d71aeb9aa"
 metafile = true
 
 [[files]]
 file = "mods/mods-irons-spellbooks-1-20-1-3-4-0-11-jar.pw.toml"
-hash = "135cf0d52cc585240c126610073360538b587a78fc19e480ea19450a3e8b523f"
+hash = "d8febe53435751a4b56560dc2f0ed49b83b2087e87a29710b01e89f743c14159"
 metafile = true
 
 [[files]]
 file = "mods/mods-kambrik-6-1-1-1-20-1-forge-jar.pw.toml"
-hash = "2bffbf68f5cfd4ce5e4bee0d193eb6987b402168046f5badba59e1f29ec4dd29"
+hash = "1560a4310f5fb3d368676253002d80fe1f449a5c01ef10bbc7e8afa9fda82986"
 metafile = true
 
 [[files]]
 file = "mods/mods-lootr-forge-1-20-0-7-35-94-jar.pw.toml"
-hash = "d1ef0941444834e7e42d2c45b53151c1315d571c0e0736fdc66139ec786c4221"
+hash = "d211753230f14e5525a067514783636aaafd0b8b8cbec2d7b6fca6fae67eef51"
 metafile = true
 
 [[files]]
 file = "mods/mods-notenoughanimations-forge-1-11-1-mc1-20-1-jar.pw.toml"
-hash = "3f52e35c52cd1fe3eeca569c3edd84e05140948169df74325bf17180fa78e406"
+hash = "ccef8fca1538b40b1095d3d69c112c76f9c01215112f7fc3181486ad4296e41a"
 metafile = true
 
 [[files]]
 file = "mods/mods-particular-1-20-1-forge-1-2-7-jar.pw.toml"
-hash = "514fed4b3d75098824034965067d075e047a11e137b7413c9262d3c62a7bef1f"
+hash = "f0bfe24ffdf4ec04fc4f7a9ae39b72d3e2ae93803dbf39c988f3a596ca8fd4f8"
+metafile = true
+
+[[files]]
+file = "mods/mods-platform-forge-1-20-1-1-2-11-3-jar.pw.toml"
+hash = "e1c334a44fa48c9a9d2ced601ef64b0db926a7218b2a119263348f2eecea29e7"
+metafile = true
+
+[[files]]
+file = "mods/mods-presencefootsteps-1-20-1-1-9-1-beta-1-jar.pw.toml"
+hash = "89f0ad1bbf837f6586e2c3a7dca2c7ebad38622c9adde5968fa54526f78bedaa"
 metafile = true
 
 [[files]]
 file = "mods/mods-selfexpression-2-22a-forge-1-20-1-jar.pw.toml"
-hash = "8e5e02a89c8ef18479261f1044c6e25bfde82cc56627e4eb98c4221dd1d57d79"
+hash = "86ea19f94f3f075f7022bdcfa2c651c4dea11ec3c938d369921a0f45028b28da"
 metafile = true
 
 [[files]]
 file = "mods/mods-skinlayers3d-forge-1-10-1-mc1-20-1-jar.pw.toml"
-hash = "d1a1690c5e1577e8e3f1e1e0d3f8b8024a3f89c7585d995242e7859e3eadf478"
+hash = "3fca00159a7213520dbd74008780b1c83c3ce7afb0c8f8e0b311a5a43cd3f8f1"
+metafile = true
+
+[[files]]
+file = "mods/mods-sodiumdynamiclights-forge-1-0-10-1-20-1-jar.pw.toml"
+hash = "972cef1634f5a4051e2548e06ab60e048e324e37d37b69a5a9d74d0b25fba3be"
 metafile = true
 
 [[files]]
 file = "mods/mods-structory-1-20-x-v1-3-5-jar.pw.toml"
-hash = "f61a35caca46df7a5e8dc36bf6f7a72f3f582899cbb6bd7d43c3712ef357a76b"
+hash = "2415f5f0fe5b9352a63ee6ff180fca120b5f0d4c6f72d3ce79d9adbef3286713"
+metafile = true
+
+[[files]]
+file = "mods/mods-vanillabackport-forge-1-20-1-1-1-5-1-jar.pw.toml"
+hash = "d181efc333fa2d799272609c5d3781991e32e248e63a6ba5f4976172046184d3"
 metafile = true
 
 [[files]]
 file = "mods/mods-wildberries-1-3-0-forge-1-20-1-jar.pw.toml"
-hash = "9f89321ee2ec0c66d35abb5ba8cce0b8a87d3ae76693a270deb379d0ae56add4"
+hash = "b95d3462ffcf8e82e8523785ab20c9a09ff6a3e431f3cf94bdb809b7958031cb"
 metafile = true
 
 [[files]]
@@ -881,6 +911,10 @@ metafile = true
 file = "mods/snowy-spirit.pw.toml"
 hash = "fe8c20f384ce7bf9cd50a8ab5642ff3fe6753edd2f84c5dc1e988b155d4e41ad"
 metafile = true
+
+[[files]]
+file = "mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
+hash = "dff5325abb58c0c8526dffb80e764188bde045fd02ca6ed5e2bb76f0897d46f4"
 
 [[files]]
 file = "mods/some-assembly-required.pw.toml"
@@ -1065,6 +1099,10 @@ hash = "b9b199d35860f3c5c468a1c99aa2401feb591d9d91aca521c35229502a5525e8"
 [[files]]
 file = "mods_github/skinlayers3d-forge-1.10.1-mc1.20.1.jar"
 hash = "a5a4cb6bbb31b14254b2957b99e537817abbf145b579e78351c21e4cfab041a6"
+
+[[files]]
+file = "mods_github/sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
+hash = "dff5325abb58c0c8526dffb80e764188bde045fd02ca6ed5e2bb76f0897d46f4"
 
 [[files]]
 file = "mods_github/vanillabackport-forge-1.20.1-1.1.5.1.jar"

@@ -1,0 +1,8 @@
+name = "mods\\cataclysm_spellbooks-1.2.7-1.20.1-all.jar"
+filename = "cataclysm_spellbooks-1.2.7-1.20.1-all.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/cataclysm_spellbooks-1.2.7-1.20.1-all.jar?v=20251231211438"
+hash-format = "sha256"
+hash = "5be30c8b7c9c63ef2eff72e46322538be088328c6bf7adbffc6c1ece0ead5617"

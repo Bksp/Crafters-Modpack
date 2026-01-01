@@ -1,0 +1,8 @@
+name = "mods\\PresenceFootsteps-1.20.1-1.9.1-beta.1.jar"
+filename = "PresenceFootsteps-1.20.1-1.9.1-beta.1.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar?v=20251231211438"
+hash-format = "sha256"
+hash = "447dd543e178a9454ccf3bf0d9d7bd7957b1af6da9d74f2cd3d9b5fbe8548e98"
