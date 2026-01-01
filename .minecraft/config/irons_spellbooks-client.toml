@@ -35,8 +35,8 @@
 		#Allowed Values: Never, Always, Contextual
 		spellBarDisplay = "Always"
 		#Used to adjust spell bar's position.
-		spellBarXOffset = 0
-		spellBarYOffset = 0
+		spellBarXOffset = -175
+		spellBarYOffset = 30
 		#Allowed Values: Hotbar, TopLeft, TopRight, BottomLeft, BottomRight
 		spellBarAnchor = "Hotbar"
 
