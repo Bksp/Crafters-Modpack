@@ -3,6 +3,6 @@ filename = "capybaramod-1.0.0.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/capybaramod-1.0.0.jar?v=20251231211438"
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/capybaramod-1.0.0.jar?v=20260111141410"
 hash-format = "sha256"
 hash = "6fc1c28bfac7238a7a11a3320d5ef927aaf22ab3d9df09600e26340ef61987e6"
