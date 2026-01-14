@@ -12,6 +12,7 @@ echo.
 
 :: --- 1. LIMPIEZA DE METADATOS (Forzar Local) ---
 echo [1/4] Limpiando metadatos para forzar archivos locales...
+packwiz.exe refresh
 :: Eliminamos .toml en carpetas que suelen tener contenido custom
 :: para que packwiz los re-indexe como archivos del repo y no de Curseforge.
 if exist "mods_github\*.toml" del /q "mods_github\*.toml"

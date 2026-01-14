@@ -3,6 +3,6 @@ filename = "vanillabackport-forge-1.20.1-1.1.5.1.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/vanillabackport-forge-1.20.1-1.1.5.1.jar?v=20260111142123"
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/vanillabackport-forge-1.20.1-1.1.5.1.jar?v=20260114172456"
 hash-format = "sha256"
 hash = "31256dff6ca13abfcaf8ac44c46e5df13015e812aa92879f2f71c44447e637e0"

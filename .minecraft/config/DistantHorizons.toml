@@ -3,7 +3,7 @@ _version = 3
 [server]
 	#
 	# Defines the distance the player will receive updates around.
-	realTimeUpdateDistanceRadiusInChunks = 256
+	realTimeUpdateDistanceRadiusInChunks = 64
 	#
 	# Prefix of the level keys sent to the clients.
 	# If the mod is running behind a proxy, each backend should use a unique value.
@@ -15,7 +15,7 @@ _version = 3
 	maxSyncOnLoadRequestDistance = 4096
 	#
 	# If true, clients will receive updated LODs when joining or loading new LODs.
-	synchronizeOnLoad = true
+	synchronizeOnLoad = false
 	#
 	# Custom server key used which can be used to always reuse the same LOD data folder,
 	# for cases when the server doesn't have a static IP for some reason.
@@ -37,14 +37,14 @@ _version = 3
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.
-	generationRequestRateLimit = 20
+	generationRequestRateLimit = 2
 	#
 	# How many LOD sync requests per second should a client send? 
 	# Also limits the amount of player's requests allowed to stay in the server's queue.
-	syncOnLoadRateLimit = 50
+	syncOnLoadRateLimit = 100
 	#
 	# If true, clients will receive real-time LOD updates for chunks outside the client's render distance.
-	enableRealTimeUpdates = true
+	enableRealTimeUpdates = false
 	#
 	# Maximum global speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
@@ -57,7 +57,7 @@ _version = 3
 	# Enables adaptive transfer speed based on client performance.
 	# If true, DH will automatically adjust transfer rate to minimize connection lag.
 	# If false, transfer speed will remain fixed.
-	enableAdaptiveTransferSpeed = false
+	enableAdaptiveTransferSpeed = true
 
 	[server.experimental]
 		#
@@ -84,7 +84,7 @@ _version = 3
 		# Only visible block/biome changes are recorded in the database. 
 		# Hidden blocks (IE ores) are ignored.  
 		# Expected Compression Ratio: 0.7
-		worldCompression = "MERGE_SAME_BLOCKS"
+		worldCompression = "VISUALLY_EQUAL"
 		#
 		# Enabling this will drastically increase chunk processing time
 		# and you may need to increase your CPU load to handle it.
@@ -114,7 +114,7 @@ _version = 3
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 2
+		numberOfThreads = 1
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -122,7 +122,7 @@ _version = 3
 		# This can be used to reduce CPU usage if the thread count 
 		# is already set to 1 for the given option, or more finely 
 		# tune CPU performance.
-		threadRunTimeRatio = "0.5"
+		threadRunTimeRatio = "0.01"
 		#
 		# What Java thread priority should DH's primary thread pools run with? 
 		# 
@@ -215,7 +215,7 @@ _version = 3
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		distantGeneratorMode = "FEATURES"
+		distantGeneratorMode = "PRE_EXISTING_ONLY"
 		#
 		# How should distant generator progress be displayed? 
 		# 
@@ -252,7 +252,7 @@ _version = 3
 		#  outside the vanilla render distance? 
 		# Depending on the generator mode, this will import existing chunks 
 		# and/or generating missing chunks.
-		enableDistantGeneration = true
+		enableDistantGeneration = false
 		#
 		# The center X chunk position that the world gen max radius is centered around.
 		generationCenterChunkX = 0
@@ -272,7 +272,7 @@ _version = 3
 			updateBranch = "AUTO"
 			#
 			# Automatically check for updates on game launch?
-			enableAutoUpdater = true
+			enableAutoUpdater = false
 			#
 			# Should Distant Horizons silently, automatically download and install new versions? 
 			# This setting is force disabled on dedicated servers for stability reasons.
@@ -517,7 +517,7 @@ _version = 3
 				# Should a noise texture be applied to LODs? 
 				# 
 				# This is done to simulate textures and make the LODs appear more detailed.
-				enableNoiseTexture = false
+				enableNoiseTexture = true
 				#
 				# Defines how far should the noise texture render before it fades away. (in blocks) 
 				# Set to 0 to disable noise from fading away
@@ -553,7 +553,7 @@ _version = 3
 			[client.advanced.graphics.genericRendering]
 				#
 				# If true LOD clouds will be rendered.
-				enableCloudRendering = true
+				enableCloudRendering = false
 				#
 				# Sets the maximum height at which beacons will render.This will only affect new beacons coming into LOD render distance.Beacons currently visible in LOD chunks will not be affected.
 				beaconRenderHeight = 6000
@@ -674,7 +674,7 @@ _version = 3
 				# NONE: Fastest, there will be a pronounced border between DH and MC rendering. 
 				# SINGLE_PASS: Fades after MC's transparent pass, opaque blocks underwater won't be faded. 
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
-				vanillaFadeMode = "SINGLE_PASS"
+				vanillaFadeMode = "NONE"
 
 			[client.advanced.graphics.fog]
 				#
