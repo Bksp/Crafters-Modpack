@@ -3,6 +3,6 @@ filename = "entityculling-forge-1.9.4-mc1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/entityculling-forge-1.9.4-mc1.20.1.jar?v=20260114172456"
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/entityculling-forge-1.9.4-mc1.20.1.jar?v=20260120185611"
 hash-format = "sha256"
 hash = "0a95e730ccc81ba60e65af6b76dacf96f9e00fd391c50e9695d5fd5ace275ab7"
