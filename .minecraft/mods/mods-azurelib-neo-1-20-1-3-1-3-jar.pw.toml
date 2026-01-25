@@ -3,6 +3,6 @@ filename = "azurelib-neo-1.20.1-3.1.3.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/azurelib-neo-1.20.1-3.1.3.jar?v=20260120190048"
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/azurelib-neo-1.20.1-3.1.3.jar?v=20260124235702"
 hash-format = "sha256"
 hash = "520a44fc8b7c97d75ef9051c0b1a095b49057ec253019fed76fdaab6cd61b7de"

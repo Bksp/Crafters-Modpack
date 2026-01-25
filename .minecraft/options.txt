@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:3
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Traducciones","builtin/gaia_sound_pack","file/Minimalist-GUI GITHUB EDITION"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Traducciones.zip","builtin/gaia_sound_pack","file/Minimalist-GUI GITHUB EDITION.zip", "file/Obscuria\u0027s-Stylized-Potions.zip"]
 incompatibleResourcePacks:["file/Traducciones","file/Minimalist-GUI GITHUB EDITION"]
 lastServer:
 lang:es_mx
