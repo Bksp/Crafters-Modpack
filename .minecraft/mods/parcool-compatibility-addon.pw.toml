@@ -1,0 +1,13 @@
+name = "ParCool+ / Compatibility Addon"
+filename = "ParCool-CompatibilityAddon-1.20.1-3.4.1.5-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ffc2659eb47725384e501ecc598d9fbe9dffc77d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6965038
+project-id = 1132901

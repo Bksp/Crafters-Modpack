@@ -1,0 +1,13 @@
+name = "Better Combat Particle"
+filename = "bc_particle-0.0.4-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "924f355dbcd54b99462084ce37c578b86a75b865"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7369563
+project-id = 1372768

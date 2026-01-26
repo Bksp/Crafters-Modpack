@@ -1,0 +1,8 @@
+name = "mods\\fzzy_config-0.7.5+1.20.1+forge.jar"
+filename = "fzzy_config-0.7.5+1.20.1+forge.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/fzzy_config-0.7.5+1.20.1+forge.jar?v=20260126130921"
+hash-format = "sha256"
+hash = "033f8f6f0150aed1d1ea5218413d1b07da706917bc68ae06730648f365f34c40"
