@@ -1,0 +1,8 @@
+name = "mods\\citadel-2.6.3-1.20.1.jar"
+filename = "citadel-2.6.3-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/citadel-2.6.3-1.20.1.jar?v=20260131131706"
+hash-format = "sha256"
+hash = "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce"

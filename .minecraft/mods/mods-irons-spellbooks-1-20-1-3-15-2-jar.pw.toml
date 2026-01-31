@@ -1,0 +1,8 @@
+name = "mods\\irons_spellbooks-1.20.1-3.15.2.jar"
+filename = "irons_spellbooks-1.20.1-3.15.2.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/irons_spellbooks-1.20.1-3.15.2.jar?v=20260131131706"
+hash-format = "sha256"
+hash = "25d30f5b6ddabf9021a77f3567585dbbfd1723da6d845145183b0fcc869dd3a9"
