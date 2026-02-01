@@ -1,0 +1,8 @@
+name = "mods\\waystone_towers-1.20.1-FORGE-1.0.9.jar"
+filename = "waystone_towers-1.20.1-FORGE-1.0.9.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/waystone_towers-1.20.1-FORGE-1.0.9.jar?v=20260201144931"
+hash-format = "sha256"
+hash = "8f65882bdf2bf78ae78094bbfdd75a9cbc935bea0c7d7f8e1a868e86bca0e053"

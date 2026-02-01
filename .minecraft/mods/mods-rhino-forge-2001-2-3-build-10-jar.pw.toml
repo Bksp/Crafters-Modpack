@@ -3,6 +3,6 @@ filename = "rhino-forge-2001.2.3-build.10.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/rhino-forge-2001.2.3-build.10.jar?v=20260201144615"
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/rhino-forge-2001.2.3-build.10.jar?v=20260201144931"
 hash-format = "sha256"
 hash = "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6"
