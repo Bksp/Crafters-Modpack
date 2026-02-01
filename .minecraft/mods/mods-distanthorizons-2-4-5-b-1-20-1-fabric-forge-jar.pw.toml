@@ -3,6 +3,6 @@ filename = "DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar?v=20260131131706"
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar?v=20260201142147"
 hash-format = "sha256"
 hash = "e29c5d6a47ce40ec174f96104ac3639605de30e3811b39907de7070feb230cc2"

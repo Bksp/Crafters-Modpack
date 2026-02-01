@@ -33,7 +33,7 @@
 	[UI.SpellBar]
 		#By default (Always), the spell bar always shows the spells in your equipped spellbook. Contextual will hide them when not in use.
 		#Allowed Values: Never, Always, Contextual
-		spellBarDisplay = "Always"
+		spellBarDisplay = "Contextual"
 		#Used to adjust spell bar's position.
 		spellBarXOffset = -175
 		spellBarYOffset = 30
@@ -45,6 +45,12 @@
 		recastAnchor = "BottomRight"
 		recastXOffset = 0
 		recastYOffset = 0
+
+	[UI.SpellWheel]
+		#Whether to Spell Wheel size ignores the Gui scale option
+		ignoreGuiScale = false
+		#If ignoreGuiScale is enabled, apply this multiplier to its size
+		ignoreGuiScaleSizeMultiplier = 1.0
 
 [Animations]
 	#What to render in first person while casting.
@@ -58,4 +64,14 @@
 
 [Music]
 	enableBossMusic = true
+
+[Misc]
+	#Whether shield spells can collide with particles. Can affect performance. Default: true
+	shieldParticleCollisions = true
+
+[Summons]
+	#Whether owned summons appear glowing to yourself. Default: true
+	ownedSummonsGlow = true
+	#Hex Color Value of owned summons glow outline. Default: 0xAAFFAA
+	summonGlowColor = "0xAAFFAA"
 

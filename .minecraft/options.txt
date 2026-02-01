@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:3
 renderClouds:"false"
-resourcePacks:["mod_resources","vanilla","Moonlight Mods Dynamic Assets","file/Icon Xaero\u0027s 1.21.zip","file/Fast Better Grass.zip","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Obscuria\u0027s-Stylized-Potions","file/Minimalist-GUI GITHUB EDITION","file/Traducciones"]
+resourcePacks:["mod_resources","vanilla","Moonlight Mods Dynamic Assets","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","file/Obscuria\u0027s-Stylized-Potions.zip","file/ServerRP.zip","file/Traducciones.zip","file/FusionEmissiveOresAddon.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:es_mx
@@ -204,6 +204,7 @@ key_key.hexerei.broomDescend:key.keyboard.x
 key_key.hexerei.book_hovering_uses:key.keyboard.unknown
 key_key.hexerei.book_hovering_recipe:key.keyboard.unknown
 key_key.hexerei.glasses_zoom:key.keyboard.z
+key_key.weaponmaster_ydm.opengui:key.keyboard.b
 key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.unknown
 key_gui.xaero_map_zoom_in:key.keyboard.unknown

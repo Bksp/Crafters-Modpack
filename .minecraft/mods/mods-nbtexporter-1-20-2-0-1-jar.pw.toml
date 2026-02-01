@@ -3,6 +3,6 @@ filename = "nbtexporter-1.20-2.0.1.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/nbtexporter-1.20-2.0.1.jar?v=20260131131706"
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/nbtexporter-1.20-2.0.1.jar?v=20260201142147"
 hash-format = "sha256"
 hash = "3b106ce623b8e0b55f930acba17660e6ba717f63fab03161717c06b675d7540e"
