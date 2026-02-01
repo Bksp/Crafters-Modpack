@@ -1,0 +1,8 @@
+name = "mods\\Reblured-1.20.1-1.3.0.jar"
+filename = "Reblured-1.20.1-1.3.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/Reblured-1.20.1-1.3.0.jar?v=20260201143819"
+hash-format = "sha256"
+hash = "951e1c811b83b5377676e41aa9eb22b18c08c5f088691b0989aef881654e385d"

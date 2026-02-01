@@ -1,0 +1,8 @@
+name = "mods\\kubejs-forge-2001.6.5-build.16.jar"
+filename = "kubejs-forge-2001.6.5-build.16.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/kubejs-forge-2001.6.5-build.16.jar?v=20260201143819"
+hash-format = "sha256"
+hash = "3de6b7267d3aab981848ed54d3afe7edf20532fa4060631fd6fffcd99ac5f3d5"

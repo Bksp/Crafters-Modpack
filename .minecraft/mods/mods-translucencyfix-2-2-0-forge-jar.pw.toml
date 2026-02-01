@@ -1,0 +1,8 @@
+name = "mods\\translucencyfix-2.2.0-forge.jar"
+filename = "translucencyfix-2.2.0-forge.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/translucencyfix-2.2.0-forge.jar?v=20260201143819"
+hash-format = "sha256"
+hash = "c1fe533ee46a222b5614e7e690c1f427b024d4b50eacdabd36d58bba50d3f750"

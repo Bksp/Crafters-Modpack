@@ -1,0 +1,8 @@
+name = "mods\\guitween-2.0.1.jar"
+filename = "guitween-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/guitween-2.0.1.jar?v=20260201143819"
+hash-format = "sha256"
+hash = "fad8a40d935a65ce4f40e191f25ebdfa28ac95df172a3f5bc5482f39ba4baf21"
