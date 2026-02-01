@@ -1,8 +1,0 @@
-name = "mods\\wildberries-1.3.0[forge-1.20.1].jar"
-filename = "wildberries-1.3.0[forge-1.20.1].jar"
-side = "both"
-
-[download]
-url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/wildberries-1.3.0[forge-1.20.1].jar?v=20260201142147"
-hash-format = "sha256"
-hash = "d3cff3acb92bcfda81522d5cbf9cff528bb590fe8b4f7eb83d52fac35e1143c6"

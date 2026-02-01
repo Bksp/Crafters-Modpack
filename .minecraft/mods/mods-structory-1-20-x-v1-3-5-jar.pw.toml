@@ -1,8 +1,0 @@
-name = "mods\\Structory_1.20.x_v1.3.5.jar"
-filename = "Structory_1.20.x_v1.3.5.jar"
-side = "both"
-
-[download]
-url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/Structory_1.20.x_v1.3.5.jar?v=20260201142147"
-hash-format = "sha256"
-hash = "43f4b4b88bb9caa1114928a93e787335e56171b5233a545bf2f4da1ce9fe943b"

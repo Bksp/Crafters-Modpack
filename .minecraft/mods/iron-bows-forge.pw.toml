@@ -1,0 +1,13 @@
+name = "Iron Bows (FORGE)"
+filename = "ironbows-1.20.1-FORGE-1.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b4b941c763929c92d8073e0d7a1903e5f19b7efe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5013246
+project-id = 631414
