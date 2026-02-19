@@ -1,0 +1,13 @@
+name = "Faewulf's Lib"
+filename = "faewulf_lib-forge-1.20.1-1.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6ce2fc65f3e85d39190f0b94c08671e195be2c71"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6758845
+project-id = 1209568

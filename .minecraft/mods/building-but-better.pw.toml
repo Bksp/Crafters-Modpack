@@ -1,0 +1,13 @@
+name = "Building But Better"
+filename = "bbb-forge-2.0pre4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3cdd83d437c6893b05097b90300980fbf12c91f8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7627387
+project-id = 989479

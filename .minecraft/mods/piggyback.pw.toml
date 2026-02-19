@@ -1,0 +1,13 @@
+name = "Piggyback"
+filename = "piggyback-forge-1.20.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a2dc09f2fbc973f301782bd6c09926315884a2cf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7166631
+project-id = 1241247
