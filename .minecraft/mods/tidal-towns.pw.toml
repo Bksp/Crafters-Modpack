@@ -1,0 +1,13 @@
+name = "Tidal Towns"
+filename = "tidal-towns-1.3.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0a8db8df7a471e75b53e3fa8cafc7ca767f5506"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5944710
+project-id = 891880

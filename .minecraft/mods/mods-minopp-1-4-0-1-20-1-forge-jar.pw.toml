@@ -1,0 +1,8 @@
+name = "mods\\minopp-1.4.0+1.20.1+forge.jar"
+filename = "minopp-1.4.0+1.20.1+forge.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Bksp/Crafters-Modpack/main/.minecraft/mods_github/minopp-1.4.0+1.20.1+forge.jar?v=20260226113846"
+hash-format = "sha256"
+hash = "4a12815827fb54b7a6839d1a3cec698d39ae7952eed2a960fe567d9f3de6fdbb"
